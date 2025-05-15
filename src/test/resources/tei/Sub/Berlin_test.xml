@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets, die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften" gepflegt werden. -->
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.1"
+           xml:lang=""
+           xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Automatisch generierter Handschriftenkatalog</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Automatisch generierter Handschriftenkatalog aus einem im HIDA-DOC1-XMLFormat am 05.04.2019 11:56:13:742 erstellten HiDA-4 Dokument.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226680-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Matthisson, Friedrich, Gutachten (Stuttgart, Württembergische Landesbibliothek, HB XV 80)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226680-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226680-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226680-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 80</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <msContents>
+                     <msItem>
+                        <author>
+                           <persName>Matthisson, Friedrich von</persName>
+                        </author>
+                        <title type="mm_6930gi">Gutachten</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & München, unfertig_2 & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 131070-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b050">50</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226681_KRZ">
+               <term>Buchschmuck</term>
+               <index>
+                  <term>Federzeichnungen</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226682_KRZ">
+               <term>Buchschmuck</term>
+               <index>
+                  <term>Kolorierte Zeichnungen</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226683_KRZ"/>
+            <index indexName="general" xml:id="_90226684_KRZ">
+               <term>Schwäbisch Hall</term>
+               <index>
+                  <term>Provenienz</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226685_KRZ">
+               <term>Gaupp, Louis von</term>
+               <index>
+                  <term>Die Oberamtsstadt Schwäbisch Hall</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226686_KRZ">
+               <term>Schwäbisch Hall</term>
+               <index>
+                  <term>Stadtadel</term>
+                  <index>
+                     <term>Wappen</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226687_KRZ">
+               <term>Wappen</term>
+            </index>
+            <index indexName="general" xml:id="_90226688_KRZ">
+               <term>Karte des Oberamts Hall</term>
+            </index>
+            <index indexName="general">
+               <term type="ic" cRef="25_A_3">25 A 3 * Landkarten verschiedener Länder oder Regionen</term>
+            </index>
+            <index indexName="general">
+               <term type="ic" cRef="61_D_HALL,_OBERAMT">61 D (HALL, OBERAMT) * geographische Bezeichnungen von Ländern, Regionen, Bergen, Flüssen, etc. (ausgenommen Städte und Dörfer) (mit NAMEN)</term>
+            </index>
+            <index indexName="general" xml:id="_90226689_KRZ">
+               <term>Schwäbisch Hall</term>
+               <index>
+                  <term>Oberamt</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226690_KRZ">
+               <term>Bildnisse</term>
+               <index>
+                  <term>Büschler, Konrad</term>
+               </index>
+            </index>
+            <index indexName="general">
+               <term type="ic" cRef="61_B_2_BÜSCHLER,_Konrad">61 B 2 (BÜSCHLER, Konrad) * historische Personen, deren Name bekannt ist (mit NAMEN)</term>
+            </index>
+            <index indexName="general" xml:id="_90226691_KRZ">
+               <term>Büschler, Konrad</term>
+               <index>
+                  <term>bildliche Darstellung</term>
+               </index>
+            </index>
+            <index indexName="general">
+               <term type="ic" cRef="61_B_2_BÜSCHLER,_Konrad">61 B 2 (BÜSCHLER, Konrad) * historische Personen, deren Name bekannt ist (mit NAMEN)</term>
+            </index>
+            <index indexName="general" xml:id="_90226692_KRZ">
+               <term>Ansichten</term>
+               <index>
+                  <term>Schwäbisch Hall</term>
+                  <index>
+                     <term>Sammelteich</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general">
+               <term type="ic" cRef="25_H_21_43">25 H 21 43 * Teich, Tümpel</term>
+            </index>
+            <index indexName="general">
+               <term type="ic" cRef="61_E_SCHWÄBISCH_HALL">61 E (SCHWÄBISCH HALL) * Namen von Städten und Dörfern (mit NAMEN)</term>
+            </index>
+            <index indexName="general" xml:id="_90226693_KRZ">
+               <term>Schwäbisch Hall</term>
+               <index>
+                  <term>Sammelteich</term>
+                  <index>
+                     <term>bildliche Darstellung</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general">
+               <term type="ic" cRef="25_H_21_43">25 H 21 43 * Teich, Tümpel</term>
+            </index>
+            <index indexName="general">
+               <term type="ic" cRef="61_E_SCHWÄBISCH_HALL">61 E (SCHWÄBISCH HALL) * Namen von Städten und Dörfern (mit NAMEN)</term>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226694-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Saint-Allais, Nicolas Viton, dit de, Les Fastes du Royaume et de la Maison de Wurtemberg – Stammtafeln (Stuttgart, Württembergische Landesbibliothek, HB XV 81)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226694-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226694-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226694-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 81</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <msContents>
+                     <msItem>
+                        <author>
+                           <rs type="person">Saint-Allais, Nicolas Viton, dit de</rs>
+                        </author>
+                        <title type="mm_6930gi">Les Fastes du Royaume et de la Maison de Wurtemberg</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & München, unfertig_1 & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 131475-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>Saint-Allais, Nicolas Viton, dit de</term>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>249r</locus>
+                        <title>Genealogische Tafel</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 131642-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>Stammtafeln</term>
+                        </note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b050">50</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226695_KRZ">
+               <term>Buchschmuck</term>
+               <index>
+                  <term>Stahlstich</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226696_KRZ">
+               <term>Friedrich II. (Friedrich Wilhelm Karl), Herzog, später Kurfürst bzw. König Friedrich I. von Württemberg</term>
+            </index>
+            <index indexName="general" xml:id="_90226697_KRZ">
+               <term>Papiersiegel</term>
+            </index>
+            <index indexName="general" xml:id="_90226698_KRZ">
+               <term>Paris</term>
+               <index>
+                  <term>Provenienz</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226699_KRZ">
+               <term>Saint-Allais, Nicolas Viton, dit de</term>
+            </index>
+            <index indexName="general" xml:id="_90226700_KRZ">
+               <term>Stammtafeln</term>
+            </index>
+            <index indexName="general" xml:id="_90226701_KRZ">
+               <term>Friedrich II. (Friedrich Wilhelm Karl), Herzog, später Kurfürst bzw. König Friedrich I. von Württemberg</term>
+               <index>
+                  <term>Wappen</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226702_KRZ">
+               <term>Wappen</term>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226703-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title> (Stuttgart, Württembergische Landesbibliothek, HB XV 82)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226703-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226703-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226703-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 82</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b051">51</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226704_KRZ">
+               <term>Denkschriften</term>
+               <index>
+                  <term>Verbesserung des württ. Staatswesens</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226705_KRZ">
+               <term>Staatsverwaltung</term>
+               <index>
+                  <term>württ.</term>
+                  <index>
+                     <term>Denkschrift</term>
+                  </index>
+               </index>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226706-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title> (Stuttgart, Württembergische Landesbibliothek, HB XV 86)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226706-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226706-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226706-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 86</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b052">52</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226707_KRZ">
+               <term>Lehen</term>
+               <index>
+                  <term>württ.</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226708_KRZ">
+               <term>Lohbauer, Philipp Gottfried</term>
+               <index>
+                  <term>Württ. Aktiv- und Passivlehen</term>
+               </index>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226709-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title> (Stuttgart, Württembergische Landesbibliothek, HB XV 89)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226709-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226709-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226709-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 89</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b053">53</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226710_KRZ">
+               <term>Pistorius, Christoph Gottlieb</term>
+               <index>
+                  <term>Reichsfalkenmeisteramt</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226711_KRZ">
+               <term>Reichsfalkenmeisteramt</term>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226712-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title> (Stuttgart, Württembergische Landesbibliothek, HB XV 91)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226712-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226712-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226712-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 91</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b053">53</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226713_KRZ">
+               <term>Renz, Günther Albrecht</term>
+               <index>
+                  <term>Württembergische Geschichte</term>
+               </index>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226714-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title> (Stuttgart, Württembergische Landesbibliothek, HB XV 92)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226714-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226714-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226714-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 92</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b054">54</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226715_KRZ">
+               <term>Lehr, Friedrich</term>
+               <index>
+                  <term>Gutachten</term>
+               </index>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226716-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title> (Stuttgart, Württembergische Landesbibliothek, HB XV 93)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226716-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226716-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226716-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 93</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b054">54</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226717_KRZ">
+               <term>Seubert, Georg Christian von</term>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226718-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title> (Stuttgart, Württembergische Landesbibliothek, HB XV 94)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226718-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226718-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226718-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 94</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b054">54</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226719_KRZ">
+               <term>Landbuch</term>
+               <index>
+                  <term>württ.</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226720_KRZ">
+               <term>Eberhard I. im Bart, Herzog von Württemberg</term>
+               <index>
+                  <term>Erhebung zum Herzog</term>
+               </index>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226721-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title> (Stuttgart, Württembergische Landesbibliothek, HB XV 95)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226721-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226721-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226721-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 95</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b055">55</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226722_KRZ">
+               <term>Lehen</term>
+               <index>
+                  <term>württ.</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226723_KRZ">
+               <term>Lohbauer, Philipp Gottfried</term>
+               <index>
+                  <term>Württ. Vasallen und Lehensgüter</term>
+               </index>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226724-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Historia Welforum – *Gedichte – Annales Weingartenses – Heilig-Blut-Traktate – Martyrologium Usuardi, Auszug – Usuardus, Martyrologium – Gebetsverbrüderungen – Johannes, Abt von St. Andreas in Mantua, Brief an Abt Johannes von Weingarten – Sixtus IV. papa, Tractatus de Sanguine Christi – Xanthopulos, Nikephoros Kallistos, Heilig-Blut-Traktat (Stuttgart, Württembergische Landesbibliothek, HB XV 96)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226724-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226724-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226724-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 96</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <msContents>
+                     <msItem>
+                        <locus>4r</locus>
+                        <title type="mm_6930gi">Historia Welforum</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 130665-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note/>
+                     </msItem>
+                     <msItem>
+                        <locus>4r</locus>
+                        <title>Gedicht</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 130355-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>*Gedichte</term>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>32r</locus>
+                        <title type="mm_6930gi">Annales Weingartenses</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 129709-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note/>
+                     </msItem>
+                     <msItem>
+                        <locus>36r</locus>
+                        <title>Gedicht</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 130355-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>*Gedichte</term>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>36r</locus>
+                        <title>Heiligbluttraktat</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 130600-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>Heilig-Blut-Traktate</term>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>48r</locus>
+                        <title type="mm_6930gi">Martyrologium Usuardi</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 131067-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>Martyrologium Usuardi</term>
+                           <index>
+                              <term>Auszug</term>
+                           </index>
+                           <index>
+                              <term>Auszug</term>
+                           </index>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>48r</locus>
+                        <author key="pnd_100963684">
+                           <persName key="100963684">Usuardus &lt;Sangermanensis&gt;</persName>
+                        </author>
+                        <title type="mm_6930gi">Martyrologium</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & München, fertig & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 131820-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <index>
+                              <term>Auszug</term>
+                           </index>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>59r</locus>
+                        <title>Gebetsverbrüderung</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 130353-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>Gebetsverbrüderungen</term>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>60r</locus>
+                        <author>
+                           <rs type="person">Johannes, Abt von St. Andreas in Mantua</rs>
+                        </author>
+                        <title type="mm_6930gi">Brief an Abt Johannes von Weingarten</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & München, unfertig_1 & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 130806-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>Johannes, Abt von St. Andreas in Mantua</term>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>60r</locus>
+                        <author key="pnd_100961010">
+                           <persName key="100961010">Sixtus &lt;Papa, IV.&gt;</persName>
+                        </author>
+                        <textLang mainLang="de">deutsch</textLang>
+                        <title type="mm_6930gi">Tractatus de Sanguine Christi</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & München, fertig & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 131609-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <index>
+                              <term>Auszug, dt.</term>
+                           </index>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>60r</locus>
+                        <author>
+                           <rs type="person">Xanthopulos, Nikephoros Kallistos</rs>
+                        </author>
+                        <title type="mm_6930gi">Heilig-Blut-Traktat</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & München, unfertig_1 & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 132023-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>Xanthopulos, Nikephoros Kallistos</term>
+                        </note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b055">55</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226725_KRZ">
+               <term>Arger, Burkhard</term>
+            </index>
+            <index indexName="general" xml:id="_90226726_KRZ">
+               <term>Bitlschies, Jerg</term>
+            </index>
+            <index indexName="general" xml:id="_90226727_KRZ">
+               <term>Ebertz, Konrad</term>
+            </index>
+            <index indexName="general" xml:id="_90226728_KRZ">
+               <term>Einbände, bemerkenswerte</term>
+               <index>
+                  <term>Lederbände mit Stempeln</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226729_KRZ">
+               <term>Weingarten</term>
+               <index>
+                  <term>Benediktinerkloster</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226730_KRZ">
+               <index>
+                  <term>Vorbesitz</term>
+                  <index>
+                     <term>Weingarten Kreis Ravensburg?</term>
+                     <index>
+                        <term>Kloster</term>
+                        <index>
+                           <term>Benediktiner</term>
+                        </index>
+                     </index>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226731_KRZ">
+               <term>Weingarten</term>
+               <index>
+                  <term>Benediktinerkloster</term>
+                  <index>
+                     <term>Syndikus König</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226732_KRZ">
+               <term>Handschriften, zitierte</term>
+               <index>
+                  <term>Cambridge, Fitzwilliam Museum</term>
+                  <index>
+                     <term>Mc Clean Collection 101</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226733_KRZ">
+               <term>Handschriften, zitierte</term>
+               <index>
+                  <term>Fulda</term>
+                  <index>
+                     <term>Aa 48</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226734_KRZ">
+               <term>Handschriften, zitierte</term>
+               <index>
+                  <term>Fulda</term>
+                  <index>
+                     <term>D 11</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226735_KRZ">
+               <term>Handschriften, zitierte</term>
+               <index>
+                  <term>Stuttgart, HSA</term>
+                  <index>
+                     <term>B 515 Hs 5a. b</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226736_KRZ">
+               <term>Handschriften, zitierte</term>
+               <index>
+                  <term>Stuttgart, HSA</term>
+                  <index>
+                     <term>B 515 Bü 31</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226737_KRZ">
+               <term>Handschriften, zitierte</term>
+               <index>
+                  <term>Stuttgart, LB</term>
+                  <index>
+                     <term>Cod. hist. quart 584</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226738_KRZ">
+               <term>Handschriften, zitierte</term>
+               <index>
+                  <term>Stuttgart, LB</term>
+                  <index>
+                     <term>Cod. theol. et phil. oct. 127</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226739_KRZ">
+               <term>König (Künig), Karl</term>
+               <index>
+                  <term>Provenienz</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226740_KRZ">
+               <term>Weingarten</term>
+               <index>
+                  <term>Benediktinerkloster</term>
+                  <index>
+                     <term>Heilig-Blut-Verehrung</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226741_KRZ"/>
+            <index indexName="general" xml:id="_90226742_KRZ">
+               <term>Altdorf</term>
+               <index>
+                  <term>Chroniken</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226743_KRZ">
+               <term>Chroniken</term>
+               <index>
+                  <term>Altdorf</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226744_KRZ">
+               <term>Chroniken</term>
+               <index>
+                  <term>Welfen</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226745_KRZ">
+               <term>Welfen</term>
+               <index>
+                  <term>Chronik</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226746_KRZ">
+               <term>*Gedichte</term>
+            </index>
+            <index indexName="general" xml:id="_90226747_KRZ"/>
+            <index indexName="general" xml:id="_90226748_KRZ">
+               <term>*Gedichte</term>
+            </index>
+            <index indexName="general" xml:id="_90226749_KRZ">
+               <term>Heilig-Blut-Traktate</term>
+            </index>
+            <index indexName="general" xml:id="_90226750_KRZ">
+               <term>Martyrologium Usuardi</term>
+               <index>
+                  <term>Auszug</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226751_KRZ"/>
+            <index indexName="general" xml:id="_90226752_KRZ">
+               <term>Gerardus dictus Saxo</term>
+               <index>
+                  <term>Heilig-Blut-Traktat</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226753_KRZ">
+               <term>Gebetsverbrüderungen</term>
+            </index>
+            <index indexName="general" xml:id="_90226754_KRZ">
+               <term>Mantua</term>
+               <index>
+                  <term>Kloster St. Andreas</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226755_KRZ">
+               <term>Johannes I. von Essendorf, Abt von Weingarten</term>
+            </index>
+            <index indexName="general" xml:id="_90226756_KRZ">
+               <term>Johannes, Abt von St. Andreas in Mantua</term>
+            </index>
+            <index indexName="general" xml:id="_90226757_KRZ"/>
+            <index indexName="general" xml:id="_90226758_KRZ">
+               <term>Xanthopulos, Nikephoros Kallistos</term>
+            </index>
+            <index indexName="general" xml:id="_90226759_KRZ">
+               <term>Ravensburg</term>
+               <index>
+                  <term>Stadtwappen</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226760_KRZ">
+               <term>Wappen</term>
+            </index>
+         </body>
+      </text>
+   </TEI>
+   <TEI version="5.1"
+        xml:lang=""
+        xml:id="someBib_obj-90226761-T_tei-msDesc_073">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Formularbuch – Titularbuch – Marot, Clément, Pseaume III (Stuttgart, Württembergische Landesbibliothek, HB XV 97)</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <name type="person">Retro</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Katalogisat bereitgestellt von</resp>
+                  <name type="org">FM &amp; SBB-PK &amp; BSB</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>Diese Datei wurde automatisch erzeugt, unter Verwendung der MXML-to-TEI-P5-Stylesheets,
+               die an der Herzog August Bibliothek Wolfenbüttel in Fortführung des DFG-Projektes
+               "MASTER - Schnittstellenformat für die Erschließung mittelalterlicher Handschriften"
+               gepflegt werden.</resp>
+                  <name type="person"/>
+                  <name type="org"/>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org"/>
+                  <ptr target="http://some.url"/>
+               </publisher>
+               <date type="issued"/>
+               <distributor/>
+               <availability status="restricted">
+                  <p> (<ref target="http://some.url">copyright information</ref>)</p>
+               </availability>
+               <pubPlace>
+<!--
+<ptr type="purl" target="/obj-90226761-T/"/>
+<ptr type="thumbnailForPresentations" target="/obj-90226761-T/thumbs/00001.jpg"/>
+               -->
+</pubPlace>
+               <idno type="URN"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc xml:lang="" xml:id="_obj-90226761-T_tei-msDescKatalogreproduktion">
+                  <msIdentifier>
+                     <settlement>Stuttgart</settlement>
+                     <repository>Württembergische Landesbibliothek</repository>
+                     <collection>HB</collection>
+                     <idno>HB XV 97</idno>
+                  </msIdentifier>
+                  <head>
+                     <title/>
+                  </head>
+                  <msContents>
+                     <msItem>
+                        <title>Formelbuch</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 130300-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>Formularbuch</term>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <title>Titulaturbuch</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 131739-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note>
+                           <term>Titularbuch</term>
+                        </note>
+                     </msItem>
+                     <msItem>
+                        <locus>2r</locus>
+                        <author>
+                           <persName>Marot, Clément</persName>
+                        </author>
+                        <title type="mm_6930gi">Pseaume III</title>
+                        <!--99hs: KRZ-Dokument mit Signaturangabe & München, unfertig_1 & Berlin, fertig-->
+                        <!--99kk: Dok publiziert-->
+                        <!--1103: 131063-->
+                        <!--1104: HK-->
+                        <!--1105: L:12/11/91-->
+                        <note/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex"/>
+                  </physDesc>
+                  <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source>
+                              <bibl>S LB, HB Kat. 5 S. <ref type="ManuMed" cRef="HSK0073_b057">57</ref>
+                              </bibl>
+                           </source>
+                        </recordHist>
+                     </adminInfo>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+            <index indexName="general" xml:id="_90226762_KRZ">
+               <term>Christoph, Herzog von Württemberg</term>
+            </index>
+            <index indexName="general" xml:id="_90226763_KRZ">
+               <term>Formularbuch</term>
+            </index>
+            <index indexName="general" xml:id="_90226764_KRZ">
+               <term>Hoyoul (Hoyu), Balduin</term>
+            </index>
+            <index indexName="general" xml:id="_90226765_KRZ">
+               <term>Ludwig, Herzog von Württemberg</term>
+            </index>
+            <index indexName="general" xml:id="_90226766_KRZ">
+               <term>Ochsenbach, Johann Hermann d.Ä.</term>
+            </index>
+            <index indexName="general" xml:id="_90226767_KRZ">
+               <term>Ochsenbach, Johann Hermann d.J.</term>
+            </index>
+            <index indexName="general" xml:id="_90226768_KRZ">
+               <term>Stuttgart</term>
+               <index>
+                  <term>Hofkapelle</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226769_KRZ">
+               <term>Titularbuch</term>
+            </index>
+            <index indexName="general" xml:id="_90226770_KRZ">
+               <index>
+                  <term>Vorbesitz</term>
+                  <index>
+                     <term>Weingarten Kreis Ravensburg?</term>
+                     <index>
+                        <term>Kloster</term>
+                        <index>
+                           <term>Benediktiner</term>
+                        </index>
+                     </index>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226771_KRZ">
+               <term>Carray, Karl</term>
+               <index>
+                  <term>Provenienz</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226772_KRZ">
+               <term>Handschriften, zitierte</term>
+               <index>
+                  <term>Stuttgart, LB</term>
+                  <index>
+                     <term>Cod. misc. fol. 34</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226773_KRZ">
+               <term>Handschriften, zitierte</term>
+               <index>
+                  <term>Stuttgart, LB</term>
+                  <index>
+                     <term>Cod. poet. et phil. fol. 80</term>
+                  </index>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226774_KRZ">
+               <term>Ochsenbach, Familie</term>
+               <index>
+                  <term>Provenienz</term>
+               </index>
+            </index>
+            <index indexName="general" xml:id="_90226775_KRZ"/>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

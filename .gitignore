@@ -1,0 +1,49 @@
+target
+.classpat
+.project
+.settings
+.idea
+.mvn
+mvnw
+mvnw.cmd
+*.iml
+audit.log
+hs_err_*
+META-INF.JAXB
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.springBeans
+
+### IntelliJ IDEA ###
+*.iws
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+/hsp-nachweis/ObjectStore/
+
+### Jenkins ###
+target/
+.classpath
+.project
+.settings
+.idea
+*.iml
+audit.log
+.scannerwork
+.git
+dependency-check*
+sonar-report
+mvnw*
+*.versionsBackup
+mvnsettings.xml
+.bash_history
+

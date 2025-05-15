@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TEI version="5" xml:base="file:///d:/_handschriften/mss/1-1-aug-2f/tei-msDesc_Heinemann.xml" xml:id="HAB_mss_1-1-aug-2f_tei-msDesc_Heinemann" xml:lang="de" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/mss/current/cataloguing.xsd" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:egXML="http://www.tei-c.org/ns/Examples" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Beschreibung von Cod. Guelf. 1.1 Aug. 2° (Heinemann-Nr. 1579; Otto v. Heinemann: Die Augusteischen Handschriften 1. Cod. Guelf. A. Aug. 2° — 11.10 Aug. 2°. Frankfurt/M.: Klostermann, 1965 (Nachdruck d. Ausg. 1890). S. 17 – 18)</title>
+        <respStmt>
+          <resp>Beschrieben von </resp>
+          <name type="person">Otto v. Heinemann</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Elektronische Ausgabe nach TEI P5</edition>
+        <respStmt>
+          <resp>OCR durchgeführt durch </resp>
+          <name type="org">Bayerische Staatsbibliothek</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-P5 konforme Kodierung durch </resp>
+          <name type="person">Torsten Schaßan</name>
+          <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+
+
+
+          <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+          <ptr target="http://www.hab.de"/>
+        </publisher>
+        <date when="2004" type="issued"/>
+        <date when="2004" type="digitised"/>
+        <distributor>Herzog August Bibliothek</distributor>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">
+
+
+
+            <p>Die Katalogdaten sind Public Domain.</p>
+
+
+
+            <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die
+
+
+              <ref target="http://diglib.hab.de/?link=012">Copyright Information</ref> der Herzog August Bibliothek Wolfenbüttel.</p>
+          </licence>
+        </availability>
+        <pubPlace/>
+      </publicationStmt>
+      <sourceDesc>
+        <p>OCR generierter Text, TEI-Rohkodierung durch die BSB, Konversion nach TEI-P5 durch Torsten Schaßan.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="schassan" when="2015-09-07">Normdaten ergänzt bzw. korrigiert.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <msDesc xml:id="HSP-3d92b6d3-53bb-4563-a35c-d5ac6bc0212c" xml:lang="de" type="hsp:description">
+        <msIdentifier>
+          <settlement ref="956e3022-336a-344d-b0fb-ce9bc76dc2b9">Wolfenbüttel</settlement>
+          <repository ref="5e38b45e-2aef-3712-af3c-2e7bbecc8efa">Herzog August Bibliothek</repository>
+          <collection>Augusteer Handschriften in folio</collection>
+          <idno sortKey="wf_hab_aug-02f-0001-0001">Cod. Guelf. 1.1 Aug. 2°</idno>
+          <altIdentifier type="alternative">
+            <idno>Cod. Guelf. 1. 1. Aug. fol.</idno>
+          </altIdentifier>
+          <altIdentifier type="catalog">
+            <collection>Heinemann-Nr.</collection>
+            <idno sortKey="heinemann-1579">1579</idno>
+          </altIdentifier>
+          <altIdentifier type="catalog">
+            <idno>mss_1-1-aug-2f_tei-msDesc_Heinemann</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <head>
+
+
+
+          <title type="general">
+
+
+
+            <hi rend="bold">
+
+
+
+              <rs type="person" role="author" ref="http://d-nb.info/gnd/118505254">Avicenne</rs> libri canonis pars I, interprete
+
+
+              <rs type="person" ref="http://d-nb.info/gnd/119174979">Gerardo Cremonensi</rs>.</hi>
+          </title>
+
+
+
+          <origDate notBefore="1401" notAfter="1500">15. Jahrh.</origDate>
+        </head>
+        <msContents>
+          <msItem>
+            <title>
+
+
+
+              <hi rend="bold">
+
+
+
+                <rs type="person" role="author" ref="http://d-nb.info/gnd/118505254">Avicenne</rs> libri canonis pars I, interprete
+
+
+                <rs type="person" ref="http://d-nb.info/gnd/119174979">Gerardo Cremonensi</rs>.</hi>
+            </title>
+          </msItem>
+          <msItem>
+            <locus from="1r" to="107r">f. 1–107.</locus>
+            <title type="item">Liber I</title>
+            <note type="textExamination">
+
+
+
+              <p>Überschrift (roth):
+
+
+                <quote rend="quoted" type="rubric">Liber canonis primus, quem princeps Aboali Abisenne medicina edidit translatus a magistro Gerardo Cremonensi in Toleto verba Aboali Abinscenne.</quote>
+              </p>
+            </note>
+          </msItem>
+          <msItem>
+            <locus from="108r" to="195r">f. 108–195.</locus>
+            <title type="item">Liber II, precedente registro</title>
+          </msItem>
+          <msItem>
+            <locus from="196r" to="311v">f. 196–311′.</locus>
+            <title type="item">Liber IV</title>
+            <note type="textExamination">
+
+
+
+              <p>Schlussschrift (roth):
+
+
+                <quote type="finalRubric">Finito libro referatur gratia primo.</quote>
+              </p>
+            </note>
+          </msItem>
+          <msItem>
+            <locus from="312r" to="319v">f. 312–319′.</locus>
+            <title type="item">Avicenne Synonima huius libri</title>
+            <note type="textExamination">
+
+
+
+              <p>Schlussschrift (roth):
+
+
+                <quote type="finalRubric">Expliciunt synonima Avicenne.</quote>
+              </p>
+            </note>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc form="codex">
+            <supportDesc material="chart">
+              <support>
+
+
+
+                <p>
+
+
+
+                  <material>Pap.</material>
+                </p>
+              </support>
+              <extent>
+
+
+
+                <measure type="leavesCount" quantity="319">319 Bll.</measure>
+
+
+
+                <dimensions type="leaf">
+                  <height unit="cm">40,5</height>
+                  <width unit="cm">28⅔</width>
+                </dimensions>
+              </extent>
+            </supportDesc>
+            <layoutDesc>
+              <layout columns="2">
+
+
+
+                <p>
+
+
+
+                  <measure type="columnsCount">zweispaltig</measure>
+                </p>
+              </layout>
+            </layoutDesc>
+          </objectDesc>
+          <decoDesc>
+            <decoNote>Mit rothen Überschriften und Anfangsbuchstaben, hie und da auch mit grösseren roh in Farbe ausgeführten Initialen, wie gleich
+
+
+              <locus from="1r">f. 1</locus>, wo der Verfasser mit seinem Buche in der Linken und einem die Anfangsworte desselben enthaltenden Spruchbande in der Rechten dargestellt ist.</decoNote>
+          </decoDesc>
+          <bindingDesc>
+            <binding>
+              <p>Starke Holzdeckel mit gepresstem Schweinsleder überzogen, mit Metallbeschlag an den Ecken und in der Mitte des Vorderdeckels: auf dem Hinterdeckel ist letzterer verschwunden. Mit zwei kupfernen Schliessern. Dem Vorderdeckel ist ein Pergamentstreif aufgeklebt mit der alten Inschrift:
+
+
+                <quote>Prim[[ussep]] 2
+
+
+                  <hi rend="sup">us</hi> et 4
+
+
+                  <hi rend="sup">tus</hi> canonu̅ auic.</quote>
+              </p>
+            </binding>
+          </bindingDesc>
+        </physDesc>
+        <history>
+          <provenance>
+
+
+
+            <p>Wie
+
+
+              <ref type="heinemann" cRef="1580">1580</ref>.</p>
+          </provenance>
+        </history>
+        <additional>
+          <adminInfo>
+            <recordHist>
+              <source>
+
+
+
+                <bibl>Otto v. Heinemann: Die Augusteischen Handschriften 1. Cod. Guelf. A. Aug. 2° — 11.10 Aug. 2°. Frankfurt/M.: Klostermann, 1965 (Nachdruck d. Ausg. 1890). S.
+
+
+                  <ref target="http://diglib.hab.de/drucke/f4f-539-4/start.htm?image=00035">17</ref> –
+
+
+                  <ref target="http://diglib.hab.de/drucke/f4f-539-4/start.htm?image=00036">18</ref>
+                </bibl>
+              </source>
+            </recordHist>
+          </adminInfo>
+        </additional>
+      </msDesc>
+      <div>
+        <index indexName="nasa">
+          <term>
+
+
+
+            <hi rend="spaced">Avicenna</hi>
+          </term>
+        </index>
+        <index indexName="illumination">
+          <term>bemerkenswerte Miniaturen, Zeichnungen, Initialen </term>
+        </index>
+        <index indexName="merkwuerdigeEinbände">
+          <term>merkwürdiger Einband </term>
+        </index>
+        <index indexName="vorbesitzer_koerperschaften">
+          <term>
+
+
+
+            <hi rend="spaced">Braunschweig</hi>
+          </term>
+          <index>
+            <term>s. Blasii </term>
+          </index>
+        </index>
+        <index indexName="vorbesitzer_personen">
+          <term>
+
+
+
+            <hi rend="spaced">Heinricus (et Gherardus?) de Wunstorp</hi>
+          </term>
+        </index>
+      </div>
+    </body>
+  </text>
+</TEI>

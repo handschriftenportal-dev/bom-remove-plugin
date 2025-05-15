@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd"
+     version="5"
+     xml:lang="de"
+     xml:id="HAB_mss_36-23-aug-2f_tei-msDesc">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Agrimensores veteres Romanorum (Cod. Guelf. 36.23 Aug. 2°; Heinemann-Nr. 2403) — Signaturdokument</title>
+            <respStmt>
+               <resp>Zusammengestellt durch </resp>
+               <name type="person">Torsten Schaßan</name>
+               <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 konforme Kodierung durch </resp>
+               <name type="person">Torsten Schaßan</name>
+               <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+               <ptr target="http://www.hab.de"/>
+            </publisher>
+            <date when="2011-08-05" type="issued">05.08.2011</date>
+            <date when="2012-08-12" type="digitised">12.08.2012</date>
+            <distributor>Herzog August Bibliothek</distributor>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/"
+                        notBefore="2013-03-01">
+                  <p>Dieses Dokument steht seit dem 1.März 2013 unter einer Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz (CC BY-SA).</p>
+                  <p>Herzog August Bibliothek Wolfenbüttel (<ref target="http://diglib.hab.de/?link=012">Copyright Information</ref>)</p>
+               </licence>
+            </availability>
+            <pubPlace>
+               <ptr type="purl" target="http://diglib.hab.de/mss/36-23-aug-2f/start.htm"/>
+               <ptr type="thumbnailForPresentations"
+                    target="http://diglib.hab.de/mss/36-23-aug-2f/thumbs/00001.jpg"/>
+            </pubPlace>
+            <idno type="URN">urn:nbn:de:gbv:23-mss/36-23-aug-2f8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="mss_36-23-aug-2f_tei-msDesc" xml:lang="de">
+               <msIdentifier>
+                  <settlement>Wolfenbüttel</settlement>
+                  <repository>Herzog August Bibliothek</repository>
+                  <collection>Augusteer Handschriften in folio</collection>
+                  <idno sortKey="wf_hab_aug-02f-0036-0023">Cod. Guelf. 36.23 Aug. 2°</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Guelf. 36. 23. Aug. fol.</idno>
+                  </altIdentifier>
+                  <altIdentifier type="catalog">
+                     <collection>Heinemann-Nr.</collection>
+                     <idno sortKey="heinemann-2403">2403</idno>
+                  </altIdentifier>
+                  <msName>Codex Arcerianus</msName>
+               </msIdentifier>
+               <head>
+                  <title>Agrimensores veteres Romanorum</title>
+                  <origDate notBefore="0501" notAfter="0600">6. Jh.</origDate>
+               </head>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <p>
+                              <material>Pergament</material>
+                           </p>
+                        </support>
+                        <extent>
+                           <measure type="leavesCount">157 Bll., von denen jedoch Bl. 1. 123 und 157 Vorsatzblätter, bezw. Umschläge aus Pergamenthandschriften des 14. Jh. sind, von fünf andern aber grössere Bruchstücke fehlen, nämlich von Bl. 62 die obere, von Bl. 64 und 73 die untere Hälfte, von Bl 59 und 60 das mittlere Drittel.</measure>
+                           <dimensions type="leaf">
+                              <height unit="cm">31,5</height>
+                              <width unit="cm">24,5</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1 2">
+                           <p>
+                              <measure type="columnsCount">Bl. 16–83 einspaltig, die übrigen zweispaltig</measure>
+                           </p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <bibl>Lucio Toneatto: Codices Artis Mensoriae. i manoscritti degli antichi opuscoli latini d'agrimensura (V - XIX sec.) T. 1: Tradizione diretta - il medioevo. Spoleto: Centro Italiano di Studi sull'Alto Medioevo, 1994. S. 139-163. T. 2: Tradizione diretta - l'età moderna. S. 812-822.</bibl>
+                     <bibl>Otto v. Heinemann: Die Augusteischen Handschriften 3. Cod. Guelf. 32.7 Aug. 2° — 77.3 Aug. 2°. Frankfurt/M.: Klostermann, 1966 (Nachdruck d. Ausg. 1898). S. <ref target="http://diglib.hab.de/drucke/f4f-539-6/start.htm?image=00134">124</ref> – <ref target="http://diglib.hab.de/drucke/f4f-539-6/start.htm?image=00138">128</ref> [zur <ref type="mss" cRef="36-23-aug-2f_tei-msDesc_Heinemann">Beschreibung</ref>]</bibl>
+                     <bibl>Faksimile: Corpus agrimensorum Romanorum: codex Arcerianus A der Herzog-August-Bibliothek zu Wolfenbüttel (Cod. Guelf. 36.23 A). Eingel. von Hans Butzmann. 1970. [Codices Graeci et Latini photographice depicti. 22]</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#gnd">
+               <term xml:lang="de">Zimelie</term>
+               <term xml:lang="de">Illuminiert</term>
+               <term xml:lang="en">illuminated</term>
+               <term xml:lang="de">Tironische Noten</term>
+               <term xml:lang="en">Tironian notes</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="schassan" when="2018-08-09">Kategorie zum Element textClass hinzugefügt: Tironische Noten</change>
+         <change who="schassan" when="2017-10-02">Kategorie zum Element textClass hinzugefügt: Illuminiert</change>
+         <change who="schassan" when="2015-01-07">Kategorie zum Element textClass hinzugefügt: Zimelie</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="facsimile.xml"
+               parse="xml"
+               encoding="UTF-8">
+      <xi:fallback>Handschrift noch nicht digitalisiert</xi:fallback>
+   </xi:include>
+   <text>
+      <body>
+         <div>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

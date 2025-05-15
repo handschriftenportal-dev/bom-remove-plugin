@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     version="5.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/mss/current/cataloguing.xsd"
+     xml:lang="de"
+     xml:id="HAB_mss_36-23-aug-2f_tei-msDesc_Westphal">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beschreibung von Cod. Guelf. 36.23 Aug. 2° (Die illuminierten Handschriften der Herzog August Bibliothek. Teil 1: 6. bis 12. Jahrhundert, beschrieben von Stefanie Westphal (in Bearbeitung))</title>
+            <respStmt>
+               <resp>Katalogisiert durch </resp>
+               <name type="person">Stefanie Westphal</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 konforme Kodierung durch </resp>
+               <name type="person">Stefanie Westphal</name>
+               <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Herzog August Bibliothek</name>
+               <ptr target="http://www.hab.de"/>
+            </publisher>
+            <date when="2018-11-27" type="issued">27.11.2018</date>
+            <date when="2012-08-12" type="digitised">12.08.2012</date>
+            <distributor>Herzog August Bibliothek</distributor>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+                  <p>Dieses Dokument steht unter einer Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz (CC BY-SA).</p>
+                  <p>Herzog August Bibliothek Wolfenbüttel (<ref target="http://diglib.hab.de/?link=012">Copyright Information</ref>)</p>
+               </licence>
+            </availability>
+            <pubPlace>
+               <ptr type="purl" target="http://diglib.hab.de/mss/36-23-aug-2f/start.htm"/>
+               <ptr type="thumbnailForPresentations"
+                    target="http://diglib.hab.de/mss/36-23-aug-2f/thumbs/00001.jpg"/>
+            </pubPlace>
+            <idno type="URN">urn:nbn:de:gbv:23-mss/36-23-aug-2f8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Neukatalogisiert durch <name type="person">Stefanie Westphal</name>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Beschreibung erstellt im Rahmen des Projektes <name type="project">Katalogisierung der illuminierten Handschriften der Herzog August Bibliothek Wolfenbüttel</name>.</p>
+         </projectDesc>
+      </encodingDesc>
+      <!--
+			<revisionDesc>
+				<change who="" date=""></change>
+			</revisionDesc>
+		-->
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:id="1234"
+                 xml:lang="de"
+                 type="illum">
+            <msIdentifier>
+               <settlement>Wolfenbüttel</settlement>
+               <repository rend="HAB">Herzog August Bibliothek</repository>
+               <collection>Augusteer</collection>
+               <idno sortKey="wf_hab_aug-02f-0036-0023">Cod. Guelf. 36.23 Aug. 2°</idno>
+            </msIdentifier>
+            <head>
+               <title>Agrimensoren-Codex (Codex Arcerianus)</title>
+               <origPlace>Norditalien (Rom)/Italien (Norditalien?)</origPlace>
+               <origDate notBefore="0501" notAfter="0599">Anfang 6. Jahrhundert/um 500</origDate>
+            </head>
+            <msContents>
+               <textLang mainLang="lat" otherLangs=""/>
+               <!--<p>Neuzeitliche Vorsatzblätter, Papier, bez. I-XXVIII.</p>-->
+               <msItem>
+                  <locus from="I">I</locus>
+                  <note>leer.</note>
+               </msItem>
+               <msItem>
+                  <locus from="IIv">IIv</locus>
+                  <author ref="Otto v. Heinemann"> Otto v. Heinemann</author>
+                  <title>Beschreibung der Handschrift</title>
+                  <note>
+                     <bibl>
+                        <abbr>Wolfenbüttel Aug.</abbr>, 2. Abt., Bd. 3, Nr. 2403, 124-128</bibl>.</note>
+               </msItem>
+               <msItem>
+                  <locus from="IIIr" to="IVv">IIIr-IVv</locus>
+                  <author>Adolf Ebert</author>
+                  <title>Beschreibung der Handschrift</title>
+                  <note>Dat. 10.7.1823, abgedruckt: <bibl>
+                        <author>F. Ebert</author>, Zur Handschriftenkunde, Leipzig 1827, 5-12, Nr. 20</bibl>; <bibl>
+                        <abbr>Lachmann</abbr>, Bd. 2, 467-471</bibl>.</note>
+               </msItem>
+               <msItem>
+                  <locus from="Vr" to="Vv">Vr/v</locus>
+                  <author>Johannes Isaac Pontanus aus Helsingör (1571-1639)</author>
+                  <title>Brief an Petrus Scriverius</title>
+                  <note>Dat. <quote>Harderovici</quote> (Hardewijk im Gelderland), 26.10.1621.</note>
+               </msItem>
+               <msItem>
+                  <locus from="VIr" to="VIIIr">VIr-VIIIr</locus>
+                  <title>Emendatio in libellum Hygini (<quote>De munitionibus castrorum</quote>)</title>
+                  <note>Beilage zum Brief des Pontanus. Nachfolgend VIIIv leer.</note>
+               </msItem>
+               <msItem>
+                  <locus from="IXr">IXr</locus>
+                  <title>Lectiones zu Hyginus</title>
+                  <note>Nachfolgend IXv-Xr leer.</note>
+               </msItem>
+               <msItem>
+                  <locus from="XIr" to="XIVv">XIr-XIVv</locus>
+                  <author>Hyginus</author>
+                  <title>Auszug aus Hyginus</title>
+                  <note>
+                     <quote>De munitionibus castrorum</quote>. Am Textende, XIVv unten, Verweis auf Volaterranus, Commentarii urbici, Liber 30.</note>
+               </msItem>
+               <msItem>
+                  <locus from="XVr">XVr</locus>
+                  <author>Pierre Galand</author>
+                  <title>Brief des Pierre Galland</title>
+                  <note> Brief über den Fund einer Agrimensorenhandschrift in St. Omer an Charles de Guise, Kardinal von Lothringen (dat. 10.12.1554). Darunter aus Epitome Bibliothecae Conradi Gesneri (Hand des Scriverius, dat. Zürich 1555).</note>
+               </msItem>
+               <msItem>
+                  <locus from="XVv">XVv</locus>
+                  <author>Volterranus</author>
+                  <title>Auszüge aus den Commentarii urbici.</title>
+               </msItem>
+               <msItem>
+                  <locus from="XVIr" to="XVIv">XVIr-XVIv</locus>
+                  <title>Inhaltsverzeichnis einer Agrimensorenhandschrift. <quote>Raptim hos titulos excerpsi Petrus Criverius. Prid. Kal. Novi Anni MDCIIII</quote>.</title>
+               </msItem>
+               <msItem>
+                  <locus from="XVIIr" to="XXIVv"/>
+                  <author>Hyginus</author>
+                  <title>Auszug aus Hyginus</title>
+                  <note>
+                     <quote>Ex Antonii Galesii Massae cod. et Basil Zanchi</quote>, vgl. <bibl>
+                        <abbr>Lachmann</abbr>, 30</bibl>. Unten der Eintrag  <quote>Sum Petri Scriverii ex dono Jo. Wouverii</quote> (Holländischer Philologe, 1574-1612) <quote>ex cuius manu suae scheda manuscripti</quote>.</note>
+               </msItem>
+               <msItem>
+                  <locus from="XXVv" to="XXVIr">XXVv-XXVIr</locus>
+                  <title>Lesarten zu Hyginus</title>
+                  <note>Nachfolgend XXVIv leer.</note>
+               </msItem>
+               <msItem>
+                  <locus from="XXVIIr" to="XXVIIv">XXVIIr-XXVIIv</locus>
+                  <author>Hyginus</author>
+                  <title>Auszüge aus Hyginus</title>
+                  <note>Das Blatt XXVIIr (Pergament) in der Foliierung als 1 gezählt.</note>
+               </msItem>
+               <msItem>
+                  <locus from="1r" to="1v">1rv</locus>
+                  <note>Text aus dem 13. Jahrhundert</note>
+               </msItem>
+               <msItem>
+                  <locus from="XXVIIIr">XXVIIIr</locus>
+                  <author>Volterranus</author>
+                  <title>Auszüge aus Volterranus, liber 16</title>
+                  <note>Nachfolgend XXXXVIIIv leer.</note>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="perg">
+                     <support>
+                        <p>
+                           <material>Pergament</material>
+                        </p>
+                        <p>Aus zwei Teilen zusammengesetzt: A, Bl. <locus>2-83</locus>, B, Bl. <locus>84-122</locus>. </p>
+                     </support>
+                     <extent>
+                        <measure type="leavesCount">120 Bl.</measure>
+                        <dimensions type="leaf" unit="cm">
+                           <height>31,5</height>
+                           <width>24,5</width>
+                        </dimensions>
+                        <measure type="format"/>
+                     </extent>
+                     <foliation>Verschiedene Zählungen, nach Butzmann zusammengestellt in: <bibl>
+                           <abbr>Faks. Arcerianus</abbr>, 38-40</bibl>; 1. ältere Foliierung in lateinischen Ziffern, 2. Foliierung aus dem 15.(?) Jahrhundert, 3. Foliierung aus dem 16.(?) Jahrhundert, 4. Spaltenzählung von Lachmann für seine Ausgabe, 5. Foliierung von Thulin, vgl. <bibl>
+                           <abbr>Thulin <hi rend="normal">Handschriften</hi>, 12-23</abbr>
+                        </bibl>, 6. Foliierung von O. v. Heinemann.</foliation>
+                     <collation>Vorsatz: Papierblätter I-XXVII. Ein Pergamentblatt, foliiert als Blatt 1. Papierblatt XXVIII. Text: nach der Foliierung von Heinemann, beginnend mit Bl. 2 (Zahl 123 bei der Zählung ausgelassen): <formula>IV-2 (7). IV (15). IV-1 (22). IV-1 (29). 2 IV (45). IV-3 (50). IV (58). IV-1 (65). IV-1 (72). IV-2 (78). IV-3 (83). 4 IV (115). IV-1 (122). V-1 (132). 3 IV (156).</formula>
+                     </collation>
+                  </supportDesc>
+               </objectDesc>
+               <bindingDesc>
+                  <p>Roter Ledereinband (Neubindung in den 60/70er Jahre 20. Jh.).</p>
+               </bindingDesc>
+            </physDesc>
+            <history>
+               <summary>Die vorliegende Handschrift <ref type="Hss." cRef="36-23-aug-2f_tei-msDesc_Westphal">36.23 Aug. 2°</ref>, der, nach seinem Vorbesitzer benannte Arcerianus, gilt als der älteste erhaltene Corpus Agrimensorum Romanorum überhaupt. Er enthält zwei unterschiedliche Textsammlungen, Arcerianus A  (Bl. 2-83) und Arcerianus B (Bl. 84-122 und 124-156). Nur Teil A beinhaltet Bildausstattung. Bereits <rs type="person" role="author">Thulin</rs> erbrachte den Nachweis, dass sämtliche erhaltenen Vermessungstexte auf einen einzigen Archetypus zurückzuführen sind, dessen Abschriften in der nachfolgenden Zeit in drei unterschiedliche Hauptextgruppen zun unterteilen sind - A/B (benannt nach dem Arcerianus; vor texthistorischem Hintergrund ursprünglich entstanden in der Zeit 4.-6 Jahrhundert), P1-P2 (entstanden in zwei Redaktionen, 533 und 550, vgl. <bibl>
+                     <abbr>Koehler/Mütherich <hi rend="normal">Karolingische Miniaturen VIII</hi>
+                     </abbr>, 55, 57, 77.</bibl>; <bibl>
+                     <abbr>Thulin</abbr>, 41-59</bibl>; zugehörige Handschriften: <ref type="altMs"
+                       target="https://digi.vatlib.it/iiif/MSS_Pal.lat.1564/manifest.json">Rom, BAV, Pal. lat. 1564</ref>; Wolfenbüttel, HAB, <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>) und E:F (nach <bibl>
+                     <abbr>Thulin</abbr>, 69-72</bibl>
+                  <hi rend="font-style:italic">Codices mixti</hi>; zugehörige Handschriften: <ref type="altMs">Florenz, Biblioteca Medicea Laurenziana, 29.32</ref>; <ref type="altMs">Erfurt, UB, Amplon. Q. 362</ref>; <ref type="altMs"
+                       target="http://medium.irht.cnrs.fr/Manuscrits/Voir?idFicheManuscrit=13177">London, BL, Add. 47679</ref>). 
+					<p rend="break">Paläographisch wird Teil B um 500 datiert. Teil A entstand wohl kurze Zeit später, im beginnenden 6. Jahrhundert und war vermutlich als Ergänzung gedacht. Für Letzteres spricht der in A zu Beginn noch wie in Teil B vorhandene zweispaltige Schriftspiegel, der erst mit dem Einsetzen der aufwendigen Illuminationen auf <locus from="17r">17r</locus> aufgegeben und durch einen einspaltigen ersetzt wird. Zwei Kopien des Arcerianus aus dem 16. Jahrhundert sind erhalten, beide mit den im 16. Jahrundert noch vorhandenen Bildern (<ref type="altMs" target="https://digi.vatlib.it/view/MSS_Vat.lat.3132/0001">Rom, BAV, Vat. lat. 3132</ref> - abgeschlossen durch den vatikanischen Schreiber <hi rend="font-style:italic">Zanchi</hi> - hier Bilder mit Variationen; <ref type="altMs">Jena, Universitätsbibliothek, Cod. fol. 156</ref>; vgl. <bibl>
+                        <author>C. Thulin</author>, Humanistische Handschriften des Corpus Agrimensorum Romanorum, in: Rheinisches Museum für Philologie, Bd. 66 (1911), 417-451, hier  419-422, 425-431</bibl>).</p>
+                  <p rend="break">Die beeindruckenden Miniaturen, Diagramme und geometrische Zeichnungen der Handschrift erfuhren vorrangig durch die Dissertation von <bibl>
+                        <abbr>Carder</abbr>
+                     </bibl>, sowie durch die Veröffentlichungen von <bibl>
+                        <abbr>Campbell</abbr>, XXIII-XXVI</bibl> und <bibl>
+                        <abbr>Koehler/Mütherich <hi rend="normal">Karolingische Miniaturen VIII</hi>
+                        </abbr>, 55, 57, 77</bibl> kunsthistorische Beachtung. Als Quelle für die Diagramme dürfen Darstellungen auf Vermessungskarten und -berichten angenommen werden (vgl. Fragment einer Vermessungskarte aus Augusta Emirata (Mérida/Spanien) und die Vermessungskarte der Grundbesitze in Arausio (Orange/Frankreich; vgl. <bibl>
+                        <abbr>Campbell</abbr>, XXIV</bibl>). Die farbigen Illustrationen stehen, mit ihren Ansichten aus der Draufsicht und den fehlenden figürlichen Darstellungen, in der Tradition der spätantiken, genauer römischen, topographischen Landschaftsmalerei und antiken chorographischen Kartographie. Letztere Variante besitzt auf den Darstellungen, wie der Arcerianus, eine häufig anzutreffende Markierung von topographischen Details, die für die jeweilige Gegend typisch waren, und dem Reiseverlauf einer Route glichen, wie auf der Tabula Peutingeriana (<ref type="altMs" target="http://manuscripta.at/?ID=9722">Wien, ÖNB, Cod. 324</ref> - aus dem 11./12. Jh. Jahrhundert stammende Kopie nach einer Straßenkarte des Römischen Reichs, 1. Hälfte 5. Jh. - Theodosius II., 435 ?; vgl. <bibl>
+                        <author>M. Rathmann</author>, Tabula Peutingeriana. Die einzige Weltkarte aus der Antike, Darmstadt 2016, 15, 16</bibl>; <bibl>
+                        <abbr>Campbell</abbr>, XXV</bibl>). Die über reine Illustrationen hinausgehenden, den Text tiefer erklärenden Diagramme und geometrischen Zeichnungen stehen in der Tradition der technischen Zeichnung, wie sie bereits von Vitruv (<bibl>De Architectura, 1.1.4</bibl>) für Architekturzeichnungen empfohlen wurde. <bibl>
+                        <abbr>Carder</abbr>, 189-204</bibl> gibt an, dass die Stadtdarstellungen und Bergzüge des Arcerianus stilistisch in die Zeit 4.-6. Jahrhundert verweisen - einige Bergdarstellungen möglicherweise auf einen früheren Zeitpunkt. Dementsprechend nimmt er an, dass die Illustrationen bereits in der ersten Rezension der Handschrift vorhanden gewesen sind. Ob die Illustrationen bereits von Beginn an den Texten beigegeben waren, oder später hinzugefügt wurden, lässt sich auf dieser Grundlage nicht genauer bestimmen. Das Autorenportrait auf <locus from="67v">67v</locus> wurde in der Forschung ausführlich besprochen (Zusammenstellung bei <bibl>
+                        <abbr>Carder</abbr>, 130-136</bibl>). Demnach geht die Körperhaltung des Mannes auf einen in der Spätanitike geläufigen Typus zurück, der seinen Ursprung in der frühhellenistischen Epoche hat. <bibl>
+                        <abbr>Carder</abbr>, 198-199</bibl> konnte nachweisen, dass die Frisur des gezeigten Mannes Parallelen im späten 5. und frühen 6. Jahrhundert besitzt. Die in griechischer und römischer Kunst geläufige Darstellung des Philosophen, häufig mit übereinander geschlagenen Beinen unter einer Architektur sitzend, wird im Frühmittelalter als Typus des Autorenportraits bei Evangelistendarstellungen übernommen. Die im Arcerianus vorhandene Geste der kalkulierenden Finger verweist auf einen Zählvorgang, anzutreffen bei antiken Darstellung von Mathematikern (Euclid?; zur Diskussion vgl. <bibl>
+                        <abbr>Carder</abbr>, 132</bibl>).</p>
+                  <p rend="break">Die im Agrimensorencodex eine untergeordnete Rolle spielenden Initialen und Registerbuchstaben wurden bereits von <bibl>
+                        <abbr>Nordenfalk <hi rend="normal">Zierbuchstaben</hi>
+                        </abbr>, 122-124</bibl> in den Kontext der spätaniken Buchmalerei verortet. Demnach findet sich die relativ textungebundene Stellung der Registerbuchstaben, wie sie im Arcerianus vorliegt, bereits im Wiener Dioscurides (vgl. <ref type="altMs" target="http://data.onb.ac.at/rec/LZ00210626">Wien, ÖNB, Med. gr. 1</ref>, Byzanz, um 512; vgl. <bibl>
+                        <abbr>Nordenfalk <hi rend="normal">Zierbuchstaben</hi>
+                        </abbr>, 123, Taf. 139-140</bibl>). Die Initialform mit den gerollten Serifen hat ihre Parallelen bereits früh im Vergilius Augusteus (<ref type="altMs">Rom, BAV, Vat. lat. 3256</ref>, Rom, 2. Hälfte 4. Jahrhundert; <bibl>
+                        <abbr>Nordenfalk <hi rend="normal">Zierbuchstaben</hi>
+                        </abbr>, Taf. 17-23</bibl>), letztere und die bekrönenden Dreiecke kommen im sogenannten Codex Forojuliensis (<ref type="altMs">Cividale, Museo Archeologico Nazionale, Cod. CXXXVIII</ref>, Italien, Anfang 6. Jahrhundert; <bibl>
+                        <abbr>Nordenfalk <hi rend="normal">Zierbuchstaben</hi>
+                        </abbr>, fig. 32</bibl>) und in weiteren Handschriften aus dem 6./7. Jahrhundert vor (Zusammenstellung vgl. <bibl>
+                        <abbr>Nordenfalk <hi rend="normal">Zierbuchstaben</hi>
+                        </abbr>, 136</bibl>). Hier finden sich auch die Füllmotive, wie u.a. der laufende Hund.</p>  
+					Die in der Forschung bisher geleisteten Besprechungen (Text und Bild) verweisen auf die grundlegende Rolle des Wolfenbütteler Arcerianus bezüglich der Corpusforschung. Paläographische, textliche und kunsthistorische Vergleiche lassen jedoch kaum mehr als eine zeitliche Einordnung der Handschrift auf die Zeit um 500 (Teil B) und das frühe 6. Jahrhundert (Teil A), sowie eine allgemeine italieneische Provenienz mit einem Vorschlag für Rom (teil A, vgl. <bibl>
+                     <abbr>Nordenfalk <hi rend="normal">Zierbuchstaben</hi>
+                     </abbr>
+                  </bibl> zu.   
+				<index indexName="nasa">
+                     <term>Handschriften, erwähnte</term>
+                     <index>
+                        <term>Rom, BAV, Pal. lat. 1564</term>
+                        <term>London, BL, Add. 47679</term>
+                        <term>Wolfenbüttel, HAB, Cod. Guelf. 105 Gud. lat.</term>
+                        <term>Erfurt, UB, Amplon. Q. 362</term>
+                        <term>Wien, ÖNB, Med. gr. 1, Byzanz</term>
+                        <term>Rom, BAV, Vat. lat. 3256</term>
+                        <term>Cividale, Museo Archeologico Nazionale, Cod. CXXXVIII</term>
+                     </index>
+                  </index>
+               </summary>
+               <provenance>
+                  <p>Die frühe Provenienz der Handschrift ist unklar (entsprechende Einträge fehlen), wobei die Annahme, dass sich der Codex im 10. Jahrhundert im Kloster Bobbio befunden haben soll, in der Forschung kontrovers diskutiert wird (zur Diskussion vgl. <bibl>Faks. Arceranus</bibl>, 36). Aus textlichen Gründen argumentierten <rs type="person" role="author">Lange</rs> und <rs type="person" role="author">Lachmann</rs> für diese Theorie (<bibl>
+                        <author>L. Lange</author>, Prolegomena critica et historica in Hygini. De munitionibus castrorum libellum, Göttingen 1847, 9.</bibl> und <bibl>
+                        <abbr>Lachmann</abbr>, Bd. II, 10.</bibl>), welche von Heinemann (<bibl>
+                        <abbr>Wolfenbüttel Aug.</abbr>, 2. Abt., Bd. 3, Nr. 2403, 128)</bibl> übernommen wurde. Für eine Lokalisierung des Arcerianus nach Bobbio im 15. Jahrhundert sprechen die Einträge auf einem Blatt heute in Hannover (<ref type="altMs">Hannover, Niedersächsische Landesbibliothek, Cod. XLII, 1848</ref>), das ehemals dem Mailänder Humanisten Giorgio Merula (1430/1431-1494) gehörte. Es werden 25 Texte aus seinem Besitz genannt, von denen die letzten fünf Einträge und die Reihenfolge ihrer Nennung mit den Schriften des vorliegenden Codex übereinstimmen. Da Schriften aus Teil B vor denjenigen aus Teil A genannt werden, ist wahrscheinlich davon auszugehen, dass zu diesem Zeitpunkt beide Texte noch ungebunden vorlagen. Dem Sekretär Gorgio Galbiato, der im Auftrag Merulas handelte, gelang 1494 nachweislich die Entdeckung der Klosterbibliothek von Bobbio, eine Nachricht, die Merula an seinen Auftraggeber Ludovico Sforza aus dem Haus der Visconti weitergab. Mehrere dieser Nachrichten (in schriftlicher Form, wie die heute in Hannover befindliche Liste) dürften in Humanistenkreisen kursiert haben. 1506 erwähnt Rafaele Maffei (gen. Volaterranus) in seinem vierten Buch der Commentariorum urbanorum, dass aus Bobbio stammende Bücher vom päpstliche Sekretär Tommaso Inghirami (gen. Phaedrus) nach Rom verbracht wurden. Inhalt und Reihenfolge der Nennung entsprechen der Liste heute in Hannover, so dass dieselbe  Quelle angenommen werden darf. Zusammen mit der Agrimensorenhandschrift <ref type="altMs">Florenz, Biblioteca Medicea Laurenziana, Plut. XXIX Cod. 32</ref> befand sich der  Arcerianus vermutlich in der Sammlung von Angelo Colocci (1497-1549; Sekretär Papst Leo X. und Humanist), die 1527 einer Plünderung zum Opfer fiel (zur Diskussion vgl. <bibl>
+                        <abbr>Carder</abbr>, 19-23</bibl>). Nach Blume (<bibl>
+                        <abbr>Lachmann</abbr>, Bd. 2, 17-18</bibl>) gelangte der Arcerianus in der Zeit von 1529-1535 in Freiburg in den Besitz des Erasmus von Rotterdam (vgl. Eintrag von der Hand des Praedinius, s.u.). Nicht auszuschließen ist jedoch auch die direkte Übergabe der Handschrift von Papste Leo X. an denselben (vgl. <bibl>
+                        <abbr>Carder</abbr>, 23,24</bibl>). Nach seinem Tod ging der Arcerianus an Johannes a Lasco weiter, um daraufhin in den Besitz der Humanisten Gerhard Mortaigne und Regnerus Praedinius überzugehen (s. Einträge). In den Händen von Ludovicus Miraeus ist die Handschrift in der Zeit von 1559-1566 in Lyon belegt (vgl. <bibl>
+                        <author>L. Lange</author>, Prolegomena critica et historica in Hygini De munitionibus castrorum libellum, Göttingen 1847, 9</bibl>). Ungefähr um 1565 fand die Handschrift ihren Weg in den Bestand des namengebenden Utrechter Gelehrten Johannes Arcerius, von wo aus sie an Peter Scriverius zeitweilig verliehen wurde. Letzerer gelangte nach dem Tod Arcerius, wahrscheinlich über den Sohn des Arcerius, Sixtus, in den Besitz der Handschrift (vgl. <bibl>
+                        <author>P. Molhuysen</author>, Zur Geschichte des Codex Arcerianus der Agrimensoren, in: Centralblatt für Bibliothekswesen, Bd. 19 (1902), 269-271</bibl>). 1663 wurde die Handschrift an Herzog August dem Jüngeren verkauft (vgl. <bibl>
+                        <abbr>Milde <hi rend="normal">Erwerbungsjahre</hi>
+                        </abbr>, 102</bibl>) und gelangte über diesen in die Sammlung der Herzog August Bibliothek. Einträge: <locus>IIIr-IVv</locus>: <quote>F. A. Ebert, 1823</quote>. <locus from="1r">1r</locus>: <quote>At nunc Joanis Arcerii 1566</quote> (Johannes Arcerius, 1538-1604; gleiche Hand, wie der Eintrag des  ); <quote>Gerardus Mortaigne</quote> (3x) <quote>Bonus vir</quote> (Gérard Mortaigne, 1553-1554?); <quote>Regneri [nuc] [su] Predinii</quote> (Regnerus Praedinius, 1559); <quote>Jan Laski</quote> (Johannes a Lasco, 1499-1560). <locus from="2r">2r</locus>:  <quote>Et hic ex bibliotheca Erasmi</quote> (Schrift des Praedinius, s.u.).; <quote>Johannes Theodoretus</quote> (1566); <quote>Petrus Scriverius</quote> (1602-1621).</p>
+               </provenance>
+            </history>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <bibl>Die illuminierten Handschriften der Herzog August Bibliothek. Teil 1: 6. bis 12. Jahrhundert, beschrieben von Stefanie Westphal (in Bearbeitung)</bibl>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+               <listBibl>
+                  <bibl>
+                     <author>A. Schulten</author>, Römische Flurkarten, in: Hermes 33 (1898), 534-565, hier 536.</bibl>
+                  <bibl>
+                     <abbr>Thulin</abbr>.</bibl>
+                  <bibl>
+                     <abbr>CLA</abbr> IX, 1374a+b.</bibl>
+                  <bibl>
+                     <author>K. Weitzmann</author>, Ancient Book Illumination, Cambridge 1959, 6, 7 (Martin Classical Lectures XVI).</bibl>
+                  <bibl>
+                     <abbr>Wolfenbüttel Aug.</abbr>, Nr. 2403 (Heinemann Nr.).</bibl>
+                  <bibl>
+                     <abbr>Dilke <hi rend="normal">Illustrations</hi>
+                     </abbr>, 11-30.</bibl>
+                  <bibl>
+                     <abbr>Lachmann</abbr>, Bd. 2.</bibl>
+                  <bibl>
+                     <abbr>Faks. Arcerianus</abbr>.</bibl>
+                  <bibl>
+                     <abbr>Nordenfalk <hi rend="normal">Zierbuchstaben</hi>
+                     </abbr>, 122-124, Taf. 36-38</bibl>
+                  <bibl>
+                     <author>A. Petrucci</author>, L'Onciale Romana, in: Studi Medievali, ser. terza, XII, 1971 (Centro Italiano di studi sull'alto Medioevo, Spoleto, 75-134), hier 107.</bibl>
+                  <bibl>
+                     <abbr>Milde</abbr>, 2-9.</bibl>
+                  <bibl>
+                     <author>C. Nordenfalk</author>, Rezension zum Faks., in: Kunstchronik 26 (1973), 79-83.</bibl>
+                  <bibl>
+                     <author>B. Bischoff</author>&gt;, Rezension zum Faks., in: Gnomon 46 (1974), 563-567.</bibl>
+                  <bibl>
+                     <abbr>Carder</abbr>.</bibl>
+                  <bibl>
+                     <author>M. T. Hause</author>, Konkurrierende Grenzen. Text, Bild und Raumvorstellungen in De limitibus constituendis des Hyginus Gromaticus, in:<editor>M. Bauer</editor>, <editor>T. Rahn</editor> (Hg.), Die Grenze. Begriff und Inszenierung, Berlin 1997, 279-299.</bibl>
+                  <bibl>
+                     <author>F. Mütherich</author>, Geographische und ethnographische Darstellungen in der Buchmalerei des frühen Mittelalters, in: Popoli e paesi nella cultura altomediavale, Bd. 2, Spoleto 1983, 709-743, 745-750, hier 723,724 (Settimane di studio del Centro Italiano di studio sull'alto Medioevo XXIX).</bibl>
+                  <bibl>L. Brubaker, Introduction of Painted Initials in Byzantium, in: Scriptorium 45 (1991), 22-46, hier, 30 Anm. 35 und 36.</bibl>
+                  <bibl>
+                     <abbr>Dilke <hi rend="normal">Land Surveyors</hi>
+                     </abbr>, 17, 67, 68, 101, 102, 128, 129, 154, 171, 172.</bibl>
+                  <bibl>
+                     <abbr>Sörries</abbr>, 120, 121.</bibl>
+                  <bibl>
+                     <abbr>Stückelberger</abbr>, 113-120, 55, Taf. 37, Taf. 38.</bibl>
+                  <bibl>
+                     <abbr>Toneatto</abbr>, 139-162; Taf. III</bibl>
+                  <bibl>
+                     <abbr>Zaitsev</abbr>, 546-552.</bibl>
+                  <bibl>
+                     <abbr>Europas Weltbild</abbr>, Kat.Nr. 1.</bibl>
+                  <bibl>
+                     <abbr>Kaiser</abbr>, 277, 289.</bibl>
+                  <bibl>
+                     <abbr>Koehler/Mütherich <hi rend="normal">Karolingische Miniaturen VIII</hi>
+                     </abbr>, 55, 57, 77.</bibl>
+                  <bibl>
+                     <abbr>Tewes</abbr>, 60 Anm. 226, Abb. 79.</bibl>
+                  <bibl>
+                     <abbr>Kleine</abbr>, 117-125.</bibl>
+                  <bibl>
+                     <author>B. Lesser</author>, Longe maximum vero Bibliothecae Augustae ornamentum. Zur Geschichte und Katalogisierung der Codices Gudiani in Wolfenbüttel, in: <editor>P. Carmassi</editor>, Retter der Antike. Marquard Gude (1635-1689) auf der Suche nach den Klassikern, Wiesbaden 2016 (Wolfenbütteler Forschungen Bd. 147), 445-516, hier 481-483.</bibl>
+                  <bibl>
+                     <author>M. Nanni</author>, Musikalische Diagramme zwischen Spätantike und Karolingerzeit, in: Das Mittelalter. Perspektiven mediävistischer Forschung (2017), Bd. 22, Heft 2, 273-293, hier 280, Abb. 2.</bibl>
+               </listBibl>
+            </additional>
+            <msPart>
+               <msIdentifier>
+                  <idno>A</idno>
+               </msIdentifier>
+               <head>
+                  <title>Arcerianus</title>
+                  <origPlace>Norditalien/Rom</origPlace>
+                  <origDate notBefore="0499" notAfter="0509">Anfang 6. Jahrhundert</origDate>
+               </head>
+               <msContents>
+                  <textLang mainLang="lat" otherLangs=""/>
+                  <msItem>
+                     <locus from="2ra" to="4ra">2ra-4ra</locus>
+                     <author>Marcus Iunius Nipsus</author>
+                     <rubric xml:lang="lat">Fragmentum de lapidibus centuriarum <note>
+                           <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 291, 13-295,15</bibl>.</note>
+                     </rubric>
+                  </msItem>
+                  <msItem>
+                     <locus from="4ra" to="6rb">4ra-6rb</locus>
+                     <title>Liber podismi <note>(<bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 295, 16-301</bibl>; <bibl>
+                              <abbr>Bubnov</abbr>, 510-516</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="6rb" to="16vb">6rb-16vb</locus>
+                     <author>Epaphroditus et Vitruvius Rufus</author>
+                     <rubric xml:lang="lat">Excerpta geometrica de mensuris agendis <note>
+                           <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 245,3-246,9</bibl>; <bibl>
+                              <abbr>Bubnov</abbr>, 518-524, 527</bibl>.</note>
+                     </rubric>
+                  </msItem>
+                  <msItem>
+                     <locus from="16vb" to="23r">16vb-23r</locus>
+                     <author>Iulius Frontinus</author>
+                     <title>De agrorum qualitate, De controversiis, De arte mensoris <note>(<bibl>
+                              <abbr>Thulin</abbr>, 1-3 und fig. 11; 4-6,16; 7,3-8,2; 8,7-9,12; 10,11-8 und fig. 24</bibl>; <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 1-8,9; 9-16,6; 17,3-19,4; 20,3-22,8; 24,10-26,2 und fig. 24</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="23r" to="23v">23r-23v</locus>
+                     <author>Iulius Frontinus</author>
+                     <title>De limitibus <note>(<bibl>
+                              <abbr>Thulin</abbr>, 14,23-15,4 und fig. 32</bibl>; <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 26,5-10 und fig. 25</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="23v">23v</locus>
+                     <author>Iulius Frontinus</author>
+                     <title>De arte mensoria <note>(<bibl>
+                              <abbr>Thulin</abbr>, 18,13-19,14</bibl>; als <quote>De limitibus</quote> bei <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 26,11-27,9</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="24r" to="25v">24r-25v</locus>
+                     <author>Iulius Frontinus</author>
+                     <title>De limitibus <note>(<bibl>
+                              <abbr>Thulin</abbr>, 11,13-14,21 und fig. 31</bibl>; <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 28,9-31,10 und fig. 33</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="25v" to="27v">25v-27v</locus>
+                     <author>Iulius Frontinus</author>
+                     <title>De arte mensoria <note>(<bibl>
+                              <abbr>Thulin</abbr>, 15,6-18,11</bibl>; als <quote>De limitibus</quote> bei <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 31,12-34,13</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="27v" to="28r">27v-28r</locus>
+                     <title>Liber coloniarum I <note>(<bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 209-210,2</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="28r" to="28v">28r-28v</locus>
+                     <title>Liber coloniarum I <note>(<bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 210,3-19</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="28v" to="29r">28v-29r</locus>
+                     <title>Liber coloniarum I <note>(<bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 211,1-21</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="29r" to="34r">29r-34r</locus>
+                     <title>Liber coloniarum I <note>(<bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 211,22-213,11; 213,13-214,2; 213,11-3; 214,3-225,2</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="34r" to="35r">34r-35r</locus>
+                     <title>Liber coloniarum I <note>(<bibl>
+                              <abbr>Lachmann</abbr>,Bd. 2, 225,3; 225,14-227,2; 227,4-9; 227,11-228,2</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="35r" to="41r">35r-41r</locus>
+                     <title>Liber coloniarum I <note>(<bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 229,10-233,15; 233,18-234,5; 233,16-7; 234,6-16; 234,19-20; 234,18-235,14; 235,20-236,13; 235,15-9; 236,14-239,13</bibl>). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="41r" to="41v">41r-41v</locus>
+                     <rubric xml:lang="lat">Subscriptio vel annotatio antiqua mensoris cuiusdam, de lebris regionum excerpendis <note>
+                           <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 239,14, 17-9</bibl>. </note>
+                     </rubric>
+                  </msItem>
+                  <msItem>
+                     <locus from="41v" to="66r">41v-66r</locus>
+                     <author>Hyginus Gromaticus</author>
+                     <title>Constitutio limitum <note>(<bibl>
+                              <abbr>Thulin</abbr>, 131-141,13; 145,10-146,15; 155,17-156,15 und fig. 112; 146,15-154,11 und fig. 106; 155,3-7 und fig. 108; 154,12-155,3 und fig. 107; 155,7-155,17 und fig. 110; 156,17-160,21; 161,21-163,18; 164,1-165,17; fig. 135 und 166,3-167,13; 167,15-168,14 und app.; 169,2-171,4 und fig. 144</bibl>; als <quote>De limitibus constituendis</quote> bei <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 166-177,4; 181,5-197,19; 198,20-202,18; 203,6-205,13 und app.; 205,17-206,14; 206,15-208 und fig. 205</bibl>;  <bibl>
+                              <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                              </abbr>, 112-209</bibl>, mit deutscher Übersetzung und Abbildungen aus dem Arcerianus). </note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="66r" to="67r">66r-67r</locus>
+                     <rubric xml:lang="lat">Excerptum legis Mamillae Rosciae Peducaeae Allienae Fabiae cap. III-V <note>
+                           <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 263-6</bibl>; <bibl>
+                              <abbr>FIRA <hi rend="normal">Riccobono</hi>
+                              </abbr>, 138-140</bibl>.</note>
+                     </rubric>
+                  </msItem>
+                  <msItem>
+                     <locus from="67r" to="76r">67r-76r</locus>
+                     <author>Agennius Urbicus</author>
+                     <title>De controversiis agrorum <note>(<bibl>
+                              <abbr>Thulin</abbr>, 37, 13-43,16; 45,3-47,6; 47,9-51,3</bibl>; <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 77,20-83,13; 84,17-86,3; 86,8-13; 86,26-90,21</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="76r" to="76v">76r-76v</locus>
+                     <author>Marcus Iunius Nipsus</author>
+                     <title>Fluminis varatio <note>(<bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 285,4-286,10 und fig. 208</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="77r" to="77v">77r-77v</locus>
+                     <title>De sepulchris <note>(<bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 271,12-272 und fig. 210</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="78r" to="78v">78r-78v</locus>
+                     <title>Liber coloniarum I</title>
+                     <note>Mensurae terminorum (<bibl>
+                           <abbr>Lachmann</abbr>, Bd. 2, 242,7-243 und fig. 206</bibl>).</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="78v">78v</locus>
+                     <author>Marcus Terentius Varro</author>
+                     <title>Ad Rufum Siluium de geometria <note>(<bibl>
+                              <abbr>Bubnov</abbr>, 494</bibl>; <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 243</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="79r" to="81v">79r-81v</locus>
+                     <title>Casae litterarum 'A' <note>(<bibl>
+                              <abbr>Josephson</abbr>, 2-16</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="81v">81v</locus>
+                     <title>Liber coloniarum I</title>
+                     <note>Nomita agrorum (<bibl>
+                           <abbr>Lachmann</abbr>, Bd. 2, 246,24-247,20</bibl>).</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="82ra" to="82rb">82ra-82rb</locus>
+                     <title>Liber coloniarum I</title>
+                     <note>Nomita limitum (<bibl>
+                           <abbr>Lachmann</abbr>, Bd. 2, 247,21-249,30</bibl>).</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="82rb">82rb</locus>
+                     <rubric xml:lang="lat">Annotatio cuiusdam, qui et Aeneidos XII 898 laudat <note>
+                           <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 249</bibl>; <bibl>
+                              <abbr>Thulin <hi rend="normal">Handschriften</hi>
+                              </abbr>, 17</bibl>.</note>
+                     </rubric>
+                  </msItem>
+                  <msItem>
+                     <locus from="82v" to="83r">82v-83r</locus>
+                     <title>Liber coloniarum I</title>
+                     <note>Nomina lapidum finalium (<bibl>
+                           <abbr>Lachmann</abbr>, Bd. 2, 249,32-3 und fig. 207, 208 sup.; 251,18</bibl>).</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="83r">83r</locus>
+                     <title>Catalogus geometrarum</title>
+                     <rubric xml:lang="lat">Annotatio cuiusdam, in qua Catalogus arati interpretum laudatur <note>
+                           <bibl>
+                              <abbr>Thulin <hi rend="normal">Handschriften</hi>
+                              </abbr>, 18</bibl>; <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 251</bibl>.</note>
+                     </rubric>
+                  </msItem>
+                  <msItem>
+                     <locus from="83v">83v</locus>
+                     <rubric xml:lang="lat">Figurae tres finitionum pictae <note>
+                           <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, fig. 208, 209</bibl>.</note>
+                     </rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <p>
+                              <material>Pergament</material>
+                           </p>
+                        </support>
+                        <extent>
+                           <measure type="leavesCount">82 Bl.</measure>
+                           <dimensions type="leaf" unit="cm">
+                              <height/>
+                              <width/>
+                           </dimensions>
+                           <measure type="format"/>
+                        </extent>
+                        <condition>
+                           <p>Guter Zustand. Ausgeschnittene Darstellungen und Blattverluste: <locus from="20r">20r</locus>, erhalten in: <ref type="altMs">Jena, UB, Cod. 156</ref>, 76v und <ref type="altMs" target="https://digi.vatlib.it/view/MSS_Vat.lat.3132/0001">Rom, BAV, Vat. lat. 3132</ref>, 9r;  <locus from="20v">20v</locus>, erhalten in: <ref type="altMs">Jena, UB, Cod. 156</ref>, 77r und <ref type="altMs" target="https://digi.vatlib.it/view/MSS_Vat.lat.3132/0001">Rom, BAV, Vat. lat. 3132</ref>, 9v; Blatt-/Textverlust zwischen fol. <locus>48</locus> und <locus>49</locus> (vermutlich mit Abbildungen); <locus from="59v">59v</locus>, erhalten in <ref type="altMs">Jena, UB, Cod. 156</ref>, 25v und <ref type="altMs" target="https://digi.vatlib.it/view/MSS_Vat.lat.3132/0001">Rom, BAV, Vat. lat. 3132</ref>, 52r; Blatt-/Textverlust zwischen fol. <locus>59</locus> und <locus>60</locus>; <locus from="60r">60r</locus>, erhalten in:<ref type="altMs">Jena, UB, Cod. 156</ref>, 26v und , 53r; <locus from="60v">60v</locus>, erhalten in: <ref type="altMs">Jena, UB, Cod. 156</ref>, 27r und <ref type="altMs" target="https://digi.vatlib.it/view/MSS_Vat.lat.3132/0001">Rom, BAV, Vat. lat. 3132</ref>, 53v. Vermutlich eine ähnliche Abbildung, wie die auf 62r fehlende erhalten in <ref type="altMs"
+                                   target="https://digi.vatlib.it/iiif/MSS_Pal.lat.1564/manifest.json">Rom, BAV, Pal. lat. 1564</ref>, 102r. Zeichnungen von Grenzsteinen, wahrscheinlich ehemals vorhanden auf den nun fehlenden Blatt 82 und 83, erhalten in <ref type="altMs">Erfurt, UB, Amplon. Q 362</ref>, 3,14-4 und <ref type="altMs">Florenz, Biblioteca Medicea Laurenziana, Plut. XXIX Cod. 32</ref>, 5r-8v. Vgl. <bibl>
+                                 <abbr>Carder</abbr>, 11, 12</bibl>. </p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2 1" writtenLines="28" ruledLines="28">
+                           <p>
+                              <dimensions type="written" unit="cm">
+                                 <height>24</height>
+                                 <width>19,5</width>
+                              </dimensions>, zweispaltig (<locus from="2r" to="16v">2r-16v</locus>) und einspaltig (<locus from="17r" to="78v">17r-78v</locus>), 28 Zeilen.
+								</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <summary>Unzialis von mehreren Händen</summary>
+                     <handNote script="uncialis" medium="ink">
+                        <p/>
+                     </handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <summary> Kapitelüberschriften entweder in roter Unzialis, Capitalis Quadrata oder Capitalis Rustica. Explicits in brauner oder roter Capitalis Rustica. Textanfänge häufig in roter Uncialis. Paragraphenanfänge häufig hervorgehoben durch vergrößerte Initialen in Uncialis oder Capitalis Quadrata. Nachträge: <locus from="41v">41v</locus> (10. Jh., vgl. <bibl>CLA</bibl> 9, 1374b); <locus from="75r">75r</locus>: <quote>Giselbertus</quote>, darunter <quote>ab is s stux</quote>; <locus from="38r">38r</locus> und <locus from="51r">51r</locus>: <quote>Hinc orantes cum/precamur</quote>
+                        <gap/> und <quote>Sub tempore Iere mie multe malti tie</quote>
+                        <gap/>; <locus from="28r">28r</locus> und <quote>29v</quote>: tachygraphische Marginalien.</summary>
+                     <scriptNote script="capquad caprust"/>
+                  </scriptDesc>
+                  <decoDesc>
+                     <summary>Zahlreiche aufwendigere Malereien in Kombinationen mit Diagrammen und geometrische Zeichnungen. Eine ganzseitige Miniatur.  </summary>
+                     <decoNote type="miniature">
+                        <p>Die Bilder der Handschriften beziehen sich auf folgende Themenkomplexe (<bibl>
+                              <abbr>Campbell</abbr>, XXIII</bibl>): 1. <hi rend="font-style:italic">subseciva</hi> (Land, das für die Vermessung unbrauchbar ist), <hi rend="font-style:italic">compascua</hi> (gemeinschaftlich genutztes Land) und <hi rend="font-style:italic">praefectura</hi> (Gemeinschaft römischer Bürger): <locus from="17r">17r</locus> (2x), <locus from="17v">17v</locus> (3x), <locus from="18r">18r</locus> (unten), <locus from="18v">18v</locus> (2x), <locus from="19r">19r</locus> (oben, Mitte), <locus from="21r">21r</locus>, <locus from="22r">22r</locus> oben, <locus from="22v">22v</locus> (2x), <locus from="23v">23v</locus> oben, <locus from="44v">44v</locus> Mitte, <locus from="45v">45v</locus> unten, <locus from="59r">59r</locus>, <locus from="61v">61v</locus>. 2. die Aufteilung, Ausrichtung und Anordnung von <hi rend="font-style:italic">limites</hi> (ein von Menschen gemachter Grenzverlauf): <locus from="24r">24r</locus> (2x), <locus from="24v">24v</locus>, <locus from="25r">25r</locus> (2x), <locus from="25v">25v</locus> (2x), <locus from="23v">23v</locus> unten, <locus from="42r">42r</locus>, <locus from="42v">42v</locus> (2x), <locus from="43r">43r</locus> (2x), <locus from="43v">43v</locus>, <locus from="44r">44r</locus>, <locus from="44v">44v</locus> oben u. unten, <locus from="45r">45r</locus> (2x), <locus from="45v">45v</locus> oben, <locus from="47v">47v</locus> unten, <locus from="48r">48r</locus> (2x), <locus from="55v">55v</locus>, <locus from="56r">56r</locus> (2x), <locus from="57r">57r</locus>, <locus from="65r">65r</locus> (3x), <locus from="65v">65v</locus> oben. 3. Grenzsteine, die <hi rend="font-style:italic">centuriae</hi> (Maßeinheit) markieren: <locus from="46r">46r</locus>, <locus from="46v">46v</locus> (3x), <locus from="47r">47r</locus>, <locus from="47v">47v</locus> oben, <locus from="57v">57v</locus> (2x), <locus from="58r">58r</locus>, <locus from="58v">58v</locus> (2x). 4. Kennzeichnung von Grenzverläufen und die Auszeichnung von Höfen/Ländereien mit speziellen Problemen und Eigenheiten: <locus from="18r">18r</locus> oben, <locus from="19v">19v</locus> (2x), <locus from="20r">20r</locus>, <locus from="22r">22r</locus> unten, <locus from="23r">23r</locus> (2x), <locus from="70r">70r</locus>. 5. Gebiete und topographischen Eigenheiten von einzelnen Gemeinschaften und den dazugehörigen Gebäuden: <locus from="69v">69v</locus>, <locus from="74v">74v</locus>, <locus from="75r">75r</locus>, <locus from="49v">49v</locus>, <locus from="56v">56v</locus> (2x).  6. Gebiete und topographischen Eigenheiten von mehreren Gemeinschaften: <locus from="60r">60r</locus>, <locus from="62v">62v</locus>, <locus from="63v">63v</locus>. 7. Astronomie, Geometrie und Vermessung: <locus from="49r">49r</locus> unten, <locus from="51r">51r</locus>, <locus from="51v">51v</locus>, <locus from="52v">52v</locus>, <locus from="53r">53r</locus>, <locus from="53v">53v</locus>, <locus from="54r">54r</locus> (2x).</p>
+                        <p>Zu unterscheiden sind zum einen schematische Diagramme, oder geometrische Zeichnungen, die den Text erklärend erläutern, zum anderen bildliche Darstellungen (in Farbe ausgeführte Malereien), die, oft auch in Kombination mit Diagrammen, den Text illustrieren oder ebenfalls erklären.</p>
+                        <list>
+                           <item>
+                              <locus from="4r" to="6r">4r-6r</locus> Marcus Iunius Nipsus, Liber podismi. Zahlreiche geometrische Zeichnungen mit Maßangaben <locus from="4v">4v</locus> (2x), <locus from="5r">5r</locus> (2x), <locus from="5v">5v</locus>, <locus from="6r">6r</locus>.</item>
+                           <item>
+                              <rs type="person" role="author">Epaphroditus et Vitruvius Rufus</rs>, Excerpta geometrica de mensuris agendis:
+							
+								<list>
+                                 <item>
+                                    <locus from="6v" to="15v">6v-15v</locus>zahlreiche geometrische Zeichnungen mit Maßangaben <locus from="6v">6v</locus> (2x), <locus from="7r">7r</locus> (3x), <locus from="7v">7v</locus> (3x), <locus from="8v">8v</locus>, <locus from="9r">9r</locus> (2x), <locus from="9v">9v</locus> (2x), <locus from="10v">10v</locus> (2x), <locus from="11r">11r</locus>, <locus from="11v">11v</locus>, <locus from="12r">12r</locus> (2x), <locus from="12v">12v</locus>, <locus from="13r">13r</locus>, <locus from="13v">13v</locus>, <locus from="14r">14r</locus>, <locus from="14v">14v</locus>, <locus from="15r">15r</locus> (3x), <locus from="15v">15v</locus>.</item>
+                                 <item>
+                                    <locus from="8r">8r</locus> Malerei. Links ein Berg mit angedeuteter Terassierung, rechts eine Küstenlinie mit Steilküste und einem Busch im Vordergrund. Text: <bibl>
+                                       <abbr>Bubnov</abbr>, 527,4-529,1</bibl>. Berg: <dimensions type="image" unit="cm">
+                                       <height>3,5</height>
+                                       <width>6</width>
+                                    </dimensions>; Küstenlinie: <dimensions type="image" unit="cm">
+                                       <height>4,5</height>
+                                       <width>6,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="16v">16v</locus> Malerei. Drei Grenzzeichen. Von links nach rechts: ein Baum, eine Meilensäule, ein dreistufiger Turm (Mausoleum?). Text:  <bibl>
+                                       <abbr>Bubnov</abbr>, 550,25-551,13</bibl>. Gesamt: <dimensions type="image" unit="cm">
+                                       <height>5,8</height>
+                                       <width>10.8</width>
+                                    </dimensions>.</item>
+                              </list>
+                           </item>
+                           <item>
+                              <rs type="person" role="author">Iulius Frontinus</rs> De agrorum qualitate:
+								<list>
+                                 <item>
+                                    <locus from="17r">17r</locus> Diagramm (Definition von Land, das unterteilt und vermessen wurde). Zwei Rechtecke (Centuriae), links kleiner - rechts größer. Das linke mit einer beigen Innenfläche. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 41, 42, ill. 1</bibl>. Text: <quote>Ager ergo divisus <gap/> per scamna.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 1,6-1,12, fig. 1</bibl>). Gesamt: <dimensions type="image" unit="cm">
+                                       <height>2,7</height>
+                                       <width>13,7</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm/Malerei (Definition von <hi rend="font-style:italic">decumani</hi> und <hi rend="font-style:italic">cardines</hi>). Unregelmäßig umrandetes Gebiet, unten abgegrenzt durch Wasser (Deckfarben). In der rechten Hälfte ein umrandeter Einschluss (nach <bibl>
+                                       <abbr>Dilke <hi rend="normal">Illustrations</hi>
+                                       </abbr>, 13</bibl> eventuell ein heiliger Bereich). - Das Gebiet durchzogen von zwei sich zentral überkeuzenden Linien (<hi rend="font-style:italic">decumanus maximus</hi> und <hi rend="font-style:italic">cardo maximus</hi>). Parallel zu diesen, die Fläche in Quadrate (<hi rend="font-style:italic">centuriae</hi>) einteilend, <hi rend="font-style:italic">limites</hi>. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 41, 42, ill. 3</bibl>; <bibl>
+                                       <abbr>Dilke <hi rend="normal">Illustrations</hi>
+                                       </abbr>, 13</bibl>. Text: <quote>Ager ergo <gap/> cardinibus continetur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 1,13-14, fig. 2</bibl>). <dimensions type="image" unit="cm">
+                                       <height>5</height>
+                                       <width>15</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="17v">17v</locus> Diagramm (Definition von <hi rend="font-style:italic">striga</hi> und <hi rend="font-style:italic">scamna</hi>). Rechts und links an ein großes eingefasstes Rechteck angefügt, parallel verlaufende Streifen (<hi rend="font-style:italic">strigae</hi> und <hi rend="font-style:italic">scamnae</hi>). Daran nach außen anschließend insg. drei dreieckige und eine rechteckige Fläche (<hi rend="font-style:italic">arcifini</hi> oder <hi rend="font-style:italic">subseciva</hi>). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 42, 43, ill. 4</bibl>; <bibl>
+                                       <abbr>Dilke <hi rend="normal">Illustrations</hi>
+                                       </abbr>, 13</bibl>. Text:  <quote>Ager per strigas <gap/> publica coluntur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 1,14-16, fig. 3</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4,2</height>
+                                       <width>12,7</width>
+                                    </dimensions>.</item>
+                                 <item> Diagramm (öffentliches und privates Gelände). Ein polygonaler Körper. Im Inneren und an die Außenränder angefügt, unterschiedlich kolorierte und bemessene Flächen. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 43, 44, ill. 5</bibl>. Text: <quote>Ager est mensura <gap/> populis est definitum.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 1,18-2,4, fig. 4</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4,5</height>
+                                       <width>16</width>
+                                    </dimensions>.</item>
+                                 <item> Diagramm (fälschliche Kartierung von Land, das nur Umfassungslinien erhalten hat). Eine unregelmäßig umfasste Fläche, die drei Hauptstrassen anzeigt. Die Fläche durchzogen von einem Rasterplan. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 43, 44, ill. 7</bibl>. Text: <quote>Hunc agrum <gap/> limitati condiderunt</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 2,4-2,7, fig. 5</bibl>). <dimensions type="image" unit="cm">
+                                       <height>6,5</height>
+                                       <width>18,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="18r">18r</locus> Malerei (Definition von <hi rend="font-style:italic">arcifinius</hi> - nicht vermessenes Land). Nahezu mittig, etwas rechts versetzt, eine polygonale, von Mauern und Türmchen umschlossene, nach oben offene Anlage mit einem aufgehenden Quadermauerwerk und einem apsidial überdachten Abschluß. Auf der Vorderseite zwei rechteckige Öffnungen. Das umliegende Land von zahlreichen Begrenzungen umgeben. Im Hintergrund eine Bergkette, mittig ein Fluss und im Vordergrund Baumreihen. Vorne abschließend eine Straße und vermutlich ein Graben. Auf der Straße zwei tempelähnliche Gebäude mit Giebelfronten, davon das linke auf einem Podium und mit einer Ringhalle(?), das rechte mit einer recheteckigen Öffnung an der Frontseite. Entlang der Straße gereihte Grenzsteine. Linker Hand, an der Seite des Podiumtempels, zwei runde Gegenstände, die <bibl>
+                                       <abbr>Carder</abbr>
+                                    </bibl> als begrenzende Quellen oder Wassereinzugsgebiet deutet. Rechter Hand am Rand ein weiterer Fluß, zwei rot umrandete Rasterpläne und weitere Bäume (nach <bibl>
+                                       <abbr>Carder</abbr>
+                                    </bibl>, ebenfalls Begrenzungsmarkierungen). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 44-46, ill. 8</bibl>; <bibl>
+                                       <abbr>Dilke <hi rend="normal">Illustrations</hi>
+                                       </abbr>, 14</bibl>. Text: <quote>Ager est arcifinius <gap/> possessore potuerunt optineri.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 2,8-2,15, fig. 6</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4,5</height>
+                                       <width>21</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Definition von <hi rend="font-style:italic">subsecivum</hi> - Land, das sich nicht zum Vermessen und Erschließen eignet). Ein horizontal augerichteter rechteckiger, umrandeter Plan mit dreieckigen Formen an beiden Enden (subseciva?) und einem dreieckigen Verlauf innerhalb der Fläche unten rechts. Die Fläche ist mittig durch eine horizontale breite Doppellinie gegliedert, die in regelmäßigen Abständen sechs Rechtecke (subseciva?) aufweist. Jedes dieser Rechtecke besitzt an den Schmalseiten (oben und unten) einen halbrunden Abschluss (genauer Textbezug unklar. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 46, 47, ill. 11</bibl>; <bibl>
+                                       <abbr>Dilke <hi rend="normal">Illustrations</hi>
+                                       </abbr>, 14</bibl>. Text: <quote>Subsicivum [subsecivum] est <gap/> centuria expleri non potuit</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 2,16-2,19, fig. 7</bibl>). <dimensions type="image" unit="cm">
+                                       <height>2,5</height>
+                                       <width>14</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="18v">18v</locus> Diagramm (Definition des Begriffes <hi rend="font-style:italic">subsecivum</hi>). Ein langes horizontal liegendes Rechteck mit Mittellinie. Das Innere in Rechtecke geteilt (vollständige <hi rend="font-style:italic">centuriae</hi>). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 47, ill. 13</bibl>. Text: <quote>Aliud genus subsiciuorum <gap/> cludatur et subsecetur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 2,19-2,21, fig. 8</bibl>). <dimensions type="image" unit="cm">
+                                       <height>2,5</height>
+                                       <width>12</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Definition von <hi rend="font-style:italic">subsecivum</hi>). Die Spitze eines gleichschenkligen Dreiecks ohne Grundlinie. An beiden Linien nach innen weisende, unterschiedlich kolorierte Dreiecke (<hi rend="font-style:italic">subseciva</hi>). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 47, ill. 16</bibl>. Text: <quote>Nam et reliquarum <gap/> interest subsiciuum appellamus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 3,3-3,5, fig. 9</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4,6</height>
+                                       <width>8,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="19r">19r</locus> (Definition von <hi rend="font-style:italic">subsecivum</hi>). Umrandete rechteckige Fläche mit drei vertikal verlaufenden Linien (Straßen) und einem Rasterplan. Im Rasterplan ausgespart ein kreisundes Areal (bez. <quote>Subsecivum</quote>). <bibl>
+                                       <abbr>Carder</abbr>, 47, 48, ill. 15</bibl>. Text: <quote>Est et ager similis <gap/> potuerit remanet potestate</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 3,6-3,12, fig. 10</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4,2</height>
+                                       <width>12,5</width>
+                                    </dimensions>.</item>
+                                 <item> Diagramm (Definition von <hi rend="font-style:italic">subsecivum</hi> ). Ein zenturierter Rasterplan mit unregelmäßigem, nach oben abgerundetem Umriss und zwei Hauptstrassen. Darüber gespannt ein Bogen (die linke Hälfte als Fluss). Das dazwischen liegende, unbemalte Areal zeigt das im Text definierte, ausgeschlossene Land. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 48, ill. 16</bibl>. Text: <quote>Ager extra clusus <gap/> finitima linea cludatur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 3,13-3,15, fig. 11</bibl>).<dimensions type="image" unit="cm">
+                                       <height>5</height>
+                                       <width>17,5</width>
+                                    </dimensions>. </item>
+                              </list>
+                           </item>
+                           <item>
+                              <rs type="person" role="author">Iulius Frontinus</rs> De controversiis:
+										<list>
+                                 <item>
+                                    <locus from="19v">19v</locus> Diagramm (Streit um Grenzsteine). Eine rechteckige Fläche, im Inneren durch Grenzverläufe in Parzellen unterteilt.  Diese beschriftete mit den Namen/Bezeichnungen <quote>L.Titi</quote> (Lucius Titus), <quote>A. Ageri</quote> (Aulius Agerius), <quote>M. Monstri in controversiam</quote>, <quote>M. Maaeui</quote>, <quote>Tericontro</quote>, <quote>Osei</quote> (Seius), <quote>M. Acili</quote>, <quote>incontroversia</quote>, <quote>so</quote> und <quote>cioru</quote> (<hi rend="font-style:italic">sociorum</hi>, "im allgemeinen Besitz" ?). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 49, 50, ill. 17</bibl>. Text: <quote>De positione terminorum <gap/> de fine litigat</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 4,12-4,19, fig. 12</bibl>). <dimensions type="image" unit="cm">
+                                       <height>3,2</height>
+                                       <width>15,5</width>
+                                    </dimensions>. </item>
+                                 <item> Diagramm (Streit um einen <hi rend="font-style:italic">rigor</hi> - gerade Linie). Eine polygonale Fläche wird durch zwei Linien (<hi rend="font-style:italic">rigores</hi>) in drei Abschnitte geteilt. Eine der Linien bez. <quote>rigor perpetuus</quote>, das anschließende Land bez. <quote>F(undus) Appiaeni</quote>. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 50, ill. 18</bibl>. Text: <quote>De rigore controversia <gap/> pedes agitur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 4,20-5,2, fig. 13</bibl>). <dimensions type="image" unit="cm">
+                                       <height>5</height>
+                                       <width>13,4</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="20r">20r</locus> Malerei (Streit um Grenzverläufe). Rechteckige Fläche, links spitzwinklig endend. Die Fläche ist durch im Zickzack verlaufende grüne und rote Linien, sowie kleinen Kreisen (Grenzzeichen) in Andeutungen unterteilt. Die so ausgewiesenen Flächen mit den Namenszügen  der Landbesitzer: <quote>F(undo) Themasiano</quote>, <quote>F(undus) Carisianus</quote>, <quote>F(undus) Caesianus</quote>, <quote>Alliae l(uci) F(ilia)</quote>, <quote>Caturi</quote>, <quote>Priscillae</quote> und <quote>P(ubli) petroni</quote>. Vorne unten ein Flußlauf, Vorgebirge (farblich vom Gebirge abgesetzt) und oben und rechts entlang der Fläche eine Ackerfurche. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 50, 51, ill. 19</bibl>. Text: <quote>De fine similis <gap/> supercilium appellant</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 5,3-5,9, fig. 14</bibl>). <dimensions type="image" unit="cm">
+                                       <height>5,5</height>
+                                       <width>20</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="20v">20v</locus> Diagramm (Streit um vermessenes Land). Rechteckige Fläche mit Rasterplan. In der Mitte eine vertikale Linie. Text: <quote>De modo controversia<gap/>non quadrat</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 5,16-6,2</bibl>). <dimensions type="image" unit="cm">
+                                       <height>3,5</height>
+                                       <width>11</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="21r">21r</locus> Diagramm/Malerei (Streit um Landbesitz). Zwei rechteckige Rasterpläne, rechts ein kleinerer, links ein größerer. Dazwischen ein unregelmäßiges Polygon (Weideland). Darauf zahlreiche Blumen und Gräser. In den oberen Zwickeln zwischen Rasterplan und Weideland die Inschrift <quote>Cumpascua communa prossimorum possessorum</quote> (Kommunales Weideland der benachbarten Landbesitzer). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 53, ill. 24</bibl>. Text: <quote>Est et pascuorum <gap/> provinciis pro indiviso</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 6,7-6,10, fig. 18</bibl>). <dimensions type="image" unit="cm">
+                                       <height>5,5</height>
+                                       <width>14</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="22r">22r</locus> Diagramm/Malerei (Streit um ein <hi rend="font-style:italic">subsecivum</hi>). Ein rechteckiger, zenturierter Rasterplan mit einer unregelmäßigen Außengrenze. Links und rechts zwei Hauptfelder mit jeweils zwei sich kreuzenden Straßen. Zwischen den zenturierten Plänen ein Feld ohne Rasterplan, dafür mit einer gleichschenkligen Raute. Letztere mit der Deckfarbendarstellung einer Seen- bzw. Sumpflandschaft mit Enten, Wasserstellen und Wasserpflanzen. Die oberen Seiten der Raute flankierend der Begriff <quote>subsiciva</quote>, der sich entweder auf die Sumpflandschaft oder auf die leere Fläche zwischen  Rasterplan und Sumpflandschaft bezieht. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 53, 54, ill. 25</bibl>. Text: <quote>De subscivis controversia <gap/> controversiam pertinebit</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 8,7-8,11, fig. 19</bibl>). <dimensions type="image" unit="cm">
+                                       <height>6</height>
+                                       <width>20</width>
+                                    </dimensions>.</item>
+                                 <item> Malerei (Streit um öffentliche Plätze). Ein Fluss und rechter Hand ein durch den Flusslauf begrenztes Land (das alte Flußbett, bez. <quote>Insula F[undus] Septicianus</quote>). Links anschließend an das Flußbett das private Land (bez. <quote>F[undus] Septicianus</quote>), das durch den Flußverlauf und eine polygonale Linie begrenzt wird. In dieser Umfassung ein pfeilartiges, parzelliertes Areal (bestellte Felder?). Linker Hand ein Berg mit Vegetation (Berg Mutela, bez. <quote>Mons mutela reipub populi Rom</quote>). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 55, 56, ill. 28</bibl>. Text: <quote>De locis publicis <gap/> sabinis in monte Mutela</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 8,12-8,20, fig. 20</bibl>). <dimensions type="image" unit="cm">
+                                       <height>7,8</height>
+                                       <width>20,5</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="22v">22v</locus> Diagramm/Malerei (Streit um öffentliche Plätze). Diagramm mit der Grundanordnung wie auf <locus from="22r">22r</locus>. Die Raute mit vier Pflanzen (bez. <hi rend="font-style:italic">subseciva</hi>). Der rechte Rasterplan zur <hi rend="font-style:italic">subseciva</hi> hin geöffnet (der übernehmende Eigentümer). <bibl>
+                                       <abbr>Carder</abbr>, 56, 57, ill. 31</bibl>. Text: <quote>Nam et coloniarum <gap/>ut subsisciva concessa</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 8,20-9,2, fig. 21</bibl>). <dimensions type="image" unit="cm">
+                                       <height>3,5</height>
+                                       <width>15,5</width>
+                                    </dimensions>. </item>
+                                 <item> Diagramm/Malerei (Streit um unvermessene Plätze). Diagramm mit der Grundanordnung wie auf <locus>22r, A</locus>. In der Raute eine Bergdarstellung (bez. <quote>Relictus et non adsignatus</quote> - verlassen und nicht vermessen). Die linke Fläche zur Raute hin offen. Die rechte mit zwei sich kreuzenden roten Linien (Straßen). Vgl.  <bibl>
+                                       <abbr>Carder</abbr>, 57, ill. 34</bibl>. Text: <quote>De locis relictis <gap/> sunt iuris subsicivorum</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 9,3-9,5, Abb. 22</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4</height>
+                                       <width>12,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="23r">23r</locus> Diagramm/Malerei (Streit um das Wegerecht). Ein Rasterplan wird von einer horizontalen und einer diagonal verlaufenden Linie (beides Straßen) durchzogen. Am Kreuzungspunkt beider Straßen befindet sich eine Haus mit zwei Bäumen. Links, auf der anderen Seite des Berges, zwei weitere Häuser. Eine diagonale Straße endet am Fuß eines Berges und berücksichtigt den Rasterplan nicht. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 61, ill. 44</bibl>. Text: <quote>De itineribus controversia <gap/> locum limitis debeat</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 10,5-10,13, fig. 23</bibl>). <dimensions type="image" unit="cm">
+                                       <height>5,5</height>
+                                       <width>15</width>
+                                    </dimensions>.</item>
+                                 <item> Diagramm/Malerei (Streit um Obstbäume). Ein rechteckiges Areal, das links zwei dreieckig aneinandergefügte Gebiete und rechts ein größeres rechteckiges zeigt. Das linke dreieckige Feld mit einem Rundtempel/Mausoleum ist bez. mit <quote>F(undus) terentianus</quote>, das rechte Feld mit einem Tempel und <quote>F(undus) seianus</quote>. Im großen rechten Feld ein Obstbaum mit herunterfallenden Früchten. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 61, 62, ill. 47</bibl>. Text: <quote>Est et controversiae <gap/> monent disputationem</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 10,14-10,18, fig. 24</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4,5</height>
+                                       <width>15</width>
+                                    </dimensions>.</item>
+                              </list>
+                           </item>
+                           <item>
+                              <rs type="person" role="author">Iulius Frontinus</rs> De arte mensoria:
+									<list>
+                                 <item>
+                                    <locus from="23v">23v</locus> Diagramm (Definition von <hi rend="font-style:italic">pertica</hi> und <hi rend="font-style:italic">praefectura</hi>). Zwei rechteckige Rasterpläne (links größer als rechts) die mittig durch ein nicht zenturiertes Gebiet miteinander verbunden sind. Der rechte Rasterplan bez. mit <quote>praefectura</quote>, der linke mit einem angesetzten, dreieckigen Element, ebenfalls bez. mit <quote>praefectura</quote>. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 69, 70, ill. 75</bibl>. Text: <quote>Sunt et aliae <gap/> praefectura appellatur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 14,21-15,4, fig. 32</bibl>). Gesamt: <dimensions type="image" unit="cm">
+                                       <height>3,6</height>
+                                       <width>20,2</width>
+                                    </dimensions>. </item>
+                                 <item>Malerei (Das Vermessen von Abhängen). Ein Berg mit terassierten Abhängen. Darauf angepflanztes Getreide (zahlreiche Ähren). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 69, 70, ill. 78</bibl>. Text: <quote>Cultellandi rato quae <gap/> mensurae lateribus inseruimus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 18,12-18,15, fig. 33</bibl>). <dimensions type="image" unit="cm">
+                                       <height>5</height>
+                                       <width>14,5</width>
+                                    </dimensions>. </item>
+                              </list>
+                           </item>
+                           <item>
+                              <rs type="person" role="author">Iulius Frontinus</rs> De limitibus:
+									<list>
+                                 <item>
+                                    <locus from="24r">24r</locus>Diagramme (Definition von <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi>). Zwei Kreise mit je einer horizontalen Axe. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 64, ill. 55</bibl>. Text: <quote>Ab hoc fundamento <gap/> decumanus est factus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 11,9-12,2, fig. 25</bibl>). Jeweils:  <dimensions type="image" unit="cm">
+                                       <dim>4</dim>
+                                    </dimensions>. </item>
+                                 <item>Diagramme (Definition von <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi>) Zwei unterschiedlich große Kreise. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 64, ill. 57</bibl>. Text: <quote>Postea hoc ignorantes <gap/> decumanus in meridianum</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 12,5-12,10, fig. 26</bibl>). Links: <dimensions type="image" unit="cm">
+                                       <dim>4</dim>
+                                    </dimensions>; rechts: <dimensions type="image" unit="cm">
+                                       <dim>5</dim>
+                                    </dimensions>.  </item>
+                                 <item>
+                                    <locus from="24v">24v</locus> Diagramme (Definition von <hi rend="font-style:italic">transversi</hi> und <hi rend="font-style:italic">prorsi</hi>).  Zwei Kreise mit jeweils einbeschriebenem Kreuz. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 65, ill. 63</bibl>. Text: <quote>Haec vocabula <gap/> permanere dicuntur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 12,16-13,2, fig. 27</bibl>). Jeweils:  <dimensions type="image" unit="cm">
+                                       <dim>4</dim>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="25r">25r</locus> Malerei/Diagramm (Definition von <hi rend="font-style:italic">limites</hi>). Mittig eine Kreis mit Hauptkreuz. In Deckfarben linker Hand ein Berg und rechter Hand eine rechteckige Wasserfläche mit zahlreichen Wassertieren (Oktopus, Delphine, Neunauge?, Krabbe?, Fisch) und einem Wasserlotus. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 65, 66, ill. 64</bibl>. Text: <quote>Limites autem appellati <gap/> qui ad monte(m) montanos</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 13,2-13,12, fig. 28</bibl>). Gesamt: <dimensions type="image" unit="cm">
+                                       <height>6</height>
+                                       <width>22</width>
+                                    </dimensions>.</item>
+                                 <item> Diagramm (Beschreibung von <hi rend="font-style:italic">plethron</hi>, bzw. <hi rend="font-style:italic">vorsus</hi>). Zwei Rechtecke. Das linke geteilt von einer vertikalen Linie (einer der so gefassten Flächen ein <hi rend="font-style:italic">acti</hi>?). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 66, 67, ill. 68</bibl>. Text: <quote>Primum agri modum <gap/> appellatum dicunt fun|dum. </quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 13,14-13,20, fig. 29</bibl>). Gesamt: <dimensions type="image" unit="cm">
+                                       <height>2</height>
+                                       <width>17</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="25v">25v</locus> Diagramm (Beschreibung von <hi rend="font-style:italic">lugerum</hi> und <hi rend="font-style:italic">actus</hi>). Ein Rechteck, in der Mitte vertikal geteilt (nach <bibl>
+                                       <abbr>Carder</abbr>
+                                    </bibl> besser passend zu <bibl>
+                                       <abbr>Thulin</abbr>, 13,20-14,30</bibl>). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 67, ill. 70</bibl>. Text: <quote>Hi duo fundi <gap/> in hunc modum</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 13,20-13,22, fig. 30</bibl>). <dimensions type="image" unit="cm">
+                                       <height>2</height>
+                                       <width>7,5</width>
+                                    </dimensions>. </item>
+                                 <item> Diagramme (Ausrichtung von <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">limites</hi>). Zwei gleiche Kreise ohne Inhalt. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 67, 68, ill. 72</bibl>. Text:<quote>Multi mobilem solis <gap/> constitutio, ubi proxima <gap/>
+                                    </quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 14,14-14,21, fig. 31</bibl>). <dimensions type="image" unit="cm">
+                                       <dim>4</dim>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <rs type="person" role="author">Hyginus Gromaticus</rs> Constitutio limitum:
+											<list>
+                                       <item>
+                                          <locus from="42r">42r</locus> Malerei (Erklärung von Grenzlinein / <hi rend="font-style:italic">limites</hi>, <hi rend="font-style:italic">decumani</hi> und <hi rend="font-style:italic">kardines</hi>). In Deckfarbe ein blauer kreisrunder Reif mit weißen Sternen. Im Inneren ein rotes Kreuz (<hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi>). Text: <quote>Inter omnes <gap/> templorum adscribitur</quote> (<bibl>
+                                             <abbr>Thulin</abbr>, 131,1-132, 5, fig. 66</bibl>;  <bibl>
+                                             <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                             </abbr>, 112, Abb. 1</bibl>). <dimensions type="image" unit="cm">
+                                             <dim>5</dim>
+                                          </dimensions>.</item>
+                                       <item>
+                                          <locus from="42v">42v</locus> Diagramm (Erstellen von Grenzlinien / <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi>). Ein Kreis mit <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi> (bez. <quote>DM</quote> und <quote>KM</quote>). Am Kreis die Bez.: links <quote>occidens</quote>, rechts <quote>oriens</quote>, oben <quote>Septentrio</quote> unten <quote>Meridianus</quote>. Text: <quote>Ab hoc exemplo <gap/> a mundi kardine(m)</quote> (<bibl>
+                                             <abbr>Thulin</abbr>, 132,6-132,12, fig. 67</bibl>; <bibl>
+                                             <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                             </abbr>, 112,15-19, Abb. 2</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 45v. <dimensions type="image" unit="cm">
+                                             <dim>2,5</dim>
+                                          </dimensions>.</item>
+                                       <item>Diagramm (Bezeichnung von <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi> und das Erstellen von <hi rend="font-style:italic">prorsi</hi> und <hi rend="font-style:italic">transversi</hi>). Ein Kreis mit Rasterplan und Kreuz. Die Mittellinie bez.  <quote>Transversus</quote>. Links die Bez. <quote>Septentrio</quote>, rechts die Bez. <quote>Meridianus</quote>. Text: <quote>Duo(de)cimanum postea <gap/> transversos appellaverunt</quote> (<bibl>
+                                             <abbr>Thulin</abbr>, 132,13-132,20, fig. 68</bibl>; <bibl>
+                                             <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                             </abbr>, 112,20-24, Abb. 3</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 45v. <dimensions type="image" unit="cm">
+                                             <dim>3,8</dim>
+                                          </dimensions>.</item>
+                                       <item>
+                                          <locus from="43r">43r</locus> Malerei (Bezeichnung der Grenzlinien nach regionalen Begebenheiten). Links das Meer mit weißen Wellen (bez. <quote>Maris</quote>), rechts, direkt angrenzend, ein zweistufiger Berg mit angedeuteter Vegetation. Oberhalb des Meeres, links angrenzend an den Berg ein Rasterplan (bez. <quote>Limites Maritimi)</quote>). Vgl. <bibl>
+                                             <abbr>Carder</abbr>, 77, 78, ill. 84</bibl>. Text: <quote>Limites autem appellati <gap/> quid ad montem, montani</quote> (<bibl>
+                                             <abbr>Thulin</abbr>, 132,20-133,6, fig. 69</bibl>; <bibl>
+                                             <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                             </abbr>, 112,24-29, Abb. 4</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat">105 Gud. lat.</ref>, 46v. <dimensions type="image" unit="cm">
+                                             <height>4,2</height>
+                                             <width>14</width>
+                                          </dimensions>.</item>
+                                    </list>
+                                 </item>
+                                 <item>Diagramm (Limes quintarius als sechster limes). Der <hi rend="font-style:italic">kardo</hi> (bez. <quote>KM</quote>) als Basislinie. Oberhalb im rechten Winkel der <hi rend="font-style:italic">decumanus</hi> (bez. <quote>DM</quote>). In der rechten Hälfte ein Rasterplan, die rechte äußere Linie bez. mit <quote>D Quintarius</quote>, die obere äußere Linie mit <quote>K Quintarius</quote>, <quote>Decimanus autem <gap/> latitudines accepterunt</quote>. Text: <quote>Omnis ergo <gap/> limitibus cluduntur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 133,10-134,14, fig. 70, 71</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 112,29-35, Abb. 5</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 46v. <dimensions type="image" unit="cm">
+                                       <height>2,2</height>
+                                       <width>7</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="43v">43v</locus>Diagramm (Grenzlinien als Wege). Gleiche Darstellung wie <locus from="43r">43r</locus> unten. Die <hi rend="font-style:italic">limites</hi> jedoch doppelt gezogen. Text: <quote>Reliqui medii <gap/> latitudines acceperunt</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 133,10-134,14, fig. 70, 71</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 112,35-39 und 118,1-8, Abb. 6</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 46v. <dimensions type="image" unit="cm">
+                                       <height>2,2</height>
+                                       <width>6</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="44r">44r</locus> Malerei (Ausrichtung des Tempels nach Osten). In der Mitte der Darstellung ein Kreis, mittig durchkreuzt von <hi rend="font-style:italic">kardo</hi> (bez. <quote>Kardo</quote>) und <hi rend="font-style:italic">decumanus</hi> (bez. <quote>decumanus</quote>). Links die Bez. <quote>septentrio</quote>, rechts die Bez. <quote>Meridianus</quote>. Den Kompass auf beiden Seiten flankierend jeweils ein Podiumstempel. Beide mit Mauerwerk aus Quadersteinen und einem Dach mit roten Dachziegeln. Der rechte Tempel auf der Längsseite mit zwei Fensteröffnungen. Auf dem treppenlosen Podium jeweils eine Tempelfront mit vier schlanken korinthischen Säulen und Tür. Links im Giebel und über der Tür ein Kranz mit seitlichen Bändern. Rechts in derselben Position ein Weinrankenmotiv. Als Akroter auf beiden Giebeln ein "Crux ansata" (altägyptisches Lebenszeichen, Ankh-Kreuz, von der koptischen Kirche als Christuszeichen verwendet (vgl. New York, Pierpont Morgan Library, Codex Glazier 67; zur Verwendung des Zeichens und seiner Symbolik vgl. <bibl>
+                                       <abbr>Tewes</abbr>, 57, Abb. 60</bibl>; vgl. auch <ref type="mss" cRef="4-weiss_tei-msDesc_Westphal">14 Weiss.</ref>). Im Geison des rechten Tempels ein Palmettenfries, im Sima bei beiden ein Pelta-Dreiecksfries (zum Motiv und seiner Datierung vgl. <bibl>
+                                       <abbr>Carder</abbr>, 79, 200, 201</bibl>; <bibl>
+                                       <abbr>Carder</abbr>, 78-80, ill. 87</bibl>). Text: <quote>Secundum antiquam <gap/> in orientem constituuntur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 134,15-134,21, fig. 72</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 118,9-13, Abb. 7</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 46v Mitte. Gesamt: <dimensions type="image" unit="cm">
+                                       <height>4,2</height>
+                                       <width>18</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="44v">44v</locus> Diagramm (Grenzlinien ohne astronomische Orientierung). Kreis mit Rasterplan. Darin ein Kreuz kombiniert mit einem Schrägkreuz (beide als <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi>, bez. mit <quote>DM</quote> und <quote>KM</quote>). Links vom Kreis die Bez. <quote>Oriens</quote>, rechts die Bez. <quote>Occidens</quote>). Text: <quote>Multi ignorantes <gap/>non convenerit</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 136,18-136,22 fig. 73</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 118,14-20, Abb. 8</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 46v unten. <dimensions type="image" unit="cm">
+                                       <dim>3,4</dim>
+                                    </dimensions>.</item>
+                                 <item> Diagramm (Grenzlinien zweier benachbarter Kolonien mit unterschiedlicher Ausrichung). Zwei aneinandergrenzende Rasterpläne; der linke (bez. <quote>perticae pars</quote>) nur mit horizontaler Einteilung und der rechte (<quote>perticae alterius coloniae</quote>) mit unregelmäßigen Abmessungen. Text: <quote>Et quidam <gap/> longitudo constaret</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 135,7-135,10, fig. 74</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 118,18-19,  Abb. 9</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 47r oben. <dimensions type="image" unit="cm">
+                                       <height>4,3</height>
+                                       <width>10</width>
+                                    </dimensions>.</item>
+                                 <item> Diagramm (Decimanus und kardo nach vertauschter Himmelsrichtung konstruiert - wahrer Norden links). Kreis mit  Rasterplan und <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi> (bez. mit <quote>DM</quote> und <quote>KM</quote>). Rechts die Bez. <quote>Septentrio</quote>, links die Bez. <quote>Meridianus</quote>. Text: <quote>Quidam agri <gap/> fecerunt decimanum</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 135,10-135,14, fig. 75</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 118,20-21 Abb. 10</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 47r unten. <dimensions type="image" unit="cm">
+                                       <dim>3,7</dim>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="45r">45r</locus> Diagramm (wahrer Norden - links - auf dem nach Süden ausgerichteten Decimanus). Ein Kreis mit <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi> (bez. mit <quote>DM</quote> und <quote>KM</quote>), wobei die Vertikale als <hi rend="font-style:italic">kardo</hi> und die Horizontale als <hi rend="font-style:italic">decumanus</hi> eingetragen wurde. Links die Bez. <quote>Septentrio</quote>, rechts die Bez. <quote>Meridianus</quote>. Text: <quote>Quidam in totu <gap/> est circa Capuam</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 135,12-135,14, fig. 76</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 118,21-23, Abb. 11</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>,  47r unten. <dimensions type="image" unit="cm">
+                                       <dim>3,5</dim>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Flächeninhalte der Parzellen in Venturia - nahe dem heutigen Merída). Ein Rasterplan. Unten der <hi rend="font-style:italic">kardo</hi> (bez. <quote>KM</quote>) mit mittig aufsteigendem Decumanus (bez. <quote>DM</quote>). Auf dem <hi rend="font-style:italic">kardo</hi> Maßeinheiten. Text: <quote> Modum autem <gap/> in orientem</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 135,15-135,20, fig. 77</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 118, 24-28, Abb. 12</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>,  47v oben. <dimensions type="image" unit="cm">
+                                       <height>2,5</height>
+                                       <width>6,7</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="45v">45v</locus> Diagramm (Flächeninhalte der centuriae in Turgalium - Trujillo - und Mullica - Montemolin?). Darstellung wie auf <locus from="45r">45r</locus> unten. Ergänzt durch Maßeinheiten jetzt auch entlang des <hi rend="font-style:italic">decumanus</hi>. Text: <quote> Quibusdam deinde coloniis  <gap/> kardines actus XL</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 136,1-136,7, fig. 78</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 118,29-33, Abb. 13</bibl>). <dimensions type="image" unit="cm">
+                                       <height>2</height>
+                                       <width>7</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Flächeninhalte der Zenturien in zwei Verwaltungsbezirken). Ein Rasterplan mit rechteckiger Anfügung rechts. Text: <quote>Nam et <gap/> partis subsiciva</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 136,7-136,10, fig. 79</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 118,33-35, Abb. 14</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 47v unten. <dimensions type="image" unit="cm">
+                                       <height>3</height>
+                                       <width>11</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="46r">46r</locus> Malerei/Diagramm (Beschriftung der Scheitelflächen von Grenzsteinen nach Decimanus und Kardo). Links und rechts je ein zylindrischer Grenzstein, daneben je ein Diagramm mit der entsprehenden Bezeichnung. Rechts ein Kreis mit einem nach den Himmelrichtungen ausgerichteten Kreuz, links die Bez. <quote>KM</quote> (kardo  maximus) und rechts <quote>DM</quote> (Decumanus maximus). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 80, 81, ill. 90</bibl>. Text: <quote>Quidam vertices <gap/> in kardine solet</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 137,6-137,8, fig. 80</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 126,10-14, Abb. 15</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 48r oben. Gesamt: <dimensions type="image" unit="cm">
+                                       <height>5</height>
+                                       <width>16,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="46v">46v</locus>Diagramme (Beschriftung der Scheitelfläche mit Leerstelle - anguli clusares ohne Beschriftung). Zwei Kreispaare. Beide Paare mit <hi rend="font-style:italic">decumanus</hi> (bez. <quote>DM</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <quote>KM</quote>). Linkes Paar oberhalb und unterhalb, rechtes Paar oberhalb die Bez. <quote>Anguli clusares</quote>. Text: <quote>Sic et ulterios <gap/> talis inscriptio s. d. u. k.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 137,8-137,15, fig. 81</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 126,13-18, Abb. 16</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphalt">105 Gud. lat.</ref>, 48r, 1. und 2. Diagramm von oben. <dimensions type="image" unit="cm">
+                                       <height>2,6</height>
+                                       <width>17</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Positionsangabe der Zenturien nach ihrer Lage zu Decimanus und Kardo). Vier Grenzsteinbeschriftungen als Ecken eines Rechtecks  mit <hi rend="font-style:italic">kardo</hi> und <hi rend="font-style:italic">decumanus</hi>.  Im Kreuzungspunkt ein weiterer Kreis. Grenzsteine und Quadranten mit Beschriftungen.  .Text: <quote>Comparemus nunc <gap/>intra cludunt</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 137,18-138,3, fig. 82</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 126,21-23, Abb. 18</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 48r, 3. Diagramm von oben. <dimensions type="image" unit="cm">
+                                       <height>3,5</height>
+                                       <width>9</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Position der Grenzsteine auf 1., 2., und 3. limes). Rasterplan mit fünf verteilten Grenzsteinbeschriftungen. Text: <quote>Sic et in <gap/>lapidum inscriptiones</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 138,3-138,6, fig. 83a</bibl>
+                                    <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 126,23-24, Abb. 19</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4</height>
+                                       <width>7,9</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="47r">47r</locus>  Malerei/Diagramm (Beschriftung eines Grenzsteins auf Scheitel- und Seitenfläche). Links und rechts je ein zylindrischer Grenzstein (Deckfarben). Dazwischen das Diagramm einer beschrifteten Seitenansicht,  bez. mit <quote>VK LXIV DD LXXXVI</quote> (vertikal) und <quote>K LXIV D LXXXVII</quote> (Kopfseite des Steins), wobei die Bezeichnungen nicht mit dem eigentlichen Text übereinstimmen. Nach <bibl>
+                                       <abbr>Carder</abbr>, 81, ill. 93</bibl> handelt es sich bei den nummerischen Bezeichnungen auf der Zeichnung sowohl um die Benennung von <hi rend="font-style:italic">decumani</hi> und <hi rend="font-style:italic">kardines</hi> innerhalb eines Zenturiensystems, als auch um die Zenturien selbst.  Text: <quote>Latera autem lapidum <gap/> quo centuria cluditur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 138,6-138,13, fig. 84</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 126,24-28, Abb. 20</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 48r unten. <dimensions type="image" unit="cm">
+                                       <height/>
+                                       <width/>
+                                    </dimensions>
+                                 </item>
+                                 <item>
+                                    <locus from="47v">47v</locus>Diagramm (Beschriftung des Grenzsteins auf Decimanus und Kardo). Zenturia mit <hi rend="font-style:italic">decumanus</hi>, <hi rend="font-style:italic">kardo</hi> (Beschriftung gemäß d. Textes) und einem Kreis um den Kreuzungspunkt. Text: <quote>Multos limitum <gap/> qui et maximus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 138,14-139,9, fig. 85</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 126,29-132,7, Abb. 21</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 48v. <dimensions type="image" unit="cm">
+                                       <height>5,5</height>
+                                       <width>14,5</width>
+                                    </dimensions>. </item>
+                                 <item>Diagramm (Lage des limes quintarius mit markierter Wegbreite - Norden links). <hi rend="font-style:italic">Kardo</hi> mit aufsteigendem <hi rend="font-style:italic">decumanus</hi> und Rasterplan. In der obersten Zeile die Bez. <quote>Quintarius</quote>. Text: <quote>Sed et de limitibus <gap/> spatio itineris ampliaretur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 139,9-139,16, fig. 86</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 132,7-11, Abb. 22</bibl>). <dimensions type="image" unit="cm">
+                                       <height>3</height>
+                                       <width>8,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="48r">48r</locus>Diagramm (Lage des limes quintarius auf Decimanus und Kardo - Norden links). <hi rend="font-style:italic">Kardo</hi> mit aufsteigendem <hi rend="font-style:italic">decumanus</hi> und Rasterplan. Rechts und oben jeweils die Bez. <quote>Quintarius</quote>. Text: <quote>Erat sane interpretatio <gap/> accessit, sex fiunt</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 139,17-140,6, fig. 87</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 132,12-17, Abb. 23</bibl> ). <dimensions type="image" unit="cm">
+                                       <height>4</height>
+                                       <width>8,5</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Wegbreite der limites quintarii). Rasterplan mit <hi rend="font-style:italic">Decimanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">Kardo</hi> (bez. <quote>km</quote>). Rechts und oben jeweils die Bez. <quote>Quintarius</quote>. Text: <quote>Eandem observationem <gap/> servari placuit</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 140,6-140,11, fig. 88</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 132,17-20, Abb. 24</bibl>). <dimensions type="image" unit="cm">
+                                       <height>3,5</height>
+                                       <width>8</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="49v">49v</locus> Malerei (Konstruktion einer Musterkolonie trotz Geländeschwierigkeiten) Eine oktogonal angelegte Stadt, angezeigt durch Stadtmauern mit Mauerwerk und jeweils drei Türmen mit runden Dächern (bez. <quote>Col</quote>onia <quote>Iulia</quote>). Die Bereiche der Tore in Ost-West-Ausrichtung wurden frei gelassen. Unterhalb der Stadt das Meer, darunter angedeutetes Land, links und rechts angedeutete Felsformationen (Berge). Im Hintergrund ein Rasterplan, der durch zwei ost-west ausgerichtete Straßen definierte wird. Diese führen durch die freigelassenen Toröffungen der Stadt. Auf der linken Seite der Darstellung die Bezeichnung <quote>Vestustinorum</quote>. <bibl>
+                                       <abbr>Carder</abbr>, 95, 96, ill. 115</bibl>. Text: <quote>Licet exitum decumanus <gap/> centuriae nominentur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 146,5-146,8, fig. 97</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 138,24-144,7 Abb. 33</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 52r. <dimensions type="image" unit="cm">
+                                       <height>9</height>
+                                       <width>20,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="50r">50r</locus> Diagramm (Parallelenkonstruktion zu zwei naheliegenden Punkten durch unmittelbare Anschauung). Zwei Pläne ohne <hi rend="font-style:italic">limites</hi>.  Links bez. <quote>sig</quote> und <quote>sign</quote>, rechts bez. <quote>conspectus</quote>. Text: <quote>Si vero in <gap/> ferramento explicabimus </quote> (<bibl>
+                                       <abbr>Thulin</abbr>155,17-156,3, fig. 111a</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 164,3-7, Abb. 47</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 52v. Gesamt: <dimensions type="image" unit="cm">
+                                       <height>2,2</height>
+                                       <width>14</width>
+                                    </dimensions>. </item>
+                                 <item>Geometrische Zeichnung (Parallelenkonstruktion zu einer nicht zugänglichen Geraden). Text: <quote>Sit ergo <gap/>ordinata AC</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 156,4-156-16, fig. 112a</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 164,8-16, Abb. 48</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat">105 Gud. lat.</ref>, 52v<dimensions type="image" unit="cm">
+                                       <height>2,5</height>
+                                       <width>11,5</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="51r">51r</locus> Malerei/Diagramm (Fehlerhafte Ermittlung des Sonnenuntergangs bei dazwischen liegendem Berg). Rechts ein Berg (bez. <quote>mons</quote>) mit Berechnungsschema linker Hand. Ausgehend vom Standpunkt des Betrachters auf der Ebene (bez. <quote>planitia</quote>), zwei Messungen (jeweils bez. <quote>conspectus</quote>), eine zum Sonnenaufgang (bez. <quote>ortus</quote>) und eine einige Zeit später im Tagesverlauf (bez. <quote>solis cursus</quote>). Hinter dem Berg der rekonstruierte Punkt des Sonnenuntergangs <quote>occasus</quote>. Der Berg ist auf der linken Seite abgedunkelt, d.h. die Sonne steht bereits auf der anderen, nicht sichtbaren Seite. <bibl>
+                                       <abbr>Carder</abbr>, 96, 97, ill. 118</bibl>; <bibl>
+                                       <abbr>Knobloch</abbr>
+                                       <hi rend="normal">Aspekte</hi>, 84-88, Abb. 1</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 64, 65, Abb. 2.1</bibl>. Text: <quote>Et si kardo <gap/> ulteriore parte resplendeat?</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 147,12-147,16, fig. 98</bibl>;<bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 144,8-26, Abb. 34</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 53r. <dimensions type="image" unit="cm">
+                                       <height>4,2</height>
+                                       <width>13,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="51v">51v</locus> Diagramm (geozentrisches Planetensystem mit Tierkreis und Erdhorizont). Erde als Mittelpunkt (bez. <quote>Terra</quote>) mit acht Umlaufbahnen. Von außen nach innen mit den Bezeichnungen <quote>Saturnus</quote> (zweite Bahn), <quote>Iobis</quote> (dritte Bahn), <quote>Venus</quote> und <quote>Sol</quote> (fünfte Bahn), <quote>Mercurius</quote> (sechste Bahn), <quote>Luna</quote> (achte Bahn). Im Aufriss mittig der Horizont (bez. <quote>orizon</quote>), diagonal der Tierkreis (bez. <quote>circulus zodiacus</quote>). Linker Hand schräg außen an den Umlaufbahnen die Bezeichnung <hi rend="font-style:italic">pol</hi> (bez. <quote>Polus</quote>). Vgl. <bibl>
+                                       <abbr>Knobloch</abbr>
+                                       <hi rend="normal">Aspekte</hi>, 84-88, Abb. 2</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 65-68, Abb. 2.2</bibl>; Text: <quote>Caeli autem <gap/> constare fertur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 148, 12-149, 5, fig. 99</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 144,27-148,14, Abb. 35</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 54r. <dimensions type="image" unit="cm">
+                                       <height>5,8</height>
+                                       <width>15</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="52v">52v</locus> Malerei (Senkrechte Parallelprojektion der Himmelssphäre mit den fünf Zonen und Tierkreis). Doppelt gezogener Kreis, blau gefüllt. Darauf aufgetragen unterschiedlich große weiße Sterne. Im Inneren die Bez. <quote>septintrionales</quote>, <quote>solistitiales</quote>, <quote>equinoctiales</quote>, <quote>brumalis</quote> und <quote>austrinales</quote> (die fünf Orientierungskreise). Vgl. <bibl>
+                                       <abbr>Knobloch</abbr>
+                                       <hi rend="normal">Aspekte</hi>, 98-102, Abb. 7</bibl>. Text: <quote> Solem autem <gap/> umbra describitur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 149,6-150,16, fig. 100</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 148,15-39, Abb. 36</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphalt">105 Gud. lat.</ref>, 54v. <dimensions type="image" unit="cm">
+                                       <dim>6</dim>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="53r">53r</locus> Diagramm (geozentrisches Planetensystem mit darübergelegter Projektion der Himmelssphäre). Doppelt gezogener Kreis, orange gefüllt. Im Inneren die Bezeichnung der fünf Orientierungskreise <quote>septentrionales</quote>, <quote>solistitiales</quote>, <quote>equinoctiales</quote>, <quote>brumalis</quote> und <quote>austrinales</quote> sowie acht Umlaufbahnen mit den Planetenberzeichnungen (von außen nach innnen): <quote>Saturni</quote> (achte Bahn), <quote>Mart. Solis</quote> (sechste Bahn), <quote>neris</quote> (fünfte Bahn; das zugehörige <quote>Ve</quote> in der sechsten Bahn), <quote>rcur</quote> (vierte Bahn; das zugehörige <quote>Me</quote> in der fünften Bahn), <quote>Terrae</quote> (dritte Bahn). Über dem mittig platzierten Äquinoktialkreis die Bez. <quote>zon</quote> (für <quote>horizon</quote> oder <quote>zona</quote>?). Vgl. <bibl>
+                                       <abbr>Knobloch</abbr>
+                                       <hi rend="normal">Aspekte</hi>, 98-102, Abb. 8</bibl>. Text: <quote>
+                                       <gap/> et quidquid  a media terra <gap/> esse conprehendimus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 151,8-152,2, fig. 101</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 152,1-17, Abb. 37</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 54v (hier ohne Bez.). <dimensions type="image" unit="cm">
+                                       <dim>6,7</dim>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="53v">53v</locus> Zeichnung (indische Methode zur Ermittlung der Mittagslinie nach dem Sonnenverlauf - unfertige Illustration). Ein <hi rend="font-style:italic">gnomon</hi>, darum herum ein Kreis. Nach unten fallend, den Kreis schneidend, ein Schattenbüschel. Vgl. <bibl>
+                                       <abbr>Knobloch</abbr>
+                                       <hi rend="normal">Aspekte</hi>, 102-108, Abb. 10</bibl>; <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 73-79, Abb. 2.7</bibl>. Text: <quote>Optimum es ergo <gap/> et circumferentiam notabimus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 152,4-152,15, fig. 102</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 152,18-25, Abb. 38</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 55v (hier ohne Bez.). <dimensions type="image" unit="cm">
+                                       <height>6</height>
+                                       <width>5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="54r">54r</locus> Schema (Konstruktion der Ost-West-Richtung durch Schattenmessung - Blick nach Süden). Exzentrisch in einem Kreis platziert ein <hi rend="font-style:italic">gnomon</hi>. Darunter ein Rasterplan. Hier mittig bez. <quote>DM</quote> (<hi rend="font-style:italic">decumanus</hi>), oberhalb links <quote>occidens umbra</quote> (soll heißen: <hi rend="font-style:italic">oriens umbra</hi>), oberhalb rechts <quote>umbra occidens</quote>. Im Rasterplan die Inschrift <quote>meridiano ordinatorum</quote> (vgl. <bibl>
+                                       <abbr>Thulin</abbr>, 152,5</bibl>). Über der Darstelllung die Bezeichnung <quote>con mons</quote> (soll heißen: Gnomon). Vgl. <bibl>
+                                       <abbr>Knobloch</abbr>
+                                       <hi rend="normal">Aspekte</hi>, 102-108, Abb. 11</bibl>;  <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 73-79, Abb. 2.8</bibl>. Text: <quote>Notatis ergo duabus <gap/> recte constituemus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 152,15-152,21, fig. 103</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 152,25-30, Abb. 39</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 55v (hier ohne Bez.). <dimensions type="image" unit="cm">
+                                       <height>4,2</height>
+                                       <width>6</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Alternative Methode der Meridianbestimmung mit dem Gnomon). Ungleichschenkliges Dreieck, orange gefüllt, auf der Ebene (bez. <quote>Planitia</quote>). Die rechtwinklig aufsetzende Linie des Dreiecks bez. als <quote>Gnomon</quote>. Die drei Strahlen des Schattenwurfes mit <quote>G</quote>, <quote>E</quote> und <quote>D</quote>. Darunter die Bez. <quote>Umbrae</quote>. Text: <quote>Est et alia ratio <gap/>erit novissima</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 153,1-153,7, fig. 104a</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 152,31-158,4, Abb. 40</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 56r (hier ohne Bez.). <dimensions type="image" unit="cm">
+                                       <height>2,7</height>
+                                       <width>8</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="54v">54v</locus> Geometrische Zeichnung (Methode der Meridianbestimmung nach Diodorus). Text: <quote>Has deinde <gap/>meridiano ordinata</quote> (<bibl>
+                                       <abbr>Thulin</abbr>,153,7-154,8, fig. 105</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 158,4-17, Abb. 41</bibl>). Vgl.  <bibl>
+                                       <abbr>Hyginus <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 73-79, Abb. 2.11</bibl>. <dimensions type="image" unit="cm">
+                                       <height>4</height>
+                                       <width>17</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="55r">55r</locus> Diagramm (Bestimmung paralleler Grenzlinien nach der Diodor-Methode). Kreis mit Kreuz und Schrägkeuz (Himmelszonen, über den Rand ragend). Text: <quote>Eisdem signis <gap/> tempore convenit</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 154,8-154,11, fig. 106</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 158,17-19, Abb. 42</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 56v (hier ohne Bez.). <dimensions type="image" unit="cm">
+                                       <height>5</height>
+                                       <width>6</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Korrektur nicht gleichweit voneinander entfernter limites). Rasterplan mit <hi rend="font-style:italic">Decumanus</hi> (bez. <quote>DM</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <quote>KM</quote>). Am oberen Rand des Plans die Bez. <quote>Limites in ordinati</quote>. Text: <quote>Multi perpetuos <gap/> non utuntur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 155,3-155,7, fig. 108</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 158,28-30, Abb. 44</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4,5</height>
+                                       <width>9,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="55v">55v</locus> Malerei (Feststellen etwaiger Messfehler am limes quintarius). Eine oktogonale Stadt (bez. <quote>colonia</quote>), bestehend aus vier Mauern mit runden und rechteckigen Türmen. Die in den Ecken befindlichen Öfffnungen für Tore sind freigelassen. Durch diese hindurch verlaufen <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi>. Im Umfeld weitere Straßen bez. mit <quote>quintarius</quote>,<quote>quintari</quote> und <quote>quintanti</quote>. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 97, 98, ill. 120</bibl>. Text: <quote>Si locus, in quo <gap/> non utuntur.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 154,14-155,3, fig. 107</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 158,20-27, Abb. 43</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 56v. <dimensions type="image" unit="cm">
+                                       <height>9,5</height>
+                                       <width>18</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="56r">56r</locus> Diagramm (Einteilung der limites actuarii zur Transparenz der Vermessung und für die Einhaltung der Flächenmaße). <hi rend="font-style:italic">Decumanus</hi> (bez. <quote>DM</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <quote>KM</quote>) mit Rasterplan. In der linken Hälfte die Bez. <quote>Actus XX</quote>. Text: <quote>Lineam autem per <gap/> mensura acta appareat</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 155,7-155,11, fig. 109 </bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 158,30-33, Abb. 45</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 57r Mitte. <dimensions type="image" unit="cm">
+                                       <height>3,7</height>
+                                       <width>10</width>
+                                    </dimensions>.</item>
+                                 <item>Malerei (Limitationskreuz zwischen Bergen - Norden links). Ein Rasterplan mit einer Kreuzung von <hi rend="font-style:italic">decumanus</hi> (bez. <quote>DM</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <quote>KM</quote>). In den Winkeln jeweils ein Berg (Deckfarben). <bibl>
+                                       <abbr>Carder</abbr>, 98, ill. 122</bibl>. Text: <quote>Limitibus secundum <gap/> limitem agemus.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 155,11-155,17, fig. 110 </bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 158,33-164,2, Abb. 46</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat">105 Gud. lat.</ref>, 57r unten. <dimensions type="image" unit="cm">
+                                       <height>5,5</height>
+                                       <width>8</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="56v">56v</locus> Malerei/Diagramm (Limitation und Zenturiation neben einer colonia - Norden links) Eine mit einer Stadtmauer umgebenden, polygonal angelegten Stadt (bez. <quote>Col</quote>onia). Die Mauer mit runden Türmchen und Ausgängen in Nord-Süd-Richtung. Im Inneren drei rechteckige Gebäude mit Giebeldächern. Links der Gebäude ein runder Turm (Mausoleum?). Rechts und unterhalb der Stadt <hi rend="font-style:italic">decumanus</hi> (bez. <quote>DM</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <quote>KM</quote>). Seitlich der Stadt Rasterpläne. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 98, 99, ill. 124</bibl>. Text: <quote>Si limites <gap/> suam dabimus.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 156,17-157,2, fig. 113</bibl>;<bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 164,17-19, Abb. 49</bibl> ). Vgl. <ref type="mss" cRef="105-gud-lat">105 Gud. lat.</ref>, 57v unten. <dimensions type="image" unit="cm">
+                                       <height>5</height>
+                                       <width>13</width>
+                                    </dimensions>.</item>
+                                 <item>Malerei/Diagramm (Limitation und Zenturiation nebn einer colonia wegen ungünstigen Geländes). Eine quadratisch angelegte Stadt (bez. <quote> Col. Iulia</quote>) mit Stadtmauer und Toren in Nord-Süd-Ausrichtung. Die Tore flankierend runde (im Norden) und rechteckige (im Süden) Türme, in den Ecken und an den Längsseiten ebenfalls rechteckige Türme. Die Ecktürme ohne Dächer. Innerhalb der Mauern vier rechteckige Gebäude mit Giebeldächern, Türen und Fenstern. An den Seiten und oben wird die Stadt von Gebirge (bez. <quote>Montibus conclusa</quote>) eingefasst. Die Berge nach links abgedunkelt. Linker Hand ein Rasterplans und der <hi rend="font-style:italic">decumanus</hi> (bez. <quote>DM</quote>). Unterhalb begrenzend, der <hi rend="font-style:italic">kardo</hi> (bez. <quote>KM</quote>). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 99, 100, ill. 126</bibl>. Text: <quote>Si propter locorum <gap/> meridiani et septentrionis.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 157,2-157,8, fig. 114</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 164,19-22, Abb. 50</bibl> ). <dimensions type="image" unit="cm">
+                                       <height>7</height>
+                                       <width>16,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="57r">57r</locus> Diagramm (Wegbreiten der limites - Norden links). Rasterplan mit <hi rend="font-style:italic">decumanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <quote>km</quote>). Text: <quote>Limitibus latidudinis <gap/> terram sesquipedem</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 157,9-157,16, fig. 115</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 164,23-27, Abb. 51</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphalt">105 Gud. lat.</ref>, 58r oben. <dimensions type="image" unit="cm">
+                                       <height>6</height>
+                                       <width>10,9</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="57v">57v</locus> Diagramm (Beschriftungsmethode der Grenzsteine). <hi rend="font-style:italic">Decumanus</hi> (bez. <quote>DM</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <hi rend="font-style:italic">km</hi>) mit insgesamt fünf Grenzsteinbeschriftungen. Bez. mit <hi rend="font-style:italic">decumanus</hi> (bez. <quote>dm</quote>), <hi rend="font-style:italic">kardo</hi> (bez. <quote>km</quote>) und Strichen (Zählzeichen?). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 58r Mitte. Text: <quote>Inscribendi nobis <gap/> KARDO TOTUS</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 157,18-158,4, fig. 116</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 164,28-33, Abb. 52</bibl>). <dimensions type="image" unit="cm">
+                                       <height>6,7</height>
+                                       <width>12,4</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Versteinung der Zenturiation). Ein Rechteck mit <hi rend="font-style:italic">decumanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <quote>km</quote>) sowie mit fünf beschrifteten (bez. mit <quote>KM</quote>, <quote>DM</quote> und Zählzeichen?) und vier unbeschrifteten Grenzsteinflächen. Text: <quote>Applicemus nunc <gap/> observare debebimus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 158, 5-158,11, fig. 117</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 172,1-4, Abb. 53</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 58r unten. <dimensions type="image" unit="cm">
+                                       <height>5,8</height>
+                                       <width>11</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="58r">58r</locus> Diagramm (Versteinung der Zenturiation). <hi rend="font-style:italic">decumanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <hi rend="font-style:italic">km</hi>) einbeschrieben in einem Quadrat.  Ecken und Kreuzungspunkte mit beschrifteten Grenzsteinen (insg. neun). Diagonal zwischen Mittelpunkt und Ecken viermal die Bez. <quote>Lapides clusares</quote>. Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 58v oben. Text: <quote>His angulis <gap/> S.D.I.K.K.L.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 158,11-159,1, fig. 118</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 172,5-9, Abb. 54</bibl>). <dimensions type="image" unit="cm">
+                                       <height>5,6</height>
+                                       <width>10</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="58v">58v</locus>Diagramm (System der Versteinung und der lapides clusares bei mehreren centuriae).<hi rend="font-style:italic">Decumanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <quote>km</quote>) mit neun unbeschrifteten Grenzsteinen und hinterlegt mit einem Rasterplan. An den Ecken und Kreuzungspunkten jeweils die Bez. <quote>clusaris</quote>. Text: <quote>Quoniam ab <gap/> inscribere debemus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 159,1-159,10, fig. 119, 120</bibl>;<bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 172,10-16, Abb. 55</bibl> ). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphalt">105 Gud. lat.</ref>, 58v unten. <dimensions type="image" unit="cm">
+                                       <height>5,2</height>
+                                       <width>11</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Erfassen und Überprüfen der Winkelsteine durch Diagonallinien). <hi rend="font-style:italic">Decumanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <hi rend="font-style:italic">km</hi>) in einem Quadrat. Zusätzlich ein Schrägkreuz. An den Schnittstellen Grenzsteinbeschriftungen. In den Ecken die Bez. <quote>clusus</quote>. Text: <quote>His deinde <gap/> diagonalibus comprehendebus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 159,11-159,15 fig. 120</bibl>;<bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 172,17-19, Abb. 56</bibl> ). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 59r oben. <dimensions type="image" unit="cm">
+                                       <height>4,7</height>
+                                       <width>8,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="59r">59r</locus> Malerei (Öffentliche Weide der Minturnenser innerhalb einer Zenturiation). Ein Rasterplan mit mittig eingefügtem, unregelmäßig begrenztem Gebiet. Letzteres besetzt mit vier Pflanzenreihen (Deckfarbe; bez. <quote>Silva et pascua publica M. I(uli)ensium</quote>). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 100, ill. 128</bibl>. Text: <quote>Cum centurias <gap/> angulos terminabimus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 159,18-160,4, fig. 122</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 172,21-26, Abb. 58</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 59r oben. <dimensions type="image" unit="cm">
+                                       <height>4,8</height>
+                                       <width>9</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="60r">60r</locus> Malerei/Schemata (Prismenförmige Altäre als Grenzen zwischen benachbarten Kolonien). Eine polygonal angelegte Stadt mit Stadtmauer und Toren in Nord-Süd-Ausrichtung. Rechts der Darstellung ein dreieckiger Altar (bez. <quote>trifinium</quote>), auf beiden Seiten mit der Aufschrift <quote>Fines iuliensium</quote>. Über dem Altar die Bez. <quote>Ut failerensium failerens(ium)</quote>, auf der rechten Seite <quote>ut vettonenesium</quote>. Eine diagonale Linie (bez. <quote>failerensium</quote>) geht von diesem Altar zu einem weiteren rechteckigen Schema auf der linken Seite der Malerei. Unter dieser eine weitere Linie (bez. <quote>iuliensium</quote>). Unter dem Diagramm eine kastenförmige Zeichnung (Altar?; bez. <quote>Iuliensium</quote>). Im rechten Winkel dazu die Bez. <quote>Falerensium</quote>. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 106-108, ill. 142</bibl>. Text: <quote>Nam in planis <gap/> locis montuosis.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 162,1-162,8, fig. 131</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 180,23-27, Abb. 67</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 61r. <dimensions type="image" unit="cm">
+                                       <height>8</height>
+                                       <width>17</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="61v">61v</locus> Malerei (staatliche Gemeindeweide innerhalb der Zenturiation).  Ein Rasterplan mit einem ausgesparten, unregelmäßig begrenztem Gebiet (Deckfarbe). Auf dunkelblauem Hintergrund sechs Reihen von Pflanzen mit Blüten (Blumen). Oberhalb des Gebietes, am oberen Rand des Rasterplanes die Bez. <quote>Col</quote>onia. Um das Gebiet herum die Bez. <quote>pascua fundorum publica</quote>. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 109, 110, ill. 147</bibl>. Text: <quote>Agro limitato <gap/> conprehensa ostendemus</quote>  (<bibl>
+                                       <abbr>Thulin</abbr>, 164,6-164,16, fig. 133</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 180,30-188,24, Abb. 69</bibl>). <dimensions type="image" unit="cm">
+                                       <height>7,5</height>
+                                       <width>12,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="62v">62v</locus> Malerei (Karte[?] eines vermessenen Areals). Übereinander versetzt, zwei polygonale Stadtdarstellungen.  Die untere (bez. <quote>Col</quote>onia <quote>iulia</quote>) auf einem Rasterplan mit vier Toröffnungen. Die unverbundenen Mauerabschnitte mit aufgehendem Quaderwerk und eckigen, überdachten Türmen. Durch die Tore hindurch das Kreuz der beiden Hauptstraßen. Die darüberliegende Stadt (bez. <quote>oppidum</quote>) ohne Rasterplan. Die oktogonal geschlossene Stadtmauer mit hohen schlanken Türmen. Im Inneren zwei rechteckige Gebäude mit Giebeldächern. Das rechte mit einer Säulenstellung längsseits, das linke mit Tür und Fenstern an der Stirnseite. Im Rasterplan eingefügt drei kleine rautenförmige FLächen. Vgl.  <bibl>
+                                       <abbr>Carder</abbr>, 111-115, ill. 150</bibl>. Text: <quote>Omnes aeris <gap/> abere debebit</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 165,10-166,2, fig. 135</bibl>;<bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 188,29-192,10, Abb. 72</bibl> ). <dimensions type="image" unit="cm">
+                                       <height>14,5</height>
+                                       <width>17,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="63v">63v</locus> Malerei (Karte[?] eines weiteren vermessenen Areals - Norden oben). Drei Rasterpläne, zwei rechteckige und einer mit unregelmäßigen Abmessungen. Auf jedem von ihnen die gekreuzten Verläufe von <hi rend="font-style:italic">decumanus</hi> und <hi rend="font-style:italic">kardo</hi>. Der rechte Rasterplan mit eingefügter Stadtkulisse (bez. <quote>col</quote>onia; Deckfarben) im oberen linken Viertel. Die polygone Umfassungsmauer mit zylindrischen, kuppelbedachten Türmen und zwei sichtbaren Toren. Im Inneren ein überwölbter Rundbau (Mausoleum) auf einem Podium, rechts eine halbrunde Kolonnadenführung (Amphitheater), links eine gerade verlaufende Kolonnade. Die zweite Stadtkulisse (bez. <quote>col</quote>onia) ebenfalls polygonal eingefasst aber ohne Rasterplan. In Nord-Südrichtung jeweils ein Tor, flankiert von zylindrischen Türmen mit geteilten Dachzinnen. <bibl>
+                                       <abbr>Carder</abbr>, 115-120, ill. 152</bibl>. Text: <quote>Agrum rudem <gap/> postulationem adsignabimus.</quote>
+                                    <quote>Hunc agrum <gap/> aut pascui</quote>. <quote>Sortes (autem) <gap/> r(ei) p(ublicae) inferemus.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 166,3-166,6; 166,10-166,16; 167,5-167,15, fig. 136</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 192,11-31, Abb. 73</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 64v-65r. <dimensions type="image" unit="cm">
+                                       <height>12,9</height>
+                                       <width>19,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="65r">65r</locus>Diagramm (Limites transversi mit eingezeichneter Breite von 12 Fuß). Orange umrandetes Rechteck mit vier eingeteilten Feldern. Darin die Bez. <quote>Limites Trasi / I / XII</quote>. Links die Bez. <quote>I Pilor XII</quote>. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 115-120, ill. 152</bibl>. Text: <quote>Agrum arcifinium <gap/> pedes octonos</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 167,17-169,16, fig. 137</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 198,1-23, Abb. 75</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 66r oben. <dimensions type="image" unit="cm">
+                                       <height>3,2</height>
+                                       <width>8,8</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Lage der strigae auf dem Limitationskreuz - Norden links). <hi rend="font-style:italic">Decumanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <hi rend="font-style:italic">km</hi>). Über dem Kreuzungspunkt ein vertikal ausgerichtetes Rechteck. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 115-120, ill. 152</bibl>.  Text: <quote>Primum constituemus <gap/> scamna cludemus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 170,3-170,5, fig. 139</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 198,27-30, Abb. 77</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 66v oben. <dimensions type="image" unit="cm">
+                                       <height>4,9</height>
+                                       <width>11</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (Scamna und strigae im Limitationskreuz - Norden links). <hi rend="font-style:italic">Decumanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <hi rend="font-style:italic">km</hi>) in rot vor einem Rasterplan. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 115-120, ill. 152</bibl>. Text: <quote>Actuarios (autem) <gap/> D. M. K. M.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 170,5-170,9, fig. 140</bibl>; ). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 66r unten. <dimensions type="image" unit="cm">
+                                       <height>4,3</height>
+                                       <width>10,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="65v">65v</locus>Diagramm (Decimanus und kardo maximus in der Skamnation - Norden links). <hi rend="font-style:italic">Decumanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <quote>km</quote>) in einem Rechteck. Text: <quote>Ab hoc deinde <gap/> limites comprehendemus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 170,9-170,13, fig. 141</bibl>;<bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 198,31-33, Abb. 79</bibl> ).  Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 66v Mitte. <dimensions type="image" unit="cm">
+                                       <height>4,2</height>
+                                       <width>8,5</width>
+                                    </dimensions>.</item>
+                                 <item>Zeichnung (Beschriftung eines Grenzsteins mit Angabe seiner striga und seines scamnum). Mittig ein liegender Grenzstein mit der zweifachen Bez. <quote>Scamna</quote>. Links und rechts jeweils ein stehender, unbeschrifteter Grenzstein. Text: <quote>His deinde quartis <gap/> D. D. V. K.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 170,13-170,17, fig. 142</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 198,33-204,3, Abb. 80</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 67r oben. Gesamt: <dimensions type="image" unit="cm">
+                                       <height>4</height>
+                                       <width>15,5</width>
+                                    </dimensions>.</item>
+                                 <item>Diagramm (In der Skamnation gesetzte Grenzsteine - Norden links). <hi rend="font-style:italic">Decumanus</hi> (bez. <quote>dm</quote>) und <hi rend="font-style:italic">kardo</hi> (bez. <hi rend="font-style:italic">km</hi>) vor einem Rasterplan. Auf einigen Kreuzungspunkten Grenzsteine (insgesamt acht).  Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphalt">105 Gud. lat.</ref>, 67r Mitte. Text: <quote>Nunc quadrarum <gap/> inscriptos inspiciamus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 170,17-171,1, fig. 143</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 204,3-4, Abb. 81</bibl>). <dimensions type="image" unit="cm">
+                                       <height>4,8</height>
+                                       <width>9,9</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="66r">66r</locus>Diagramm  (Limitationskreuz mit zenturiertem und in strigae und scamna eingeteiltem Areal).  Rasterplan mit unregelmäßigen Begrenzungen. Text: <quote>Intra has strigas <gap/> formam describamus</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 171,1-171,4, fig. 144</bibl>; <bibl>
+                                       <abbr>
+                                          <hi rend="normal">Feldmesserbuch</hi>
+                                       </abbr>, 204,4-6, Abb. 82</bibl>). Vgl. <ref type="mss" cRef="105-gud-lat_tei-msDesc_Westphal">105 Gud. lat.</ref>, 67r oben. <dimensions type="image" unit="cm">
+                                       <height>9,3</height>
+                                       <width>16,4</width>
+                                    </dimensions>. </item>
+                              </list>
+                           </item>
+                           <item>
+                              <rs type="person" role="author">Agennius Urbicus</rs> De controversis agrorum:
+									<list>
+                                 <item>
+                                    <locus from="67v">67v</locus> ganzseitige Miniatur (Autorenporträt). Unter einer Giebelarchitektur, gestützt auf zwei Marmorsäulen, ein nach rechts ausgerichteter sitzender Mann, das rechte Bein über das linke geschlagen und den Oberkörper leicht vorgebeugt. Der rechte Ellenbogen ruht auf dem rechten Oberschenkel, die Hand ist bis auf untere Kopfhöhe erhoben, während er mit den Fingern gestikuliert (rechnet). Die linke Hand, nach vorne ausgestreckt, hält einen halb aufgerollten Rotulus. Der Mann sitzt auf einem plinthenähnlichen Hocker, der von zwei geflügelten Sphingen mit menschlichen Köpfen und vergrößerter Brustpartie gestützt wird. Der linke Fuß ruht auf einem niedrigen Fußhocker, der an den Seiten durch Volutenmotive verziert ist. Das Pallium, als einziges Bekleidungsstück ist von seinem Oberkörper heruntergeglitten und liegt auf seinem linken Arm und umhüllt das rechte Bein. Der Blick des bärtigen Mannes, dessen nach vorne lockigen Haare von einem Stirnband gehalten werden, ist versonnen nach vorne gerichtet. Die umgebenden Architektur mit marmorierten Säulen und korinthischen Kapitellen. Der mit zwei Wellenbändern verzierte Architrav des Giebelfeldes liegt zwischen und nicht direkt auf den Abaci. Im Anschluss folgen Sima und Geison mit Spiralranke und Peltamotiv. Als oberer Akroter ein Kantharos mit Blumen, an den Seiten Helices. Im Giebelfeld ein großes nach unten weisendes Muschelmotiv, im oberen Abschluss ein nicht näher zu identifizierendes Motiv (Vogel oder Kantharos mit Blumen). Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 130-136, ills. 158-160</bibl>; <bibl>
+                                       <abbr>Faks. Arcerianus</abbr>, 28-30</bibl>. <dimensions type="image" unit="cm">
+                                       <height>27,3</height>
+                                       <width>19,4</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="69v">69v</locus> Malerei (<hi rend="font-style:italic">de proprietate</hi> - Landbesitz). Linker Hand ein dreieckig geformter Berg; dahinter der Abhang eines weiteren Berges (beide bez. mit <quote>mons aricus</quote>). Am Fuß des Berges rechts und links je ein Begrenzungsstein mit rechtwinkligem Projektionsaufsatz. Zusätzlich über den Berg verteilt weitere rechtwinklige Formen, die wahrscheinlich weitere Grenzzeichen darstellen. Hier auch die Andeutungen von Bäumen und Bodenvegetation. Rechts vom Berg ein Rasterplan mit  polygonaler Stadtansicht (bez. <quote>suesa</quote>). Die Umfassungsmauer mit zylindrischen, doppelzinnig bekrönten Türmen, ohne Tore. Stattdessen fehlen zwei Segmente der Mauer. Im Inneren ein rechteckiges Haus mit Giebeldach, an der Seite mit Säulenstellung. Die Front mit einer Tür und zwei Fenstern. Neben diesem ein dreistufiges Gebäude/Monument, mit Fenstern in den unteren beiden Geschossen. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 136-138, ill. 180</bibl>. Text:<quote>Et sunt plerumque <gap/> silvestreiunctum quod adsignaretur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 39,8-39,13, fig. 35</bibl>). <dimensions type="image" unit="cm">
+                                       <height>8</height>
+                                       <width>21</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="70r">70r</locus> Malerei (<hi rend="font-style:italic">de possessione</hi> - Landbesitz). Ein aus der Vogelperspektive gesehenes rechteckiges Land, begrenzt durch Perimeter-Linien. Im Inneren ein dachloser, rechteckiger Bau bestehend aus Ashlar-Marmor. Auf der Frontseite ein Eingang und entlang der Innenwände eine Säulenstellung (Halbsäulen?). Um das Land herum einige Gegenstände:  an drei Ecken des Gebietesrechtwinklige Grenzsteine, am oberen Rand des Gebietes zwei Dattelpalmen und ein Grenzstein, im Vordergrund und links ein großer Baum, ein Fluß und ein Baumstumpf. Auf der rechten Seite eine Quelle. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 138, 139, ill. 181</bibl>. Text: <quote>De possessione controversia <gap/> eam iterum retractandam</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 40,17-40,23, fig. 36</bibl>). <dimensions type="image" unit="cm">
+                                       <height>10,5</height>
+                                       <width>22,5</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="71r">71r</locus> Malerei (<hi rend="font-style:italic">de subsicivis</hi> - unvermessenes Land). Rechter Hand ein Rasterplan mit mittig abgegrenztem Areal. In diesem ein umgrenztes rautenförmiges Feld mit Wasser und zwei Enten zwischen Wasserpflanzen. Linker Hand, den Rasterplan begrenzend, ein Berg mit Vegetation. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 140, 141, ill. 184</bibl>. Text: <quote>Subsicivorum autem genera <gap/> maximae controversiae agitantur</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 41,1-41,4</bibl>). <dimensions type="image" unit="cm">
+                                       <height>8</height>
+                                       <width>21,5</width>
+                                    </dimensions>. </item>
+                                 <item>
+                                    <locus from="72v">72v</locus> Malerei (<hi rend="font-style:italic">de iure territorii</hi> - Eigentumsrecht). Ein Rasterplan, der mittig horizontal durch eine Steinstraße geteilt wird. In der Mitte, zu beiden Seiten der Straße, ein Zusammenschluss von unterschiedlichen Häusern ohne Stadtmauer. Hinter (oberhalb) der Straße ein rechteckiges Gebäude mit Giebeldach, Tür und Fenstern. Seitlich im rechten Winkel anschließend eine weiteres rechteckiges Gebäude mit flachem Dach und Fenstern in der Front. Daneben ein stufenförmiges, aus zwei Würfeln bestehendes Gebäude und ein Gebäude mit Giebeldach und zwei Fenstern. Unterhalb der Straße von links nach rechts ein Haus mit Giebeldach, ein Rundbau (Mausoleum?) auf einem Podium, ein Tor oder Triumphbogen mit einem Durchlass und zwei weitere Häuser mit Giebeldächern. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 141-143, ill. 185</bibl>. Text: <quote>De iure territorri <gap/> non exiguum possidet</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 44,24-46,7</bibl>). <dimensions type="image" unit="cm">
+                                       <height>8</height>
+                                       <width>19,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="74v">74v</locus> Malerei (<hi rend="font-style:italic">de locis sacris et religiosis</hi> - heilige Stätten). Drei Darstellungen. Links ein nahezu quadratische ummauerter Bezirk, der zwei rechteckige Gebäude mit Giebeldächern beinhaltet. Die Frontseite des linken Gebäudes mit Tür und zwei flankierenden Säulen, die des rechten mit mit vier vorgstellten Säulen (Portikus). Rechts an den Bezirk angrenzend ein Rasterplan mit einer hexagonalen Stadtmauer ohne innen liegender Bebauung. Die Mauer mit einer Öffnung (Tor); in den Winkeln und die Öfffnung flankierend rechteckige Türme mit pyaramidenförmigen Dächern (der heilige Bezirk, der in der Nähe einer Stadt beschlagnahmt wurde, vgl. <bibl>
+                                       <abbr>Carder</abbr>, 143</bibl>). Rechts neben der Stadt ein Baldachin-Schrein. Auf einem runden Podium vier kannelierte Säulen mit Kompositkapitellen. Die vier Bögen mit verziertem Architrav (dreigeteilt, mittig verziert mit einer Punktreihe) und  einem zeltartigen, pyramidenförmigen Dach. Darunter eine Skulptur der Minerva auf einem rechteckigen Podest. Minerva in Seitenansicht nach rechts gedreht voran schreitend, bekleidet mit Helm und einem fließend fallenden Gewand und locker wehendem Mantel. In der linken Hand, auf den Boden gestellt, die Ägis, in der rechten das erhobene Schwert. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 143-147, ill. 186</bibl>. Text: <quote>
+                                       <gap/> in Italia autem <gap/> aut municiporum <gap/>.  Nam et de aedibus <gap/> annis litigant</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 48,8-48,11, 48,16-48,19, fig. 39</bibl>). Gesamt: <dimensions type="image" unit="cm">
+                                       <height>11</height>
+                                       <width>21,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="75r">75r</locus> Malerei (<hi rend="font-style:italic">De aqua pluvia arcenda</hi> - das Ableiten von Regenwasser). Ein Grundstück aus der Vogelperspektive - ein echteckiges Feld, dessen Umfassungslinie von Grenzzeichen, u.a. von Brunnen, flankiert wird. Auf dem Grundstück ein rechtwinkliges Gebäude mit Giebeldach und Tür sowie zwei runden Fenstern. An der vorderen Seite des Grundstückes ein Durchgang mit einer giebelbedeckten Pforte. Aus einer Quelle in der oberen linken Ecke enspringt ein Fluß, der quer über das Grundstück und dann durch die Pforte hindurch bis an den unteren rechten Bildrand führt. Vor dem Grundstück ein Rundbau auf einem Podium mit seitlich anschließendem Portikus mit Kolonnadenstellung. Spätere Zugaben:  unterhalb des Gebäudes auf dem Grundstück die Kopie von dessen Fassade und zahlreichen Beschriftungen (am Fluß in karolingischer Minuskel <quote>ego aut dixi (an) mea</quote>; unter dem Fluß in Urkundenschrift <quote>misere mih dn</quote>; in der linken Ecke unterhalb des Grundstücks in diplomatischer Minuskel <quote>gisebbertus</quote>, darunter in karolingischer Minuskel <quote>abis s stux</quote>. Vgl. <bibl>
+                                       <abbr>Carder</abbr>, 147-149, ill. 194</bibl>. Text: <quote>De aqua pluvia arcenda controversia <gap/> ius ordinarium pertinet.</quote> (<bibl>
+                                       <abbr>Thulin</abbr>, 48,26-49,11, fig. 40</bibl>). <dimensions type="image" unit="cm">
+                                       <height>11</height>
+                                       <width>22,5</width>
+                                    </dimensions>.</item>
+                              </list>
+                           </item>
+                           <item>
+                              <locus from="76v">76v</locus>
+                              <rs type="person" role="author">Marcus Iunius Nipsus</rs>, Fluminis varatio. Diagramm/Malerei (Flüsse). Mittig ein Quadrat. Oben rechts und unten links jeweils eine fortführende Linie. Unten, vom linken Ende der linken Linie diagonal bis zur oberen rechten Linie eine Gerade. Von dort nach unten vier parallel verlaufende Flüsse. Text: <quote>Si in agri<gap/>erit latitudo fluminis</quote> (<bibl>
+                                 <abbr>Lachmann</abbr>, Bd. 2, 285,5-286,10, fig. 208</bibl>). <dimensions type="image" unit="cm">
+                                 <height>8,5</height>
+                                 <width>21</width>
+                              </dimensions>.</item>
+                           <item>
+                              <locus from="77v">77v</locus>De sepulchris. Malerei (über Grabstätten). Eine sich kreuzende Kopfsteinpflasterstraße. Kurz oberhalb der Kreuzung auf der vertikalen Linie ein polygonale Stadt mit Stadtmauern und Zinnentürmen. In den vier Quadranten zahlreiche Monumente. Links oben ein Rundbau auf einem Podium und ein rechteckiger Bau mit Giebeldach; rechts oben drei rechteckige Bauten in unterschiedlicher Größe mit Giebeldächern und unterschiedlicher Frontgestaltung; unten links ein rechteckiger Giebelbau in Seitenansicht mit drei Fensteröffnungen in der oberen Etage Rechts daneben ein Turm mit zahlreichen Fenstern und  giebelartigen geformten Dächern. Unterhalb dieser Gebäude zwei säulenförmige Grenzsteine auf Podien und ein rechteckiger Giebelbau mit vier Säulen in der Front. Unten rechts ein großes Haus mit Giebeldach, dessen obere Etage verziert mit durch Pilaster segementierte quadratische Fliesen(?). Des weiteren ein kleines Haus mit Giebeldach, ein Grabstein mit rundem oberen Abschluss und zwei Grenzsteine. Vgl. <bibl>
+                                 <abbr>Carder</abbr>, 154-157, ill. 200</bibl>. Text: <quote>
+                                 <gap/> testimonium perennitatis est constituum <gap/> in eadem Veneris genetricis</quote> (<bibl>
+                                 <abbr>Lachmann</abbr>, Bd. 2, 271,12-272</bibl>). <dimensions type="image" unit="cm">
+                                 <height>15</height>
+                                 <width>19</width>
+                              </dimensions>.</item>
+                           <item> Liber coloniarum I:
+									<list>
+                                 <item>
+                                    <locus from="78v">78v</locus> Malerei (Grenzsteine für Land, das Soldaten zugewiesen wird). Die Darstellung zeigt elf verschiedene Grenzsteine. Die meisten von ihnen werden im Text oder an anderer Stelle des Corpus erwähnt. Bei den Steinen in der ersten Reihe handelt es sich an erster bis dritter, an fünfter und an sechster Stelle um runde Grenzzeichen, im Gebrauch bei den Gracchi (<bibl>
+                                       <abbr>Lachmann</abbr>,Bd. 2, 242,8</bibl>), bei Julius Caesar (<bibl>
+                                       <abbr>Lachmann</abbr>, Bd. 2, 242,11</bibl>) und bei Augustus (<bibl>
+                                       <abbr>Lachmann</abbr>, Bd. 2, 242,12; 240,20</bibl>). Bei den vierten und siebten Elementen in der ersten Reihe und bei dem ersten in der zweiten Reihe handelt es sich um quadratisch gestaltete Steine, im Gebrauch bei Nero, Vespasian und Trajan (<bibl>
+                                       <abbr>Lachmann</abbr>, Bd. 2, 243,3</bibl>). In der zweiten Reihe an zweiter Stelle, ein halbrunder, aus Ziegelsteinen gemauerter Sockel (im Text: <quote>scorofione</quote>; vgl. <bibl>
+                                       <abbr>Lachmann</abbr>, Bd. 2, 243, 12</bibl>). Rechts anschließend ein Baum mit Grenzstein (<bibl>
+                                       <abbr>Lachmann</abbr>, Bd. 2, 241,3-4</bibl>). Rechts unten ein zweigeschossiger Rundbau mit Kuppeldach, mit Fenstern im oberen Geschoss und einer Tür im unteren (ein Grabdenkmal; <bibl>
+                                       <abbr>Lachmann</abbr>, Bd. 2, 243,14-16</bibl>). Text: <quote>Ratio militiae (sic <hi rend="font-style:italic">limitae</hi>) adsignationes prima <gap/>. Ratio limitiae adsignationeis prima explicit</quote> (<bibl>
+                                       <abbr>Lachmann</abbr>, Bd. 2, 242,7-243,17, fig. 206</bibl>). <dimensions type="image" unit="cm">
+                                       <height>13</height>
+                                       <width>18,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="82v">82v</locus> Zeichnungen. Nomina lapidum finalium ex libro Balbi (Definitionen von Grenzsteinen; ohne Text). 18 unterschiedlich geformte Grenzsteine ohne Beschriftungen. Gesamt: <dimensions type="image" unit="cm">
+                                       <height>19</height>
+                                       <width>20</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="83r">83r</locus> Zeichnungen. Nomina lapidum finalium ex libro Balbi (Definitionen von Grenzsteinen). Drei groß gezeichnete Grenzsteine, der linke mit einer Inschrift: <quote>EX AUCTO | RITATE. IMPT. | AELI. HADRI | ANI. ANTO | NINI. AUG.  | PH. PP. SENTE | TIA. DICTA. p. | TUSCENIU | FELICEM | PP. II. DETER | MINANTE |  BLESIO TAV. | RINO. MIL. | COH. VI. PR. | MESORE. A  | GRARIO. TR. |  ARDEATN </quote> (<bibl>
+                                       <abbr>Lachmann</abbr>, Bd. 2, 251</bibl>; Übersetzung bei <bibl>
+                                       <abbr>Campbell</abbr>, 247</bibl>). <dimensions type="image" unit="cm">
+                                       <height>18,5</height>
+                                       <width>20,5</width>
+                                    </dimensions>.</item>
+                                 <item>
+                                    <locus from="83v">83v</locus> Malerei. Nomina lapidum finalium ex libro Balbi (Definitionen von Grenzsteinen). Vier polychrome Darstellungen von Grenzsteinen untereinander (ohne zugehörigen Text). Von oben nach unten: 1. Reihe (von links nach rechts) ein rechteckiger Grenzstein und anschließend drei Bäume, die zwei rechten mit kreuzförmigen Markierungen auf den Stämmen. Im Hintergrund die Kontur eines Gebirgszuges. 2. Reihe linker Hand ein sanft abfallender Hügel, rechter Hand ein terrassierter Berg mit einem Eingang (Höhle?) und ein Busch. 3. Reihe eine Steinmauer mit zwei davorliegenden rechteckigen Häusern mit Giebeldächern. 4. Reihe ein Fluß. Text: <bibl>
+                                       <abbr>Campbell</abbr>, 244-247</bibl>. <dimensions type="image" unit="cm">
+                                       <height>27</height>
+                                       <width>23</width>
+                                    </dimensions>.</item>
+                              </list>
+                           </item>
+                        </list>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p rend="break">Initialen:</p>
+							
+							1 (<locus from="40v">40v</locus>) Initiale und 21 Registerbuchstaben (<locus from="97r" to="81r">97r-81r</locus>): Davon 17 Hohlinitialen mit den Füllmotiven: laufender Hund (<locus from="41v">41v</locus>, <locus from="97r">97r</locus>, <locus from="79v">79v</locus>, <locus from="80r">80r</locus>), Sternblüten (<locus from="79v">79v</locus>, <locus from="80r">80r</locus>), Gittermuster (<locus from="97r">97r</locus>), Zickzackband (<locus from="79v">79v</locus>, <locus from="80v">80v</locus>), Kreise (<locus from="80v">80v</locus>) und 5 gefüllte Initialen (<locus from="79v">79v</locus> - 2x; <locus from="80v">80v</locus> - 3x). Die Initialstämme abschließend mit gerollten Serifen (vgl. <locus from="97r">97r</locus>), einige mit winkelförmiger Bekrönung (<locus from="40v">40v</locus>, <locus from="97r">97r</locus> - 2x).<dimensions type="image" unit="cm">
+                           <height>2-2,5</height>
+                        </dimensions>. Die Zierbuchstaben spielen im Arcerinaus eine untergeordnete Rolle und fungieren auf <locus from="41v">41v</locus> als Initiale und auf <locus from="97r">97r</locus>, <locus from="79v">79v</locus>, <locus from="80r">80r</locus>, <locus from="80v">80v</locus> und <locus from="81r">81r</locus> als Registerbuchstaben auf dem Blattrand neben dem Text. </decoNote>
+                     <decoNote>
+                        <p rend="break">Vermiculata-Borten der Schlusstitel:</p> Ansätze von Spiralranken mit Herzblättern an Fäden (<locus from="16v">16v</locus>; <locus from="27v">27v</locus>, <locus from="76r">76r</locus>);  Zickzacklinien mit eingefügten Punkten (<locus from="27v">27v</locus>; <locus from="41v">41v</locus>).</decoNote>
+                     <decoNote>
+                        <p rend="break">Farben</p>: Malereien mit Pinsel auf Pergament mit Lasuren und Aufhöhungen (vgl. <bibl>
+                           <abbr>Faks. Arcerianus</abbr>, 30, 31.</bibl>). Farbskala: Mennig-Rot (Auszeichnungschriften, Umrandungen, an den Dächern der Tempel, Blüten - vgl. <locus from="21r">21r</locus>, 59r, 61v); leuchtendes Grün (Umrandungen, Laub der Bäume, Wassertiere - <locus from="25r">25r</locus>, <locus from="71r">71r</locus>, Rundtempel und Minerva - <locus from="74v">74v</locus>); dunkeles und helles Rosa (Umrandungen); dunkeles Blau (Wasser, Flüsse - zusätzlich mit schwarzen Umrissen, Schatten; Hügel und Berge - an der sonnenabgewandten Seite); Hellrosa (Hügel und Berge an der sonnenzugewandten Seite); Grauviolett (Felsen); Braun (Schattierungen); Blassgelb (Orpigment - Füllfarbe; Grund zwischen Mauerwerk und Koloniedarstellung, <locus from="18r">18r</locus>, <locus from="56v">56v</locus>; Baumstämme, <locus from="70r">70r</locus>).</decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msPart>
+            <msPart>
+               <msIdentifier>
+                  <idno>B</idno>
+               </msIdentifier>
+               <head>
+                  <title/>
+                  <origPlace>Italien (Norditalien?)</origPlace>
+                  <origDate notBefore="0491" notAfter="0509">um 500</origDate>
+               </head>
+               <msContents>
+                  <textLang mainLang="lat" otherLangs=""/>
+                  <msItem>
+                     <locus from="84ra" to="93rb">84ra-93rb</locus>
+                     <author>Agennius Urbicus</author>
+                     <title>De controversiis agrorum</title>
+                     <note>; <bibl>
+                           <abbr>Thulin</abbr>, 37,13-51,3</bibl>; <bibl>
+                           <abbr>Lachmann</abbr>, Bd. 2, 77,20-90</bibl>.</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="93va" to="102va">93va-102va</locus>
+                     <author>Agennius Urbicus</author>
+                     <title>De controversiis agrorum <note>(<bibl>
+                              <abbr>Thulin</abbr>, 23,3-24,23, 30,14-31,26; 32-33,11; 33,14-35,26; 35,28-37,10; 26,6-27,26; 27,28-30,10; 24,23-26,2</bibl>; <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 62,17-64,1; 71,18-72,21; 73,11-74,10; 74,17-76,17; 76,19-77,18; 65,14-67,10; 67,16-70,9; 64,1-65,12</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="102va" to="104va">102va-104va</locus>
+                     <author>Hyginus</author>
+                     <title>De condicionibus agrorum <note>(<bibl>
+                              <abbr>Thulin</abbr>, 77,18-78,17; 74,21; 74,24-77,18</bibl>; als <quote>Agrorum quae sit inspectio</quote> geführt bei <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 283,21-284; 281-283,21</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="104va" to="106va">104va-106va</locus>
+                     <author>Agennius Urbicus</author>
+                     <title>De controversiis agrorum <note>(<bibl>
+                              <abbr>Thulin</abbr>, 20,5-23,1</bibl>; <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 59,4-62,15</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="106va" to="122vb">106va-122vb</locus>
+                     <author>Hyginus</author>
+                     <author>Siculus Flaccus</author>
+                     <title>De limitibus. De conditionibus agrorum. De generibus controuersiarum.</title>
+                     <title>De condicionibus agrorum <note>(<bibl>
+                              <abbr>Thulin</abbr>, 71-73; 102-103,19;78,18-86,18; 86,20-91,4; 103,19-105,24; 109,1-110,22; 91,4-95,12; 95,14-96,13; 110,22-112,4; 112,7-22; 96,14-98,5</bibl>; <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 111,9-113,18; 138,3-139,19; 115,15-128,4; 139.20-141; 145,2-146,21; 128,4-133,1; 146,21-148,1; 148,4-19; 133,1-134,13</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="124ra" to="125vb">124ra-125vb</locus>
+                     <author>Marcus Terentius Varro?</author>
+                     <title>Fragmentum Geometriae <note>(<bibl>
+                              <abbr>Bubnov</abbr>, 504-508,24</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="125vb" to="136va">125vb-136va</locus>
+                     <author>Pseudo Hyginus</author>
+                     <title>De munitionibus castrorum <note>(<bibl>
+                              <abbr>Lenoir</abbr>, 1-23</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="136va" to="155va">136va-155va</locus>
+                     <author>Hyginus Gromaticus</author>
+                     <title>Constitutio limitum <note>(<bibl>
+                              <abbr>Thulin</abbr>, 131,1; 131,3-135,6; 135,10-138,3; 138,5-146,15; 155,17-156,15; 146,15-154,11; 155,3-7; 154,12-155,3; 155,7-17; 156,17-163,1; 163,4--18; 164,1-167,8; 167,10-3; 167,15-168,16; 169,3-171,4</bibl>; geführt als <quote>De limitibus constituendis</quote> bei <bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 166,3-170,8; 170,12-173,6; 173,8-182,14; 192,17-193,15; 182,14-191,11; 192,7-17; 194-2002,2; 200,4-201,1; 201,3-204,10; 204,12-205,16; 206,1-208</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="155va" to="156vb">155va-156vb</locus>
+                     <rubric xml:lang="lat">Excerptum legis Mamiliae Rosciae Peducaeae Allienae Fabiae</rubric>
+                     <note>Cap. II-V (<bibl>
+                           <abbr>Lachmann</abbr>, Bd. 2, 263,4-266</bibl>; <bibl>
+                           <abbr>FIRA <hi rend="normal">Riccobono</hi>
+                           </abbr>, 138-140</bibl>).</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="156vb">156vb</locus>
+                     <author>Balbus</author>
+                     <title>Ad Celsum expositio et ratio omnium mensurarum <note>(<bibl>
+                              <abbr>Lachmann</abbr>, Bd. 2, 91,1-9</bibl>).</note>
+                     </title>
+                  </msItem>
+                  <msItem>
+                     <locus from="156v">156v</locus>
+                     <author>Gerhardus Mortaigne</author>
+                     <rubric xml:lang="lat">Ad codicem uersus IV de rusticitate sua</rubric>
+                     <note>(<bibl>
+                           <abbr>Thulin <hi rend="normal">Handschriften</hi>
+                           </abbr>, 33</bibl>).</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <p>
+                              <material>Pergament</material>
+                           </p>
+                        </support>
+                        <extent>
+                           <measure type="leavesCount">38 Bl.</measure>
+                           <dimensions type="leaf" unit="cm">
+                              <height/>
+                              <width/>
+                           </dimensions>, zweispaltig, 26 Zeilen.
+								<measure type="format">31,5 x 24,5</measure>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="26">
+                           <p>
+                              <dimensions type="written" unit="cm">
+                                 <height>24,5</height>
+                                 <width>19,5</width>
+                              </dimensions>
+                           </p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote script="uncialis" medium="ink">
+                        <p>Unzialis von einer Hand.</p>
+                     </handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>Rubrizierte Textanfänge.</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <summary>Zeilenfüller.</summary>
+                     <decoNote>
+                        <locus from="105v">105v</locus>, <locus from="121v">121v</locus>, <locus from="155v">155v</locus> Zeilenfüller: Wellenlinien mit Punktverzierungen. <locus from="135v">135v</locus> kleine Blüten.
+						</decoNote>
+                  </decoDesc>
+                  <additions/>
+               </physDesc>
+            </msPart>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

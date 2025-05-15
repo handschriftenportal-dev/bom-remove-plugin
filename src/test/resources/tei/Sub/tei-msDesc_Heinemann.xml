@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd"
+     version="5"
+     xml:lang="de"
+     xml:id="HAB_mss_36-23-aug-2f_tei-msDesc_Heinemann">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beschreibung von Cod. Guelf. 36.23 Aug. 2° (Heinemann-Nr. 2403; Otto v. Heinemann: Die Augusteischen Handschriften 3. Cod. Guelf. 32.7 Aug. 2° — 77.3 Aug. 2°. Frankfurt/M.: Klostermann, 1966 (Nachdruck d. Ausg. 1898). S. 124 – 128)</title>
+            <respStmt>
+               <resp>Beschrieben von </resp>
+               <name type="person">Otto v. Heinemann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>OCR durchgeführt durch </resp>
+               <name type="org">Bayerische Staatsbibliothek</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-P5 konforme Kodierung durch </resp>
+               <name type="person">Torsten Schaßan</name>
+               <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+               <ptr target="http://www.hab.de"/>
+            </publisher>
+            <date when="2011" type="issued"/>
+            <date when="2012" type="digitised"/>
+            <distributor>Herzog August Bibliothek</distributor>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/"
+                        notBefore="2013-03-01">
+                  <p>Dieses Dokument steht seit dem 1.März 2013 unter einer Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz (CC BY-SA).</p>
+                  <p>Herzog August Bibliothek Wolfenbüttel (<ref target="http://diglib.hab.de/?link=012">Copyright Information</ref>)</p>
+               </licence>
+            </availability>
+            <pubPlace>
+               <ptr type="purl" target="http://diglib.hab.de/mss/36-23-aug-2f/start.htm"/>
+               <ptr type="thumbnailForPresentations"
+                    target="http://diglib.hab.de/mss/36-23-aug-2f/thumbs/00001.jpg"/>
+            </pubPlace>
+            <idno type="URN">urn:nbn:de:gbv:23-mss/36-23-aug-2f8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>OCR generierter Text, TEI-Rohkodierung durch die BSB, Konversion nach TEI-P5 durch Torsten Schaßan.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="schassan" when="2015-09-07">Normdaten ergänzt oder korrigiert.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:id="mss_36-23-aug-2f_tei-msDesc_Heinemann" xml:lang="de">
+            <msIdentifier>
+               <settlement>Wolfenbüttel</settlement>
+               <repository>Herzog August Bibliothek</repository>
+               <collection>Augusteer Handschriften in folio</collection>
+               <idno sortKey="wf_hab_aug-02f-0036-0023">Cod. Guelf. 36.23 Aug. 2°</idno>
+               <altIdentifier type="alternative">
+                  <idno>Cod. Guelf. 36. 23. Aug. fol.</idno>
+               </altIdentifier>
+               <altIdentifier type="catalog">
+                  <collection>Heinemann-Nr.</collection>
+                  <idno sortKey="heinemann-2403">2403</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <head>
+               <title type="general">
+                  <hi rend="bold">Agrimensores veteres Romanorum</hi>
+                  <hi rend="italic">(codex Arcerianus).</hi>
+               </title>
+               <origDate notBefore="0501" notAfter="0600">6. Jhdt.</origDate>
+            </head>
+            <msContents>
+               <msItem>
+                  <title>
+                     <hi rend="bold">Agrimensores veteres Romanorum</hi>
+                     <hi rend="italic">(codex Arcerianus).</hi>
+                  </title>
+                  <msItem n="1">
+                     <locus from="1r" to="6r">f. 1–6.</locus>
+                     <title type="item">M. Junii Nipsi lib. II</title>
+                     <bibl>Herausg. von Lachmann, Die Schriften der römischen Feldmesser. Berlin 1848. I. 291–301.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Nipsus</hi>, M. Junius</term>
+                     </index>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Volaterranus</hi>, Raphael</term>
+                     </index>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="6v" to="16v">f. 6′–16′.</locus>
+                     <title type="item">Aprofiditi <hi rend="italic">(Epaphroditi)</hi> et Betrubi <hi rend="italic">(Vitruvii)</hi> Rufi arckitectonis liber</title>
+                     <bibl>Hsg. von Cantor, Die römischen Agrimensoren. Leipzig 1876, S. 208 ff.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Epaphroditus (Aprofiditus)</hi>
+                        </term>
+                     </index>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Vitruvius (Betrubius) Rufus</hi>
+                        </term>
+                     </index>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="17r" to="27v">f. 17–27′.</locus>
+                     <title type="item">Iuli Frontini De agrorum qualitate, De controversiis et de limitibus</title>
+                     <bibl>Hsg. von Lachmann a. a. O. I. S. 1–34.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Frontinus</hi>, Julius</term>
+                     </index>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="28r" to="41r">f. 28–41.</locus>
+                     <title type="item">Liber coloniarum I. prouincia Lucania, Brittiorum, Apulia, Calabria, Sicilia, prouincia Tuscia. pars Piceni. ex libro Balbi prouincia Valeria. ciuitates Campaniae ex libro regionum. ager Carsolis etc. prouincia Dalmatiarum</title>
+                     <bibl>Hsg. von Lachmann a. a. O. I. 209 bis 239.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agrimensores veteres Romanorum</hi>
+                        </term>
+                        <index>
+                           <term>liber coloniarum</term>
+                        </index>
+                     </index>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Balbus</hi>
+                        </term>
+                        <index>
+                           <term>(agrimensor)</term>
+                        </index>
+                     </index>
+                  </msItem>
+                  <msItem n="5">
+                     <locus from="41v" to="66r">f. 41′–66.</locus>
+                     <title type="item">Hygini gromatici De limitibus constituendis</title>
+                     <bibl>Hsg. von Lachmann a. a. O. I. 166–208.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Hyginus</hi>
+                        </term>
+                     </index>
+                  </msItem>
+                  <msItem n="6">
+                     <locus from="66r" to="67r">f. 66–67.</locus>
+                     <title type="item">Lex Mamilia, Roscia, Peducea, Alliena, Fabia</title>
+                     <bibl>Hsg. von Lachmann a. a. O. I. 263–266.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agrimensores veteres Romanorum</hi>
+                        </term>
+                        <index>
+                           <term>lex Mamilia, Roscia, Peducea, Alliena, Fabia</term>
+                        </index>
+                     </index>
+                  </msItem>
+                  <msItem n="7">
+                     <locus from="67r" to="76r">f. 67–76.</locus>
+                     <title type="item">Agenni Urbici De controversiis agrorum</title>
+                     <bibl>Hsg. von Lachmann a. a. O. I. 77–90.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agennus Urbicus</hi>
+                        </term>
+                     </index>
+                  </msItem>
+                  <msItem n="8">
+                     <locus from="76r" to="76v">f. 76–76′.</locus>
+                     <title type="item">M. Junii Nipsi lib. I. <hi rend="italic">Bloss das erste Kapitel:</hi> Fluminis variatio</title>
+                     <bibl>Hsg. von Lachmann, a. a. O. I. 285 f.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Nipsus</hi>, M. Junius</term>
+                     </index>
+                  </msItem>
+                  <msItem n="9">
+                     <locus from="77r" to="77v">f. 77–77′.</locus>
+                     <title type="item">De sepulchris</title>
+                     <bibl>Hsg. von Lachmann I. 271 f.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agrimensores veteres Romanorum</hi>
+                        </term>
+                        <index>
+                           <term>de sepulchris</term>
+                        </index>
+                     </index>
+                  </msItem>
+                  <msItem n="10">
+                     <locus from="78r" to="78v">f. 78–78′.</locus>
+                     <title type="item">Liber coloniarum I. Ratio militiae adsignationis prima</title>
+                     <bibl>Hsg. von Lachmann a. a. O. I. 242 f.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agrimensores veteres Romanorum</hi>
+                        </term>
+                        <index>
+                           <term>liber coloniarum</term>
+                        </index>
+                     </index>
+                  </msItem>
+                  <msItem n="11">
+                     <locus from="79r" to="81v">f. 79–81′.</locus>
+                     <title type="item">Ex libro XII. Innocentius u. p. auctor de litteris et notis iuris exponendis. Casae litterarum</title>
+                     <bibl>Hsg. von Lachmann a. a. O. I. 327–331.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agrimensores veteres Romanorum</hi>
+                        </term>
+                        <index>
+                           <term>ex libro XII Innocentius etc.</term>
+                        </index>
+                     </index>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agrimensores veteres Romanorum</hi>
+                        </term>
+                        <index>
+                           <term>casae literarum</term>
+                        </index>
+                     </index>
+                  </msItem>
+                  <msItem n="12">
+                     <locus from="81v" to="83r">f. 81′–83.</locus>
+                     <title type="item">Liber coloniarum I. Nomina agrorum. Nomina limitum. Ex libro Balbi nomina lapidum finalium</title>
+                     <bibl>Hsg. von Lachmann I. 246–251.</bibl>
+                     <note>
+                        <locus from="83v">f. 83′</locus> Ende des ersten Theils der Handschrift, enthält nur Zeichnungen.</note>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agrimensores veteres Romanorum</hi>
+                        </term>
+                        <index>
+                           <term>liber coloniarum</term>
+                        </index>
+                     </index>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Balbus</hi>
+                        </term>
+                        <index>
+                           <term>(agrimensor)</term>
+                        </index>
+                     </index>
+                  </msItem>
+                  <msItem n="13">
+                     <locus from="84r" to="106v">f. 84–106′.</locus>
+                     <title type="item">Agenni Urbici De controversiis agrorum. Julii Frontini liber II. De controversiis agrorum. <hi rend="italic">Hsg. von Lachmann a. a. O. I. 34–58. (Pseudosimplicius.)</hi>
+                     </title>
+                     <bibl>Hsg. von Lachmann a. a. O. I. 77–90. <hi rend="italic">62–70.</hi>
+                     </bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agennus Urbicus</hi>
+                        </term>
+                     </index>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Frontinus</hi>, Julius</term>
+                     </index>
+                  </msItem>
+                  <msItem n="14">
+                     <locus from="106v" to="122v">f. 106′–122′.</locus>
+                     <title type="item">Hygini De limitibus. Siculi Flacci De condicionibus agrorum. <hi rend="italic">Hsg. von Lachmann a. a. O. I. 138–148.</hi> Hygini De condicionibus agrorum. <hi rend="italic">Bei Lachmann, a. a. O. I. 115–134.</hi>
+                     </title>
+                     <bibl>Hsg. von Lachmann a. a. O. I. 111–113.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Hyginus</hi>
+                        </term>
+                     </index>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Siculus Flaccus</hi>
+                        </term>
+                     </index>
+                  </msItem>
+                  <msItem n="15">
+                     <locus from="124r" to="136v">f. 124–136′.</locus>
+                     <title type="item">Hygini gromatici Liber de munitionibus castrorum</title>
+                     <note type="textExamination">
+                        <p>Schlussschrift: <quote type="finalRubric">Liber. gromaticus Hygyni. de diuisionib. agrorũ. explicit.</quote>
+                        </p>
+                     </note>
+                     <bibl>Hsg. von Domaszewski, Leipzig 1887.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Hyginus</hi>
+                        </term>
+                     </index>
+                  </msItem>
+                  <msItem n="16">
+                     <locus from="136v" to="155v">f. 136′–155′.</locus>
+                     <title type="item">Hygini De limitibus constituendis</title>
+                     <bibl>Bei Lachmann I. 166–208.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Hyginus</hi>
+                        </term>
+                     </index>
+                  </msItem>
+                  <msItem n="17">
+                     <locus from="155v" to="156v">f. 155′–156′.</locus>
+                     <title type="item">Lex Mamilia, Roscia, Peducea, Alliena, Fabia</title>
+                     <bibl>Bei Lachmann I. 263–266.</bibl>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Agrimensores veteres Romanorum</hi>
+                        </term>
+                        <index>
+                           <term>lex Mamilia, Roscia, Peducea, Alliena, Fabia</term>
+                        </index>
+                     </index>
+                  </msItem>
+                  <msItem n="18">
+                     <locus from="156v">f. 156′.</locus>
+                     <title type="item">Liber Balbi ad Celsum expositio et ratio omnium formarum</title>
+                     <bibl>Bei Lachmann I. 91.</bibl>
+                     <note type="textExamination">
+                        <p>Vorgebunden sind eine Anzahl Papierblätter von verschiedenen Händen des 16.–19. Jhdts. mit mancherlei auf den codex bezüglichen Notizen und Exzerpten.</p>
+                     </note>
+                     <msItem n="a">
+                        <title type="item">Noticia codicis von Friedr. Ad. Ebert, d. d. 10. Juli</title>
+                        <note type="textExamination">
+                           <p>(18)23, im wesentlichen übereinstimmend mit der Beschreibung der Handschrift in seinen Bibliothecae guelferbytanae Codices graeci et latini classici. Lipsiae 1827, S. 5 ff. 2 Bll.</p>
+                        </note>
+                     </msItem>
+                     <msItem n="b">
+                        <title type="item">
+                           <locus from="1r" to="4r">f. 1–4.</locus> Jo. Is. Pontani Epistola autographa ad Petrum Scriverium, d. d. Harderovici 26 oct. 1621, una cum eiusdem Emendationes in libellum Hygini de castrametatione <hi rend="italic">(i. e. de munitionibus castrorum)</hi> autographae</title>
+                        <index indexName="nasa">
+                           <term>
+                              <hi rend="spaced">Pontanus</hi>, Jo. Is.</term>
+                        </index>
+                     </msItem>
+                     <msItem n="c">
+                        <title type="item">
+                           <locus from="5r">f. 5.</locus> Variae lectiones in Hygino <hi rend="italic">(de munitionibus castrorum manu Petri Scriverii exaratae).</hi>
+                        </title>
+                        <index indexName="nasa">
+                           <term>
+                              <hi rend="spaced">Scriverius</hi>, Petrus</term>
+                        </index>
+                     </msItem>
+                     <msItem n="d">
+                        <title type="item">
+                           <locus from="7r" to="10v">f. 7–10′.</locus> Hygini gromatici liber <hi rend="italic">(de munitionibus castrorum).</hi> Apographum Eyndianum, s. XVI,</title>
+                        <bibl>cfr. Blume S. 52</bibl>
+                     </msItem>
+                     <msItem n="e">
+                        <title type="item">
+                           <locus from="1r" to="4r">f. 11–12′.</locus> Petri Gallandi Epistola ad card. Carolum a Lotharingia, d. d. Parisiis 10 Cal. Dec. 1554. Accedunt Excerpta quaedam ex bibliotheca Gessneri, ex geographia Volaterrani, omnia manu Petri Scriverii exarata</title>
+                        <index indexName="nasa">
+                           <term>
+                              <hi rend="spaced">Gallandus</hi>, Petrus</term>
+                        </index>
+                     </msItem>
+                     <msItem n="f">
+                        <title type="item">
+                           <locus from="13r" to="20v">f. 13–20′.</locus> Hygini groma(<hi rend="italic">ti</hi>)ci liber de munitionibus castrorum. Ex Antonij Galesij Massae cod. et Basil. Zanchi</title>
+                        <note type="textExamination">
+                           <p>Am unteren Rande des ersten Blattes: <quote>Sum Petri Scriverii ex dono Jo. Wouwerii, ex cujus manu haec schidae manuscripti.</quote>
+                           </p>
+                        </note>
+                     </msItem>
+                     <msItem n="g">
+                        <title type="item">
+                           <locus from="21v" to="22r">f. 21′–22.</locus> Higini gromatici sive de metatione castror. liber</title>
+                        <note type="textExamination">
+                           <p>Nur einige Notizen von einer Hand des 17. Jhdts. Petri Scriverii?Nur einige Notizen von einer Hand des 17. Jhdts. Petri Scriverii?</p>
+                        </note>
+                     </msItem>
+                     <msItem n="h">
+                        <title type="item">
+                           <locus from="23r" to="23v">f. 23–23′.</locus> Ex Hygino gromatico excerpta <hi rend="italic">(de munitionibus castrorum)</hi>
+                        </title>
+                        <note type="scriptDeco">
+                           <p>von der Hand des Scriverius.</p>
+                        </note>
+                     </msItem>
+                     <msItem n="i">
+                        <title type="item">
+                           <locus from="24r">f. 24</locus> Excerpta quaedam de Julio Hygyno ex Raph. Volaterrano, Petro Pithoeo et Justo Lipsio, manu Petri Scriverii exarata</title>
+                        <note type="textExamination">
+                           <p>(hinter das Vorsatzblatt gebunden).</p>
+                        </note>
+                        <index indexName="nasa">
+                           <term>
+                              <hi rend="spaced">Lipsius</hi>, Justus</term>
+                        </index>
+                        <index indexName="nasa">
+                           <term>
+                              <hi rend="spaced">Pithoeus</hi>, Petrus</term>
+                        </index>
+                     </msItem>
+                     <index indexName="nasa">
+                        <term>
+                           <hi rend="spaced">Balbus</hi>
+                        </term>
+                        <index>
+                           <term>(agrimensor)</term>
+                        </index>
+                     </index>
+                  </msItem>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="chart">
+                     <support>
+                        <p>
+                           <material>
+                              <sic>Pap.</sic>
+                           </material>
+                        </p>
+                     </support>
+                     <extent>
+                        <measure type="leavesCount">157 Bll., von denen jedoch Bl. 1. 123 und 157 Vorsatzblätter, bezw. Umschläge aus Pergamenthandschriften des 14. Jhdts sind, von fünf andern aber grössere Bruchstücke fehlen, nämlich von Bl. 62 die obere, von Bl. 64 und 73 die untere Hälfte, von Bl 59 und 60 das mittlere Drittel.</measure>
+                        <dimensions type="leaf">
+                           <height unit="cm">31,5</height>
+                           <width unit="cm">24,5</width>
+                        </dimensions>
+                     </extent>
+                     <foliation>
+                        <table>
+                           <row>
+                              <cell role="label">I</cell>
+                              <cell role="label">II</cell>
+                              <cell role="label">III (Scriver.?)</cell>
+                              <cell role="label">IV</cell>
+                              <cell role="label">V</cell>
+                           </row>
+                           <row>
+                              <cell>1</cell>
+                              <cell>
+                                 <locus from="1r">1</locus> Vorsatzbl.</cell>
+                           </row>
+                           <row>
+                              <cell>? unleserlich</cell>
+                              <cell>1</cell>
+                              <cell>2</cell>
+                              <cell>1</cell>
+                              <cell>
+                                 <locus from="2r">2</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>cxviiii—cxxii</cell>
+                              <cell>2–5</cell>
+                              <cell>3–6</cell>
+                              <cell>2–5</cell>
+                              <cell>
+                                 <locus from="3r" to="6v">3–6</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>xii</cell>
+                              <cell>6</cell>
+                              <cell>7</cell>
+                              <cell>6</cell>
+                              <cell>
+                                 <locus from="7r">7</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>iii—x</cell>
+                              <cell>7–14</cell>
+                              <cell>15–22</cell>
+                              <cell>7–14</cell>
+                              <cell>
+                                 <locus from="8r" to="15v">8–15</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>xi—xvii</cell>
+                              <cell>20–26</cell>
+                              <cell>8–14</cell>
+                              <cell>15–21</cell>
+                              <cell>
+                                 <locus from="16r" to="22v">16–22</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>xviii—liii</cell>
+                              <cell>27–62</cell>
+                              <cell>23–58</cell>
+                              <cell>22–57</cell>
+                              <cell>
+                                 <locus from="23r" to="58v">23–58</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>liiii</cell>
+                              <cell>63</cell>
+                              <cell>59+60</cell>
+                              <cell>57+58</cell>
+                              <cell>
+                                 <locus from="59r">59</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lv</cell>
+                              <cell>64</cell>
+                              <cell>61+62</cell>
+                              <cell>59+60</cell>
+                              <cell>
+                                 <locus from="60r">60</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lvi—lx</cell>
+                              <cell>65–69</cell>
+                              <cell>63–67</cell>
+                              <cell>61–65</cell>
+                              <cell>
+                                 <locus from="61r" to="65v">61–65</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lxxx—lxxxvi</cell>
+                              <cell>86–92</cell>
+                              <cell>68–74</cell>
+                              <cell>66–72</cell>
+                              <cell>
+                                 <locus from="66r" to="72v">66–72</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lxiiii</cell>
+                              <cell>83</cell>
+                              <cell>75</cell>
+                              <cell>73</cell>
+                              <cell>
+                                 <locus from="73r">73</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lxi—lxiii</cell>
+                              <cell>80–82</cell>
+                              <cell>76–78</cell>
+                              <cell>74–76</cell>
+                              <cell>
+                                 <locus from="74r" to="76v">74–76</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lxvi</cell>
+                              <cell>85</cell>
+                              <cell>79</cell>
+                              <cell>77</cell>
+                              <cell>
+                                 <locus from="77r">77</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lxv</cell>
+                              <cell>84</cell>
+                              <cell>80</cell>
+                              <cell>78</cell>
+                              <cell>
+                                 <locus from="78r">78</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lxvii—lxxi</cell>
+                              <cell>15–19</cell>
+                              <cell>81–85</cell>
+                              <cell>79–83</cell>
+                              <cell>
+                                 <locus from="79r" to="83v">79–83</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lxxii—lxxviiii</cell>
+                              <cell>93–100</cell>
+                              <cell>86–93</cell>
+                              <cell>84–91</cell>
+                              <cell>
+                                 <locus from="84r" to="91v">84–91</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>lxxxvii—cxvii</cell>
+                              <cell>101–131</cell>
+                              <cell>94–124</cell>
+                              <cell>92–122</cell>
+                              <cell>
+                                 <locus from="92r" to="122v">92–122</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>123</cell>
+                              <cell>
+                                 <locus from="123r">123</locus> Umschlag</cell>
+                           </row>
+                           <row>
+                              <cell>cxviii</cell>
+                              <cell>132</cell>
+                              <cell>125</cell>
+                              <cell>124</cell>
+                              <cell>
+                                 <locus from="124r">124</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>cxxiii—cliiii</cell>
+                              <cell>133–164</cell>
+                              <cell>126–157</cell>
+                              <cell>125–156</cell>
+                              <cell>
+                                 <locus from="125r" to="156v">125–156</locus>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>157</cell>
+                              <cell>
+                                 <locus from="157r">157</locus> Umschlag</cell>
+                           </row>
+                        </table>
+                        <p>Bei den Zählungen I und II sind die Vorsatz- und Umschlagblätter in die Bezifferung nicht mit einbegriffen, bei III (die dem Schriftcharakter nach von Scriverius herrühren könnte) nur das erste, bei IV nur die beiden letzten. II hat durch Unachtsamkeit die Zahlen 70–79 übersprungen, III und IV haben die Blätter 59 und 60, weil das mittlere Drittel ausgeschnitten ist, als je zwei Blätter gezählt und in IV ist überdies die Zahl 57 doppelt verwandt worden. Ebert und Blume haben die Zählung III angenommen, Lachmann citiert nach Spalten, unsere Beschreibung nach der richtigen Zählung V.</p>
+                     </foliation>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1 2">
+                        <p>
+                           <measure type="columnsCount">Bl. 16–83 einspaltig, die übrigen zweispaltig</measure>
+                        </p>
+                     </layout>
+                  </layoutDesc>
+               </objectDesc>
+               <handDesc>
+                  <p>Doppelhandschrift, wie es scheint von zwei Händen geschrieben, von der ersten bis Bl. 83 (A nach Lachmann), von der zweiten Bl. 84 bis zum Schlüsse (B nach Lachmann).</p>
+               </handDesc>
+               <decoDesc>
+                  <decoNote>Mit vielen sauberen und mit Farben angelegten Federzeichnungen zur Erläuterung des Textes. — Die Handschrift, obwohl im Ganzen genommen vorzüglich erhalten, ist doch nicht ganz unversehrt bis auf unsere Zeit gekommen: das Pergament ist namentlich an den Rändern spröde und brüchig geworden, die Schrift an einzelnen Stellen abgerieben und dem Verlöschen nahe, ausserdem ist der Verlust einer grösseren Anzahl von Blättern zu beklagen. — Gegenwärtig tragen die Blätter der Handschrift vier Bezifferungen, drei ältere mit Tinte in den oberen Ecken und eine neuere mit Bleistift in den unteren, die indessen sämmtlich unrichtig sind.</decoNote>
+               </decoDesc>
+               <bindingDesc>
+                  <binding>
+                     <p>Der Pappband, welchen Schönemann im J. <date>1835</date> hatte anfertigen lassen, ist unter Bethmann durch einen solideren ersetzt worden; er besteht aus feinen Holzdeckeln, mit gelbrothem Papier überzogen, und mit Kalblederrücken.</p>
+                  </binding>
+               </bindingDesc>
+            </physDesc>
+            <history>
+               <summary>Die Vorbesitzer der Handschrift sind vom 10. Jhdt. an sämtlich bekannt.</summary>
+               <provenance>
+                  <p> Damals gehörte sie dem Kloster Bobbio, wo sie <persName>Abt Gerbert</persName>, der spätere Papst Sylvester II, um 981 benutzte.</p>
+               </provenance>
+               <provenance>
+                  <p>Von dort wurde sie 2) durch <persName>Thomas Phaedrus Inghirami</persName>, den Kustos der Vaticana, im J. <date>1493</date> nach Rom gebracht,</p>
+               </provenance>
+               <provenance>
+                  <p>wo sie nach Blumes Ansicht 3) in den Besitz des <persName>Angelus Colotius</persName>, des Sekretärs Leo X. (1513–1521) und nachherigen Bischofs von Nocera gelangte, der sie wahrscheinlich bei der Plünderung nach der Einnahme Roms durch Karl V. im J. 1527 verloren habe.</p>
+               </provenance>
+               <provenance>
+                  <p>Wahrscheinlicher ist dagegen, wie Mommsen und Gebhardt (<bibl>Centralbl. f. Bibliothekwesen V [1888] 424 ff.</bibl>) annehmen, dass sie Collotius niemals besass, dass sie vielmehr von Inghirami durch Kauf oder als Geschenk unmittelbar auf Erasmus überging. In Deutschland tritt die Handschrift zuerst 4) bei <persName>Erasmus</persName> auf, der sie, obgleich er seine Bibliothek schon bei Lebzeiten an Johannes a Lasco verkauft hatte, bis zu seinem Tode <date>1536</date> behielt. Die Notiz auf El. 2 a roth ist jedoch vermuthlich von der Hand des Prœdinius.</p>
+               </provenance>
+               <provenance>
+                  <p>5) <persName>Johannes a Lasco</persName> veräusserte den Kodex vermuthlich während seines Aufenthaltes in den Niederlanden (bis 1540) oder in Ostfriesland (bis 1550); sein Name, den Lachmann nicht mehr finden konnte, steht mit Rothstift auf Bl. 1 (Vorsatzblatt).</p>
+               </provenance>
+               <provenance>
+                  <p>Hier haben sich auch die beiden folgenden Besitzer 6) <persName>Gerardus Mortaingne</persName>, der die Handschrift in so bedauerlicher Weise verstümmelte, (dreimal)</p>
+               </provenance>
+               <provenance>
+                  <p>und 7) <persName>Regnerius Prœdinius</persName> (<quote>Regneri nunc sum Predinii 1559</quote>) eingetragen.</p>
+               </provenance>
+               <provenance>
+                  <p>Dass dann der Kodex 8) an <persName>Ludovicus Mirœus</persName> in Lyon gekommen sei, ist eine Vermuthung Langes.</p>
+               </provenance>
+               <provenance>
+                  <p>1566 war er aber schon 9) auf <persName>Joh. Theodoretus Arcerius</persName> übergegangen, wie dessen Inschrift auf Bl. 1: <quote>At nunc Joannis Arcerii 1566</quote> bezeugt; von ihm führt er den Namen <term>Arcerianus</term>.</p>
+               </provenance>
+               <provenance>
+                  <p>Arcerius der Vater vererbte die Handschrift 10) auf den Sohn <persName>Sixtus Arcerius</persName>,</p>
+               </provenance>
+               <provenance>
+                  <p>der zuerst den Schluss <locus>Bl. 123–157</locus>, einige Jahre darauf auch das übrige 11) an <persName>Petrus Scriverius</persName> veräusserte (vgl. Blume S. 21 u. 8).</p>
+               </provenance>
+               <provenance>
+                  <p>Nach Scriverius Tode erwarb sie dann <persName>Herzog August im J.</persName> 1663 gegen Meistgebot und seitdem ist die Handschrift, von ihrer Entführung nach Paris 1807–1814 abgesehen, unter den Schätzen der Herzogl. Bibliothek aufbewahrt worden.</p>
+               </provenance>
+            </history>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <bibl>Otto v. Heinemann: Die Augusteischen Handschriften 3. Cod. Guelf. 32.7 Aug. 2° — 77.3 Aug. 2°. Frankfurt/M.: Klostermann, 1966 (Nachdruck d. Ausg. 1898). S. <ref target="http://diglib.hab.de/drucke/f4f-539-6/start.htm?image=00134">124</ref> – <ref target="http://diglib.hab.de/drucke/f4f-539-6/start.htm?image=00138">128</ref>
+                        </bibl>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+            </additional>
+         </msDesc>
+         <div>
+            <index indexName="nasa">
+               <term>
+                  <hi rend="spaced">Ebert</hi>, Friedrich Adolph</term>
+            </index>
+            <index indexName="vorbesitzer_koerperschaften">
+               <term>
+                  <hi rend="spaced">Bobbio</hi>
+               </term>
+            </index>
+            <index indexName="vorbesitzer_koerperschaften">
+               <term>
+                  <hi rend="spaced">Paris</hi>
+               </term>
+               <index>
+                  <term>bibliothèque impériale</term>
+               </index>
+            </index>
+            <index indexName="vorbesitzer_personen">
+               <term>
+                  <hi rend="spaced">Arcerius</hi>, Johannes Theodoretus, (pater)</term>
+            </index>
+            <index indexName="vorbesitzer_personen">
+               <term>
+                  <hi rend="spaced">Arcerius</hi>, Sixtus, (filius?)</term>
+            </index>
+            <index indexName="vorbesitzer_personen">
+               <term>
+                  <hi rend="spaced">Colotius</hi>, Angelus, Secretär Papst Leo X, dann Bischof von Nocera</term>
+            </index>
+            <index indexName="vorbesitzer_personen">
+               <term>
+                  <hi rend="spaced">Erasmus</hi>, Desiderius, Roterodamus</term>
+            </index>
+            <index indexName="vorbesitzer_personen">
+               <term>
+                  <hi rend="spaced">Inghirami</hi>, Thomas Phaedrus</term>
+            </index>
+            <index indexName="vorbesitzer_personen">
+               <term>
+                  <hi rend="spaced">Lasco</hi>, Johannes à</term>
+            </index>
+            <index indexName="vorbesitzer_personen">
+               <term>
+                  <hi rend="spaced">Mortaingne</hi>, Gerhard</term>
+            </index>
+            <index indexName="vorbesitzer_personen">
+               <term>
+                  <hi rend="spaced">Praedinius</hi>, Regnerius</term>
+            </index>
+            <index indexName="vorbesitzer_personen">
+               <term>
+                  <hi rend="spaced">Scriverius</hi>, Petrus</term>
+            </index>
+         </div>
+      </body>
+   </text>
+</TEI>

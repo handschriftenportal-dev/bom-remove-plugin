@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="hsp_cataloguing.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="hsp_cataloguing.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+  version="5.0"
+  xml:lang="de"
+  xml:id="HAB_mss_277-helmst_tei-msDesc_Lesser">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beschreibung von Cod. Guelf. 277 Helmst. (Die mittelalterlichen Helmstedter Handschriften der Herzog August Bibliothek. Teil 2: Cod. Guelf. 277 bis 370 Helmst. und Helmstedter Fragmente. Beschrieben von Bertram Lesser. Wiesbaden: Harrassowitz, (im Erscheinen).)</title>
+            <respStmt>
+               <resp>Beschrieben durch</resp>
+               <name type="person">Bertram Lesser</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 konforme Kodierung durch</resp>
+               <name type="person">Bertram Lesser</name>
+               <name type="org">Herzog August Bibliothek</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Herzog August Bibliothek</name>
+               <ptr target="http://www.hab.de"/>
+            </publisher>
+            <date type="issued" when="2008"/>
+            <!--<date type="digitised" when=""/>-->
+            <distributor>Herzog August Bibliothek</distributor>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/"
+                 notBefore="2013-03-01">
+                  <p>Dieses Dokument steht seit dem 1.März 2013 unter einer Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz (CC BY-SA).</p>
+                  <p>Herzog August Bibliothek Wolfenbüttel (
+                     <ref target="http://diglib.hab.de/?link=012">Copyright Information</ref>
+                  </p>
+               </licence>
+            </availability>
+            <pubPlace>
+               <!--<ptr type="purl" target="http://diglib.hab.de/mss/277-helmst/start.htm"/>-->
+               <!--<ptr type="thumbnailForPresentations" target="http://diglib.hab.de/mss/277-helmst/thumbs/00001.jpg"/>-->
+            </pubPlace>
+            <!--<idno type="URN">urn:nbn:de:gbv:23-mss/277-helmst7</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <p>Neukatalogisiert durch <name type="person">Bertram Lesser</name>.
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Beschreibung erstellt im Rahmen des Projektes
+               <name type="project">Katalogisierung der mittelalterlichen Helmstedter Handschriften
+                  <name type="project" subtype="part">Teil II</name>
+               </name>
+               .
+            </p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="schassan" when="2015-09-04">Normdaten ergänzt bzw. korrigiert.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:id="mss_277-helmst_tei-msDesc_Lesser" xml:lang="de">
+            <msIdentifier>
+               <settlement>Wolfenbüttel</settlement>
+               <repository>Herzog August Bibliothek</repository>
+               <collection>Helmstedter Handschriften</collection>
+               <idno sortKey="wf_hab_helmst-0277">Cod. Guelf. 277 Helmst.</idno>
+               <altIdentifier type="catalog">
+                  <collection>Heinemann-Nr.</collection>
+                  <idno sortKey="heinemann-0310">310</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <head>
+               <title>Theologisch-juristische Sammelhandschrift</title>
+               <origPlace>Heidelberg</origPlace>
+               <origDate notBefore="1401" notAfter="1425">15. Jh., 1. Viertel</origDate>
+            </head>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="chart">
+                     <support>
+                        <p>
+                           <material>Papier</material>
+                        </p>
+                     </support>
+                     <extent>
+                        <measure type="leavesCount" quantity="280">VI, 280, I Bl.</measure>
+                        <dimensions type="leaf" unit="cm">
+                           <height quantity="29.5">29,5</height>
+                           <width quantity="22">22</width>
+                        </dimensions>
+                     </extent>
+                  </supportDesc>
+               </objectDesc>
+            </physDesc>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <bibl>Die mittelalterlichen Helmstedter Handschriften der Herzog August Bibliothek. Teil 2: Cod. Guelf. 277 bis 370 Helmst. und Helmstedter Fragmente. Beschrieben von Bertram Lesser. Wiesbaden: Harrassowitz, (im Erscheinen).</bibl>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>
